@@ -1,0 +1,23 @@
+To non-Chinese players: this mod is a [b]China Extenstion[/b] sub-mod of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]Extended Timeline[/url].
+
+本MOD为[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]Extended Timeline 延长时间线[/url]的中国拓展子MOD。
+需要同时订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]ET本体[/url]使用。
+
+====================
+
+[url=https://github.com/Cccc-owo/Extended-Timeline-Chinese-Localisation-Project/blob/main/CHANGELOG.md]更新日志[/url]
+
+[b]使用注意事项：[/b]
+1. 请先安装双字节补丁（使用过旧版的补丁也需要重新安装），否则会出现闪退或乱码的情况。
+2. 本MOD[b]不需要[/b]与原版汉化一同使用，但是[b]必须[/b]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]ET本体[/url]一起使用。
+3. 与本项目相关的 ExtendedTimeline 中文交流Q群群号为188600736，申请加入请注明来路，遇到与 ET 有关的问题可以在群里询问，也欢迎来群里闲聊。
+4. 本汉化组云汉化项目地址：[url=https://paratranz.cn/projects/5342]Extended Timeline Chinese Localisation Project[/url]，有志参与汉化工作者，可以申请加入，我们来者不拒，但是要确保翻译质量。
+
+双字节补丁安装方式：
+i. [url=https://github.com/matanki-saito/EU4dll/releases/latest]下载双字节补丁的压缩文件[/url]（文件名通常为steam_EU4_fixdll_*****.zip）
+ii. 将其中所有文件与文件夹放入游戏本体文件夹（游戏库中右击EU4，选择管理 => 浏览本地文件）
+iii. 完成后游戏文件夹中应该有 [b]version.dll[/b]、[b]d3d9.dll[/b] 及 [b]plugins[/b] 文件夹，否则会无法启动游戏
+
+====================
+
+简介：
