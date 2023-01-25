@@ -10,6 +10,8 @@
 
 [开发文档](DEV.md)
 
+[待办事项](TODO.md)
+
 ## 下载 & 使用 / Download & Use
 
 你可以在 [Releases](https://github.com/Cccc-owo/ET-ChinaExtension/releases) 中下载到本地版 Mod。
