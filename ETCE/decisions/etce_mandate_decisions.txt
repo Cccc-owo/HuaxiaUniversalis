@@ -1,0 +1,54 @@
+country_decisions = {
+	claim_mandate_decision = {
+		major = yes
+		potential = {
+			has_global_flag = empire_of_china_dismantled
+			ai = no
+			NOT = {
+				has_country_flag = tmp_positive_get_mandate_decision
+			}
+			is_emperor_of_china = no
+		}
+		allow = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+				has_reform = warlord_state
+			}
+		}
+		effect = {
+			hidden_effect = {
+				set_country_flag = tmp_positive_get_mandate_decision
+				set_country_flag = flg_positive_get_mandate
+			}
+			country_event = {
+				id = etce_mandate_events.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	dismantle_mandate_decision = {
+		major = yes
+		potential = {
+			is_emperor_of_china = yes
+			ai = no
+			NOT = {
+				has_country_flag = tmp_positive_dismantle_mandate_decision
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = tmp_positive_dismantle_mandate_decision
+			country_event = {
+				id = etce_mandate_events.2
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
