@@ -1545,17 +1545,6 @@ on_monarch_death = {
 		et_islam.9
 		et_islam.12
 	}
-	if = {
-		limit = {
-			has_heir = no
-			NOT = {
-				has_reform = ottoman_government
-			}
-		}
-		country_event = {
-			id = etce_succession_events.2
-		}
-	}
 }
 
 # country
@@ -4620,9 +4609,21 @@ on_death_has_harem = {
 	if = {
 		limit = {
 			has_heir = no
+			has_reform = ottoman_government
 		}
 		country_event = {
 			id = harem_events.2
+		}
+	}
+	if = {
+		limit = {
+			has_heir = no
+			NOT = {
+				has_reform = ottoman_government
+			}
+		}
+		country_event = {
+			id = etce_succession_events.2
 		}
 	}
 }

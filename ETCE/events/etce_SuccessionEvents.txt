@@ -372,7 +372,7 @@ country_event = {
 		}
 		desc = etce_succession_events.2.db
 	}
-	picture = SWORD_OF_OSMAN_eventPicture
+	picture = COURT_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
