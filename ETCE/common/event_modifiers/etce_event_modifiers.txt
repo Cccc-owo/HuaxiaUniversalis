@@ -1,0 +1,17 @@
+#etce Succession Events:
+
+waqf_for_dead_empress_dowager = {
+	local_tax_modifier = -0.1
+	local_unrest = -2
+}
+
+architectural_work_of_empress_dowager = {
+	local_tax_modifier = -0.25
+	local_build_cost = -0.1
+	local_development_cost = -0.05
+	prestige = 0.5
+}
+
+charitable_work_of_queen = {
+	local_development_cost = -0.1
+}
