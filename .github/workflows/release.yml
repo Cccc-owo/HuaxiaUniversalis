@@ -3,9 +3,7 @@ name: Release
 env:
   TZ: Asia/Shanghai
 
-on:
-  release:
-    types: [published]
+on: push
 
 jobs:
   build:
@@ -42,11 +40,12 @@ jobs:
       
       - name: Release Action
         uses: softprops/action-gh-release@v0.1.15
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
             mod.zip
           body_path: CHANGELOG.md
-          discussion_category_name: "公告"
+          #discussion_category_name: "公告"
           
       #- name: steam-workshop-upload
       #  uses: Weilbyte/steam-workshop-upload@v1.1
