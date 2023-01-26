@@ -106,7 +106,7 @@ native_hostileness = 5
 	controller = REB
 	revolt = {
 		type = nationalist_rebels
-		size = 2
+		size = 0.75
 	}
 }
 
