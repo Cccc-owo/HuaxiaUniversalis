@@ -1,4 +1,4 @@
-#etce Succession Events:
+#ETCE Succession Events:
 
 waqf_for_dead_empress_dowager = {
 	local_tax_modifier = -0.1
@@ -14,4 +14,10 @@ architectural_work_of_empress_dowager = {
 
 charitable_work_of_queen = {
 	local_development_cost = -0.1
+}
+
+#ETCE Special Conquer Events:
+
+occupied_counting = {
+	picture = "global_regiment_recruit_speed"
 }

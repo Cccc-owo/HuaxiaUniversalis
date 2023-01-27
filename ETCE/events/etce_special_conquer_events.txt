@@ -1,0 +1,760 @@
+namespace = etce_special_conquer_events
+#for the country whose province has been occupied
+province_event = {
+	id = etce_special_conquer_events.1
+	title = "etce_special_conquer_events.1.title"
+	desc = "etce_special_conquer_events.1.desc"
+	picture = BATTLE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		has_dlc = "Mandate of Heaven"
+		NOT = {
+			controlled_by = owner
+		}
+		OR = {
+			AND = {
+				owner = {
+					OR = {
+						has_reform = chinese_warlord
+						has_reform = warlord_state
+					}
+				}
+				from = {
+					has_reform = celestial_empire
+				}
+			}
+			AND = {
+				owner = {
+					OR = {
+						has_reform = chinese_warlord
+						has_reform = warlord_state
+						has_reform = celestial_empire
+					}
+				}
+				from = {
+					OR = {
+						has_reform = chinese_warlord
+						has_reform = warlord_state
+					}
+				}
+			}
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_province_flag = occupied_counting_flag
+			remove_province_modifier = occupied_counting
+			add_province_modifier = {
+				name = "occupied_counting"
+				duration = 120
+			}
+			controller = {
+				country_event = {
+					id = etce_special_conquer_events.2
+				}
+			}
+		}
+	}
+	option = {
+		name = "etce_special_conquer_events.1.a"
+	}
+}
+
+#announce
+country_event = {
+	id = etce_special_conquer_events.2
+	title = "etce_special_conquer_events.2.title"
+	desc = "etce_special_conquer_events.2.desc"
+	picture = SIEGE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "etce_special_conquer_events.2.a"
+	}
+}
+
+#lose province
+province_event = {
+	id = etce_special_conquer_events.3
+	title = "etce_special_conquer_events.3.title"
+	desc = "etce_special_conquer_events.3.desc"
+	picture = SIEGE_eventPicture
+	trigger = {
+		NOT = {
+			controlled_by = owner
+		}
+		has_province_flag = occupied_counting_flag
+		NOT = {
+			has_province_modifier = occupied_counting
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			clr_province_flag = occupied_counting_flag
+		}
+		controller = {
+			ROOT = {
+				cede_province = PREV
+			}
+			country_event = {
+				id = etce_special_conquer_events.4
+			}
+		}
+	}
+	option = {
+		name = "etce_special_conquer_events.3.a"
+	}
+}
+
+#announce
+country_event = {
+	id = etce_special_conquer_events.4
+	title = "etce_special_conquer_events.4.title"
+	desc = "etce_special_conquer_events.4.desc"
+	picture = REFORM_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "etce_special_conquer_events.4.a"
+	}
+}
+
+#recapture
+province_event = {
+	id = etce_special_conquer_events.5
+	title = none
+	desc = none
+	picture = none
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		controlled_by = owner
+		OR = {
+			has_province_modifier = occupied_counting
+			has_province_flag = occupied_counting_flag
+		}
+	}
+	option = {
+		name = none
+		remove_province_modifier = occupied_counting
+		clr_province_flag = occupied_counting_flag
+	}
+}
+
+#core
+province_event = {
+	id = etce_special_conquer_events.6
+	title = "etce_special_conquer_events.6.title"
+	desc = "etce_special_conquer_events.6.desc"
+	picture = REFORM_eventPicture
+	mean_time_to_happen = {
+		days = 30
+	}
+	trigger = {
+		superregion = china_superregion
+		NOT = {
+			is_core = owner
+		}
+		owner = {
+			OR = {
+				has_reform = chinese_warlord
+				has_reform = warlord_state
+				has_reform = celestial_empire
+			}
+		}
+	}
+	option = {
+		#adm
+		name = "etce_special_conquer_events.6.a"
+		if = {
+			limit = {
+				NOT = {
+					development = 5
+				}
+			}
+			owner = {
+				add_adm_power = -5
+			}
+		}
+		if = {
+			limit = {
+				development = 5
+				NOT = {
+					development = 10
+				}
+			}
+			owner = {
+				add_adm_power = -10
+			}
+		}
+		if = {
+			limit = {
+				development = 10
+				NOT = {
+					development = 15
+				}
+			}
+			owner = {
+				add_adm_power = -15
+			}
+		}
+		if = {
+			limit = {
+				development = 15
+				NOT = {
+					development = 20
+				}
+			}
+			owner = {
+				add_adm_power = -20
+			}
+		}
+		if = {
+			limit = {
+				development = 20
+				NOT = {
+					development = 25
+				}
+			}
+			owner = {
+				add_adm_power = -25
+			}
+		}
+		if = {
+			limit = {
+				development = 25
+				NOT = {
+					development = 30
+				}
+			}
+			owner = {
+				add_adm_power = -30
+			}
+		}
+		if = {
+			limit = {
+				development = 30
+				NOT = {
+					development = 35
+				}
+			}
+			owner = {
+				add_adm_power = -35
+			}
+		}
+		if = {
+			limit = {
+				development = 35
+				NOT = {
+					development = 40
+				}
+			}
+			owner = {
+				add_adm_power = -40
+			}
+		}
+		if = {
+			limit = {
+				development = 40
+				NOT = {
+					development = 45
+				}
+			}
+			owner = {
+				add_adm_power = -45
+			}
+		}
+		if = {
+			limit = {
+				development = 45
+				NOT = {
+					development = 50
+				}
+			}
+			owner = {
+				add_adm_power = -50
+			}
+		}
+		if = {
+			limit = {
+				development = 50
+			}
+			owner = {
+				add_adm_power = -60
+			}
+		}
+		add_core = owner
+		random_list = {
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_church
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_nobles
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_burghers
+						share = -0.1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		#dip
+		name = "etce_special_conquer_events.6.b"
+		if = {
+			limit = {
+				NOT = {
+					development = 5
+				}
+			}
+			owner = {
+				add_dip_power = -5
+			}
+		}
+		if = {
+			limit = {
+				development = 5
+				NOT = {
+					development = 10
+				}
+			}
+			owner = {
+				add_dip_power = -10
+			}
+		}
+		if = {
+			limit = {
+				development = 10
+				NOT = {
+					development = 15
+				}
+			}
+			owner = {
+				add_dip_power = -15
+			}
+		}
+		if = {
+			limit = {
+				development = 15
+				NOT = {
+					development = 20
+				}
+			}
+			owner = {
+				add_dip_power = -20
+			}
+		}
+		if = {
+			limit = {
+				development = 20
+				NOT = {
+					development = 25
+				}
+			}
+			owner = {
+				add_dip_power = -25
+			}
+		}
+		if = {
+			limit = {
+				development = 25
+				NOT = {
+					development = 30
+				}
+			}
+			owner = {
+				add_dip_power = -30
+			}
+		}
+		if = {
+			limit = {
+				development = 30
+				NOT = {
+					development = 35
+				}
+			}
+			owner = {
+				add_dip_power = -35
+			}
+		}
+		if = {
+			limit = {
+				development = 35
+				NOT = {
+					development = 40
+				}
+			}
+			owner = {
+				add_dip_power = -40
+			}
+		}
+		if = {
+			limit = {
+				development = 40
+				NOT = {
+					development = 45
+				}
+			}
+			owner = {
+				add_dip_power = -45
+			}
+		}
+		if = {
+			limit = {
+				development = 45
+				NOT = {
+					development = 50
+				}
+			}
+			owner = {
+				add_dip_power = -50
+			}
+		}
+		if = {
+			limit = {
+				development = 50
+			}
+			owner = {
+				add_dip_power = -60
+			}
+		}
+		add_core = owner
+		random_list = {
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_church
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_nobles
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_burghers
+						share = -0.1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		#mil
+		name = "etce_special_conquer_events.6.c"
+		if = {
+			limit = {
+				NOT = {
+					development = 5
+				}
+			}
+			owner = {
+				add_mil_power = -5
+			}
+		}
+		if = {
+			limit = {
+				development = 5
+				NOT = {
+					development = 10
+				}
+			}
+			owner = {
+				add_mil_power = -10
+			}
+		}
+		if = {
+			limit = {
+				development = 10
+				NOT = {
+					development = 15
+				}
+			}
+			owner = {
+				add_mil_power = -15
+			}
+		}
+		if = {
+			limit = {
+				development = 15
+				NOT = {
+					development = 20
+				}
+			}
+			owner = {
+				add_mil_power = -20
+			}
+		}
+		if = {
+			limit = {
+				development = 20
+				NOT = {
+					development = 25
+				}
+			}
+			owner = {
+				add_mil_power = -25
+			}
+		}
+		if = {
+			limit = {
+				development = 25
+				NOT = {
+					development = 30
+				}
+			}
+			owner = {
+				add_mil_power = -30
+			}
+		}
+		if = {
+			limit = {
+				development = 30
+				NOT = {
+					development = 35
+				}
+			}
+			owner = {
+				add_mil_power = -35
+			}
+		}
+		if = {
+			limit = {
+				development = 35
+				NOT = {
+					development = 40
+				}
+			}
+			owner = {
+				add_mil_power = -40
+			}
+		}
+		if = {
+			limit = {
+				development = 40
+				NOT = {
+					development = 45
+				}
+			}
+			owner = {
+				add_mil_power = -45
+			}
+		}
+		if = {
+			limit = {
+				development = 45
+				NOT = {
+					development = 50
+				}
+			}
+			owner = {
+				add_mil_power = -50
+			}
+		}
+		if = {
+			limit = {
+				development = 50
+			}
+			owner = {
+				add_mil_power = -60
+			}
+		}
+		add_core = owner
+		random_list = {
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_church
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_nobles
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_burghers
+						share = -0.1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		#cash
+		name = "etce_special_conquer_events.6.d"
+		if = {
+			limit = {
+				NOT = {
+					development = 5
+				}
+			}
+			owner = {
+				add_treasury = -25
+			}
+		}
+		if = {
+			limit = {
+				development = 5
+				NOT = {
+					development = 10
+				}
+			}
+			owner = {
+				add_treasury = -40
+			}
+		}
+		if = {
+			limit = {
+				development = 10
+				NOT = {
+					development = 15
+				}
+			}
+			owner = {
+				add_treasury = -55
+			}
+		}
+		if = {
+			limit = {
+				development = 15
+				NOT = {
+					development = 20
+				}
+			}
+			owner = {
+				add_treasury = -70
+			}
+		}
+		if = {
+			limit = {
+				development = 20
+				NOT = {
+					development = 25
+				}
+			}
+			owner = {
+				add_treasury = -100
+			}
+		}
+		if = {
+			limit = {
+				development = 25
+				NOT = {
+					development = 30
+				}
+			}
+			owner = {
+				add_treasury = -125
+			}
+		}
+		if = {
+			limit = {
+				development = 30
+				NOT = {
+					development = 35
+				}
+			}
+			owner = {
+				add_treasury = -150
+			}
+		}
+		if = {
+			limit = {
+				development = 35
+				NOT = {
+					development = 40
+				}
+			}
+			owner = {
+				add_treasury = -175
+			}
+		}
+		if = {
+			limit = {
+				development = 40
+				NOT = {
+					development = 45
+				}
+			}
+			owner = {
+				add_treasury = -200
+			}
+		}
+		if = {
+			limit = {
+				development = 45
+				NOT = {
+					development = 50
+				}
+			}
+			owner = {
+				add_treasury = -225
+			}
+		}
+		if = {
+			limit = {
+				development = 50
+			}
+			owner = {
+				add_treasury = -250
+			}
+		}
+		add_core = owner
+		random_list = {
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_church
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_nobles
+						share = -0.1
+					}
+				}
+			}
+			33 = {
+				owner = {
+					change_estate_land_share = {
+						estate = estate_burghers
+						share = -0.1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		#none
+		name = "etce_special_conquer_events.6.e"
+	}
+}

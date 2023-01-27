@@ -1238,6 +1238,8 @@ on_siege_lost_province = {
 		french_wars_of_religion.9		#french_wars_of_religion.9
 		et.12
 		et.30
+		etce_special_conquer_events.1
+		etce_special_conquer_events.5
 	}
 }
 
@@ -5402,6 +5404,7 @@ on_create_vassal = {
 		set_country_flag = released_in_1444
 	}
 }
+
 # ROOT = Country establishing it
 # First province in state is set
 on_holy_order_established = {
