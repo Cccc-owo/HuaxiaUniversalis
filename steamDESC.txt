@@ -20,12 +20,14 @@ iii. 完成后游戏文件夹中应该有 [b]version.dll[/b]、[b]d3d9.dll[/b] �
 
 ====================
 
+[b]声明：本MOD的内容部分参考了「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1728520255]东亚·天朝日不落[/url]」及「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2789696782]风云世纪两千年（左版）[/url]」两个MOD，感谢以上MOD！[/b]
+
 修改内容：
 
 v1.1
 - [x] 增加中华特殊占领与造核机制——中华群雄对天朝和其他中华群雄可占领四个月即割地，天朝只有对中华群雄可占领四个月即割地；政体为天朝或中华群雄的国家，若有中华大区的省份不是核心，则有事件选择造核
 - [x] 修正中华「奥斯曼之剑」式继承的文本
-- [x] 弃用ET自带的```warlord_state```政府改革，若原为这种改革将自动转换为中华群雄改革
+- [x] 弃用ET自带的warlord_state政府改革，若原为这种改革将自动转换为中华群雄改革
 
 v1.0
 - [x] 即使天命国被消灭，天命系统仍然挂名也不会消失
