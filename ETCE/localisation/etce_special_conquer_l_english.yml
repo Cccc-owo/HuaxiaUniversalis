@@ -1,22 +1,23 @@
 ﻿l_english:
+ etce_change_land_share_special_tt:0 "–:gN*N6–BSSOÏQS0.5%„v†˜0W0"
  occupied_counting:0 "«ˆ`S†˜"
  desc_occupied_counting:0 "`S†˜gP–"
- etce_special_conquer_events.1.title:0 "[ROOT.GetName]«ˆ`S†˜"
- etce_special_conquer_events.1.desc:0 "[ROOT.GetName]òT«ˆLeºN`S†˜ÿ‚Yœg(W§RÛV*Ng…Q§!bìNàeÕl:YÞV[ROOT.GetName]ÿ±bìN1SO§R1Y»S§!ƒR0"
+ etce_special_conquer_events.1.title:0 "$PROVINCENAME$«ˆ`S†˜"
+ etce_special_conquer_events.1.desc:0 "$PROVINCENAME$òT«ˆLeºN`S†˜ÿ‚Yœg(W§RÛV*Ng…Q§!bìNàeÕl:YÞV$PROVINCENAME$ÿ±bìN1SO§R1Y»S§!ƒR0"
  etce_special_conquer_events.1.a:0 "åwS†N0"
  etce_special_conquer_events.2.title:0 "Vg†N[From.GetName]"
- etce_special_conquer_events.2.desc:0 "bìN„v×e^Ø˜lb(W[From.GetName]KNNÿwegb[ROOT.GetName]ÜÜw[From.owner.GetName]ÿ‚Yœg(W§GÛV*Ng…Q§!bìNýw3zšRµc6R[From.GetName]ÿ±[From.GetName]1S^SŽNbìN†N0"
+ etce_special_conquer_events.2.desc:0 "bìN„v×e^Ø˜lb(W[From.GetName]KNNÿwegb$COUNTRY$ÜÜwŽN[From.Owner.GetAdjective]ÿ‚Yœg(W§GÛV*Ng…Q§!bìNýw3zšRµc6R[From.GetName]ÿ±[From.GetName]1SSRVD–ŽNbìN†N0"
  etce_special_conquer_events.2.a:0 "åwS†N0"
- etce_special_conquer_events.3.title:0 "[ROOT.GetName]„v¦lw–"
- etce_special_conquer_events.3.desc:0 "bìN¡lýw:YÞV[ROOT.GetName]ÿSV0W„vŒvÓYòTÏuRVD–†N$CONTROLLERNAME$0"
- etce_special_conquer_events.3.a:0 "bìN”^å‹:YÞV[ROOT.GetName]0"
+ etce_special_conquer_events.3.title:0 "$PROVINCENAME$„v¦lw–"
+ etce_special_conquer_events.3.desc:0 "bìN¡lýw:YÞV$PROVINCENAME$ÿSV0W„vŒvÓYòTÏuRVD–†N$CONTROLLERNAME$0"
+ etce_special_conquer_events.3.a:0 "bìN”^å‹:YÞV$PROVINCENAME$0"
  etce_special_conquer_events.4.title:0 "[From.GetName]„vRVD–"
  etce_special_conquer_events.4.desc:0 "bìN`S†˜[From.GetName]òT³YENÿSV0WlOüvLe›Qàegÿ·u·uRVD–ŽNbýV0"
- etce_special_conquer_events.4.a:0 "Ù=fbìN„vÜw)R0"
- etce_special_conquer_events.6.title:0 "ùR[ROOT.GetName]„v„UTYt"
- etce_special_conquer_events.6.desc:0 "[ROOT.GetName]òTRVbKbÿ6qwîvMRbýVv^¡l	gdk0W„v8hÃVÿbìN”^å‹‚YUOYtÿ"
+ etce_special_conquer_events.4.a:0 "Ù/fbìN„vÜw)R0"
+ etce_special_conquer_events.6.title:0 "ùR$PROVINCENAME$„v„UTYt"
+ etce_special_conquer_events.6.desc:0 "$PROVINCENAME$òTRVbKbÿ6qwîvMRbýVv^¡l	gdk0W„v8hÃVÿbìN”^å‹‚YUOYtÿ"
  etce_special_conquer_events.6.a:0 "O(u£adm£Lˆ?eKbµkYt"
  etce_special_conquer_events.6.b:0 "O(u£dip£Lˆ?eKbµkYt"
  etce_special_conquer_events.6.c:0 "O(u£mil£Lˆ?eKbµkYt"
- etce_special_conquer_events.6.d:0 "O(u£cash_picture£Ñ‘±”KbµkYt"
- etce_special_conquer_events.6.e:0 "°s(WN=föeP"
+ etce_special_conquer_events.6.d:0 "O(u£icon_gold£Ñ‘±”KbµkYt"
+ etce_special_conquer_events.6.e:0 "°s(WN/föeP"

@@ -90,13 +90,13 @@ province_event = {
 	immediate = {
 		hidden_effect = {
 			clr_province_flag = occupied_counting_flag
-		}
-		controller = {
-			ROOT = {
-				cede_province = PREV
-			}
-			country_event = {
-				id = etce_special_conquer_events.4
+			controller = {
+				ROOT = {
+					cede_province = PREV
+				}
+				country_event = {
+					id = etce_special_conquer_events.4
+				}
 			}
 		}
 	}
@@ -164,21 +164,11 @@ province_event = {
 	option = {
 		#adm
 		name = "etce_special_conquer_events.6.a"
+		add_core = owner
 		if = {
 			limit = {
 				NOT = {
-					development = 5
-				}
-			}
-			owner = {
-				add_adm_power = -5
-			}
-		}
-		if = {
-			limit = {
-				development = 5
-				NOT = {
-					development = 10
+					development = 15
 				}
 			}
 			owner = {
@@ -187,123 +177,45 @@ province_event = {
 		}
 		if = {
 			limit = {
-				development = 10
-				NOT = {
-					development = 15
-				}
-			}
-			owner = {
-				add_adm_power = -15
-			}
-		}
-		if = {
-			limit = {
 				development = 15
-				NOT = {
-					development = 20
-				}
 			}
 			owner = {
 				add_adm_power = -20
 			}
 		}
-		if = {
-			limit = {
-				development = 20
-				NOT = {
-					development = 25
+		owner = {
+			if = {
+				limit = {
+					is_subject = yes
 				}
+				add_liberty_desire = 1
 			}
-			owner = {
-				add_adm_power = -25
-			}
-		}
-		if = {
-			limit = {
-				development = 25
-				NOT = {
-					development = 30
+			if = {
+				limit = {
+					is_emperor_of_china = yes
 				}
+				add_mandate = 0.1
 			}
-			owner = {
-				add_adm_power = -30
-			}
-		}
-		if = {
-			limit = {
-				development = 30
-				NOT = {
-					development = 35
-				}
-			}
-			owner = {
-				add_adm_power = -35
-			}
-		}
-		if = {
-			limit = {
-				development = 35
-				NOT = {
-					development = 40
-				}
-			}
-			owner = {
-				add_adm_power = -40
-			}
-		}
-		if = {
-			limit = {
-				development = 40
-				NOT = {
-					development = 45
-				}
-			}
-			owner = {
-				add_adm_power = -45
-			}
-		}
-		if = {
-			limit = {
-				development = 45
-				NOT = {
-					development = 50
-				}
-			}
-			owner = {
-				add_adm_power = -50
-			}
-		}
-		if = {
-			limit = {
-				development = 50
-			}
-			owner = {
-				add_adm_power = -60
-			}
-		}
-		add_core = owner
-		random_list = {
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_church
-						share = -0.1
+			custom_tooltip = etce_change_land_share_special_tt
+			hidden_effect = {
+				random_list = {
+					33 = {
+						change_estate_land_share = {
+							estate = estate_church
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_nobles
-						share = -0.1
+					33 = {
+						change_estate_land_share = {
+							estate = estate_nobles
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_burghers
-						share = -0.1
+					34 = {
+						change_estate_land_share = {
+							estate = estate_burghers
+							share = -0.5
+						}
 					}
 				}
 			}
@@ -312,21 +224,11 @@ province_event = {
 	option = {
 		#dip
 		name = "etce_special_conquer_events.6.b"
+		add_core = owner
 		if = {
 			limit = {
 				NOT = {
-					development = 5
-				}
-			}
-			owner = {
-				add_dip_power = -5
-			}
-		}
-		if = {
-			limit = {
-				development = 5
-				NOT = {
-					development = 10
+					development = 15
 				}
 			}
 			owner = {
@@ -335,123 +237,45 @@ province_event = {
 		}
 		if = {
 			limit = {
-				development = 10
-				NOT = {
-					development = 15
-				}
-			}
-			owner = {
-				add_dip_power = -15
-			}
-		}
-		if = {
-			limit = {
 				development = 15
-				NOT = {
-					development = 20
-				}
 			}
 			owner = {
 				add_dip_power = -20
 			}
 		}
-		if = {
-			limit = {
-				development = 20
-				NOT = {
-					development = 25
+		owner = {
+			if = {
+				limit = {
+					is_subject = yes
 				}
+				add_liberty_desire = 1
 			}
-			owner = {
-				add_dip_power = -25
-			}
-		}
-		if = {
-			limit = {
-				development = 25
-				NOT = {
-					development = 30
+			if = {
+				limit = {
+					is_emperor_of_china = yes
 				}
+				add_mandate = 0.1
 			}
-			owner = {
-				add_dip_power = -30
-			}
-		}
-		if = {
-			limit = {
-				development = 30
-				NOT = {
-					development = 35
-				}
-			}
-			owner = {
-				add_dip_power = -35
-			}
-		}
-		if = {
-			limit = {
-				development = 35
-				NOT = {
-					development = 40
-				}
-			}
-			owner = {
-				add_dip_power = -40
-			}
-		}
-		if = {
-			limit = {
-				development = 40
-				NOT = {
-					development = 45
-				}
-			}
-			owner = {
-				add_dip_power = -45
-			}
-		}
-		if = {
-			limit = {
-				development = 45
-				NOT = {
-					development = 50
-				}
-			}
-			owner = {
-				add_dip_power = -50
-			}
-		}
-		if = {
-			limit = {
-				development = 50
-			}
-			owner = {
-				add_dip_power = -60
-			}
-		}
-		add_core = owner
-		random_list = {
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_church
-						share = -0.1
+			custom_tooltip = etce_change_land_share_special_tt
+			hidden_effect = {
+				random_list = {
+					33 = {
+						change_estate_land_share = {
+							estate = estate_church
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_nobles
-						share = -0.1
+					33 = {
+						change_estate_land_share = {
+							estate = estate_nobles
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_burghers
-						share = -0.1
+					34 = {
+						change_estate_land_share = {
+							estate = estate_burghers
+							share = -0.5
+						}
 					}
 				}
 			}
@@ -460,21 +284,11 @@ province_event = {
 	option = {
 		#mil
 		name = "etce_special_conquer_events.6.c"
+		add_core = owner
 		if = {
 			limit = {
 				NOT = {
-					development = 5
-				}
-			}
-			owner = {
-				add_mil_power = -5
-			}
-		}
-		if = {
-			limit = {
-				development = 5
-				NOT = {
-					development = 10
+					development = 15
 				}
 			}
 			owner = {
@@ -483,123 +297,45 @@ province_event = {
 		}
 		if = {
 			limit = {
-				development = 10
-				NOT = {
-					development = 15
-				}
-			}
-			owner = {
-				add_mil_power = -15
-			}
-		}
-		if = {
-			limit = {
 				development = 15
-				NOT = {
-					development = 20
-				}
 			}
 			owner = {
 				add_mil_power = -20
 			}
 		}
-		if = {
-			limit = {
-				development = 20
-				NOT = {
-					development = 25
+		owner = {
+			if = {
+				limit = {
+					is_subject = yes
 				}
+				add_liberty_desire = 1
 			}
-			owner = {
-				add_mil_power = -25
-			}
-		}
-		if = {
-			limit = {
-				development = 25
-				NOT = {
-					development = 30
+			if = {
+				limit = {
+					is_emperor_of_china = yes
 				}
+				add_mandate = 0.1
 			}
-			owner = {
-				add_mil_power = -30
-			}
-		}
-		if = {
-			limit = {
-				development = 30
-				NOT = {
-					development = 35
-				}
-			}
-			owner = {
-				add_mil_power = -35
-			}
-		}
-		if = {
-			limit = {
-				development = 35
-				NOT = {
-					development = 40
-				}
-			}
-			owner = {
-				add_mil_power = -40
-			}
-		}
-		if = {
-			limit = {
-				development = 40
-				NOT = {
-					development = 45
-				}
-			}
-			owner = {
-				add_mil_power = -45
-			}
-		}
-		if = {
-			limit = {
-				development = 45
-				NOT = {
-					development = 50
-				}
-			}
-			owner = {
-				add_mil_power = -50
-			}
-		}
-		if = {
-			limit = {
-				development = 50
-			}
-			owner = {
-				add_mil_power = -60
-			}
-		}
-		add_core = owner
-		random_list = {
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_church
-						share = -0.1
+			custom_tooltip = etce_change_land_share_special_tt
+			hidden_effect = {
+				random_list = {
+					33 = {
+						change_estate_land_share = {
+							estate = estate_church
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_nobles
-						share = -0.1
+					33 = {
+						change_estate_land_share = {
+							estate = estate_nobles
+							share = -0.5
+						}
 					}
-				}
-			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_burghers
-						share = -0.1
+					34 = {
+						change_estate_land_share = {
+							estate = estate_burghers
+							share = -0.5
+						}
 					}
 				}
 			}
@@ -608,146 +344,43 @@ province_event = {
 	option = {
 		#cash
 		name = "etce_special_conquer_events.6.d"
-		if = {
-			limit = {
-				NOT = {
-					development = 5
-				}
-			}
-			owner = {
-				add_treasury = -25
-			}
-		}
-		if = {
-			limit = {
-				development = 5
-				NOT = {
-					development = 10
-				}
-			}
-			owner = {
-				add_treasury = -40
-			}
-		}
-		if = {
-			limit = {
-				development = 10
-				NOT = {
-					development = 15
-				}
-			}
-			owner = {
-				add_treasury = -55
-			}
-		}
-		if = {
-			limit = {
-				development = 15
-				NOT = {
-					development = 20
-				}
-			}
-			owner = {
-				add_treasury = -70
-			}
-		}
-		if = {
-			limit = {
-				development = 20
-				NOT = {
-					development = 25
-				}
-			}
-			owner = {
-				add_treasury = -100
-			}
-		}
-		if = {
-			limit = {
-				development = 25
-				NOT = {
-					development = 30
-				}
-			}
-			owner = {
-				add_treasury = -125
-			}
-		}
-		if = {
-			limit = {
-				development = 30
-				NOT = {
-					development = 35
-				}
-			}
-			owner = {
-				add_treasury = -150
-			}
-		}
-		if = {
-			limit = {
-				development = 35
-				NOT = {
-					development = 40
-				}
-			}
-			owner = {
-				add_treasury = -175
-			}
-		}
-		if = {
-			limit = {
-				development = 40
-				NOT = {
-					development = 45
-				}
-			}
-			owner = {
-				add_treasury = -200
-			}
-		}
-		if = {
-			limit = {
-				development = 45
-				NOT = {
-					development = 50
-				}
-			}
-			owner = {
-				add_treasury = -225
-			}
-		}
-		if = {
-			limit = {
-				development = 50
-			}
-			owner = {
-				add_treasury = -250
-			}
-		}
 		add_core = owner
-		random_list = {
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_church
-						share = -0.1
-					}
+		owner = {
+			add_years_of_income = -0.02
+		}
+		owner = {
+			if = {
+				limit = {
+					is_subject = yes
 				}
+				add_liberty_desire = 1
 			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_nobles
-						share = -0.1
-					}
+			if = {
+				limit = {
+					is_emperor_of_china = yes
 				}
+				add_mandate = 0.1
 			}
-			33 = {
-				owner = {
-					change_estate_land_share = {
-						estate = estate_burghers
-						share = -0.1
+			custom_tooltip = etce_change_land_share_special_tt
+			hidden_effect = {
+				random_list = {
+					33 = {
+						change_estate_land_share = {
+							estate = estate_church
+							share = -0.5
+						}
+					}
+					33 = {
+						change_estate_land_share = {
+							estate = estate_nobles
+							share = -0.5
+						}
+					}
+					34 = {
+						change_estate_land_share = {
+							estate = estate_burghers
+							share = -0.5
+						}
 					}
 				}
 			}
