@@ -6135,18 +6135,21 @@ west_shandong_area = {
 }
 
 jiangsu_area = {
-	#3
+	#north
+	685
 	2142
 	2141
 	4196
+	5035
+	5036
 }
 
 south_jiangsu_area = {
-	#4
 	1821
 	1822
 	2145
-	685
+	5033
+	5034
 }
 
 anhui_area = {
