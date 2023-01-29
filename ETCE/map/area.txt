@@ -6163,13 +6163,22 @@ south_anhui_area = {
 	2147
 }
 
-zhejiang_area = {
-	#5
+north_zhejiang_area = {
 	684
-	1824
 	2148
 	2149
+	5026
+	5031
+	5032
+}
+
+south_zhejiang_area = {
+	1824
 	2150
+	5027
+	5028
+	5029
+	5030
 }
 
 jiangxi_area = {
