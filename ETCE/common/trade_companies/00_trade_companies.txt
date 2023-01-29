@@ -852,6 +852,13 @@ trade_company_north_china = {
 		4652
 		4672
 		4675
+		5037
+		5038
+		5039
+		5040
+		5041
+		5042
+		5043
 	}
 	# Specific
 	# Generic
