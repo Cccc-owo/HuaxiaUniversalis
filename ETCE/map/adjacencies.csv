@@ -1,5 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-6;12;sea;1258;-1;-1;-1;-1;Skåne-Sjaelland
+6;12;sea;1258;-1;-1;-1;-1;Skï¿½ne-Sjaelland
 12;14;sea;1258;2810;1948;2805;1947;Sjaelland-Fyn
 14;4142;sea;1258;2797;1952;2796;1956;Fyn-Aarhus
 14;4149;sea;1258;2791;1950;2789;1951;Fyn-Kolding
@@ -8,8 +8,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 123;124;sea;1307;-1;-1;-1;-1;Calabria-Messina
 151;316;sea;1320;-1;-1;-1;-1;Thrace-Bithynia
 911;945;sea;1662;1307;1765;1308;1763;Menominee-Michigan
-1;1930;sea;1928;2934;2039;2945;2043;Stockholm-Åland
-1930;27;sea;1253;2958;2042;2977;2049;Åland-Finland
+1;1930;sea;1928;2934;2039;2945;2043;Stockholm-ï¿½land
+1930;27;sea;1253;2958;2042;2977;2049;ï¿½land-Finland
 142;144;sea;1311;-1;-1;-1;-1;Janina-Corfu
 4699;1773;sea;1312;-1;-1;-1;-1;Aetolia-Achaea
 146;164;sea;3258;3013;1616;3033;1608;Tenerife-Gran Canaria
@@ -23,8 +23,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1014;4186;sea;1390;4701;1538;4708;1541;Bungo-Iyo
 4186;1825;sea;1390;4719;1559;4717;1555;Aki-Iyo
 2159;666;sea;1370;-1;-1;-1;-1;Leizhou-Hainan
-36;35;sea;1256;-1;-1;-1;-1;Estland-Ösel
-35;39;sea;1256;-1;-1;-1;-1;Ösel-Kurland
+36;35;sea;1256;-1;-1;-1;-1;Estland-ï¿½sel
+35;39;sea;1256;-1;-1;-1;-1;ï¿½sel-Kurland
 597;620;sea;1361;4253;1030;4246;1024;Johor-Siak
 659;2677;sea;1361;4275;1002;4269;990;Lingga-Jambi
 782;783;sea;1539;1534;109;1528;111;Tierra del Fuego-Patagonia Occidental
@@ -96,4 +96,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4846;2728;sea;1408;-1;-1;-1;-1;Woolna-Tiwi
 911;1001;sea;1661;-1;-1;-1;-1;Marameg-Baawitigon
 1230;3267;sea;4333;-1;-1;-1;-1;Massawa-Dahlak
+1821;5036;sea;5000;-1;-1;-1;-1;Changjiang
 -1;-1;;-1;-1;-1;-1;-1;

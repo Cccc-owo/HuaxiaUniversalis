@@ -919,8 +919,8 @@ south_china_region = {
 		hunan_area
 		west_zhejiang_area
 		east_zhejiang_area
+		middle_anhui_area
 		south_anhui_area
-		jiangsu_area
 		south_jiangsu_area
 		taiwan_area
 		guangxi_area
@@ -944,6 +944,7 @@ xinan_region = {
 
 north_china_region = {
 	areas = {
+		jiangsu_area
 		hebei_area
 		south_hebei_area
 		shandong_area
