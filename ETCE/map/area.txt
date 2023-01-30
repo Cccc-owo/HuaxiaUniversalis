@@ -6190,12 +6190,26 @@ east_zhejiang_area = {
 	5026
 }
 
-jiangxi_area = {
-	#4
-	670
+north_jiangxi_area = {
 	683
-	1833
 	2151
+	5047
+	5052
+}
+
+middle_jiangxi_area = {
+	1833
+	5048
+	5049
+	5050
+	5051
+}
+
+south_jiangxi_area = {
+	670
+	5044
+	5045
+	5046
 }
 
 coastal_fujian_area = {

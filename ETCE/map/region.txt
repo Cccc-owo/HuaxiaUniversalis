@@ -912,7 +912,9 @@ south_china_region = {
 		guangzhou_area
 		inner_fujian_area
 		coastal_fujian_area
-		jiangxi_area
+		north_jiangxi_area
+		middle_jiangxi_area
+		south_jiangxi_area
 		huguang_area
 		hunan_area
 		west_zhejiang_area
