@@ -322,13 +322,8 @@ celestial_empire = {
 	icon = "celestial_empire"
 	allow_normal_conversion = yes
 	potential = {
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-			}
+		OR = {
 			is_emperor_of_china = yes
-		}
-		else = {
 			has_reform = celestial_empire
 		}
 	}
