@@ -6276,13 +6276,23 @@ guangzhou_area = {
 	3005
 }
 
-guangxi_area = {
-	664
+north_guangxi_area = {
 	1840
+	2163
+	5064
+	5066
+	5067
+	5068
+}
+
+south_guangxi_area = {
+	664
 	2161
 	2162
-	2163
 	2164
+	5062
+	5063
+	5065
 }
 
 yun_gui_area = {

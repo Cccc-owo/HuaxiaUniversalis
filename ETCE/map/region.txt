@@ -923,8 +923,9 @@ south_china_region = {
 		south_anhui_area
 		south_jiangsu_area
 		taiwan_area
-		guangxi_area
 		hainan_area
+		north_guangxi_area
+		south_guangxi_area
 	}
 	monsoon = {
 		00.05.01
