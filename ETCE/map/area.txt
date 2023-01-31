@@ -6416,12 +6416,28 @@ shanxi_area = {
 	2178
 }
 
-shaanxi_area = {
-	#4
-	689
-	700
+north_shaanxi_area = {
 	2179
+	5103
+	5104
+	5105
+	5106
+	5107
+}
+
+guanzhong_area = {
+	700
 	4198
+	5099
+	5100
+	5101
+	5109
+}
+
+south_shaanxi_area = {
+	689
+	5098
+	5102
 }
 
 gansu_area = {

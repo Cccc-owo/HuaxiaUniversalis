@@ -960,7 +960,9 @@ north_china_region = {
 		shanxi_area
 		gansu_area
 		west_gansu_area
-		shaanxi_area
+		north_shaanxi_area
+		guanzhong_area
+		south_shaanxi_area
 		anhui_area
 	}
 }

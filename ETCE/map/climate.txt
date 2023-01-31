@@ -1699,6 +1699,18 @@ mild_winter = {
 	5088
 	5089
 	5096
+	5098
+	5099
+	5100
+	5101
+	5102
+	5103
+	5104
+	5105
+	5106
+	5107
+	5108
+	5109
 	# Hilly bits of Northern India
 	2069
 	# Wintery bits of the west coast
@@ -4036,6 +4048,8 @@ impassable = {
 	4932
 	5009
 	5012
+	5110
+	5111
 }
 
 equator_y_on_province_image = 1000
