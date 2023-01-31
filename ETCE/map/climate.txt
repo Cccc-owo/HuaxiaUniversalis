@@ -1683,6 +1683,22 @@ mild_winter = {
 	2182
 	2183
 	2184
+	688
+	692
+	1836
+	5092
+	5095
+	5090
+	5091
+	5093
+	5094
+	5097
+	687
+	2175
+	2176
+	5088
+	5089
+	5096
 	# Hilly bits of Northern India
 	2069
 	# Wintery bits of the west coast

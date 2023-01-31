@@ -6381,18 +6381,30 @@ south_hunan_area = {
 	5086
 }
 
+north_henan_area = {
+	688
+	692
+	1836
+	5092
+	5095
+}
+
+middle_henan_area = {
+	5090
+	5091
+	5093
+	5094
+	5097
+}
+
 henan_area = {
-	#6
+	#south
 	687
 	2175
 	2176
-}
-
-north_henan_area = {
-	#3
-	688
-	1836
-	692
+	5088
+	5089
+	5096
 }
 
 shanxi_area = {
