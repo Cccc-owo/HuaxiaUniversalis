@@ -918,7 +918,9 @@ south_china_region = {
 		north_hubei_area
 		north_bank_hubei_area
 		south_bank_hubei_area
-		hunan_area
+		north_hunan_area
+		middle_hunan_area
+		south_hunan_area
 		west_zhejiang_area
 		east_zhejiang_area
 		middle_anhui_area

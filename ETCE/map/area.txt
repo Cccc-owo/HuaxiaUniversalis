@@ -6224,21 +6224,21 @@ south_jiangxi_area = {
 }
 
 coastal_fujian_area = {
-    1829
-    669
-    5018
-    5019
-    5022
-    5023
+	1829
+	669
+	5018
+	5019
+	5022
+	5023
 }
 
 inner_fujian_area = {
-    2152
-    2153
-    5020
-    5021
-    5024
-    5025
+	2152
+	2153
+	5020
+	5021
+	5024
+	5025
 }
 
 taiwan_area = {
@@ -6254,20 +6254,20 @@ east_guangdong_area = {
 	#10
 	2157
 	2156
-    5017
+	5017
 }
 
 north_guangdong_area = {
-    2158
-    5015
-    5016
+	2158
+	5015
+	5016
 }
 
 west_guangdong_area = {
 	665
 	2159
-    5013
-    5014
+	5013
+	5014
 }
 
 guangzhou_area = {
@@ -6335,7 +6335,6 @@ chuanbei_area = {
 	4211
 }
 
-
 north_hubei_area = {
 	2171
 	5070
@@ -6359,12 +6358,27 @@ south_bank_hubei_area = {
 	5077
 }
 
-hunan_area = {
-	#4
-	671
+north_hunan_area = {
 	672
-	2174
+	5078
+	5082
+	5083
+	5087
+}
+
+middle_hunan_area = {
+	671
 	2173
+	2174
+	5085
+}
+
+south_hunan_area = {
+	5079
+	5080
+	5081
+	5084
+	5086
 }
 
 henan_area = {
