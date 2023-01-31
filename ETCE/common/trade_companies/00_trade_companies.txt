@@ -834,6 +834,15 @@ trade_company_east_china = {
 		5059
 		5060
 		5061
+		5069
+		5070
+		5071
+		5072
+		5073
+		5074
+		5075
+		5076
+		5077
 	}
 	# Specific
 	# Generic

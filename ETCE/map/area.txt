@@ -6335,13 +6335,28 @@ chuanbei_area = {
 	4211
 }
 
-huguang_area = {
-	#8 (Hubei)
-	2172
-	682
+
+north_hubei_area = {
 	2171
+	5070
+	5071
+	5072
+	5073
+}
+
+north_bank_hubei_area = {
 	681
+	2172
 	4197
+	5069
+	5074
+}
+
+south_bank_hubei_area = {
+	682
+	5075
+	5076
+	5077
 }
 
 hunan_area = {
