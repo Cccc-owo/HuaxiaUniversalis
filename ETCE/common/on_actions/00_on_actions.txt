@@ -1383,7 +1383,7 @@ on_new_monarch = {
 		flavor_brapru.22		# Succession of Albrecht Achilles
 		flavor_brapru.25		# Dispositio Achillea (can also trigger from flavor_brapru.22)
 		flavor_nor.27		# Proclamation in Hamar
-		china_events.43		# Picking new Capital for China
+		#china_events.43		# Picking new Capital for China
 		celestial_empire_events.3		#Resistance to Sinicization
 		flavor_boh.2		#Heretic Kings
 		flavor_hun.17		#Maintaining the Black Army
@@ -1396,7 +1396,7 @@ on_new_monarch = {
 		nov.8
 		et_government_event.1		# Fascist new ruler event
 		et_government_event.2		# Communist new ruler event
-		et_china.1
+		#et_china.1
 		dynasties.54
 		dynasties.55
 	}
