@@ -3,7 +3,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			has_global_flag = empire_of_china_dismantled
-			ai = no
 			NOT = {
 				has_country_flag = tmp_positive_get_mandate_decision
 			}
@@ -14,6 +13,10 @@ country_decisions = {
 				has_reform = celestial_empire
 				has_reform = chinese_warlord
 				has_reform = warlord_state
+			}
+			num_of_owned_provinces_with = {
+				value = 75
+				superregion = china_superregion
 			}
 		}
 		effect = {
@@ -26,20 +29,26 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1000
 		}
 	}
 	dismantle_mandate_decision = {
 		major = yes
 		potential = {
 			is_emperor_of_china = yes
-			ai = no
 			NOT = {
 				has_country_flag = tmp_positive_dismantle_mandate_decision
 			}
 		}
 		allow = {
 			is_at_war = no
+			NOT = {
+				stability = 0
+				num_of_owned_provinces_with = {
+					value = 50
+					superregion = china_superregion
+				}
+			}
 		}
 		effect = {
 			set_country_flag = tmp_positive_dismantle_mandate_decision
@@ -48,7 +57,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 0.5
 		}
 	}
 }
