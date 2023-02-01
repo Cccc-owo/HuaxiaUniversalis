@@ -958,7 +958,11 @@ north_china_region = {
 		middle_henan_area
 		east_henan_area
 		north_henan_area
-		shanxi_area
+		north_shanxi_area
+		south_shanxi_area
+		east_shanxi_area
+		west_shanxi_area
+		taiyuan_area
 		gansu_area
 		west_gansu_area
 		north_shaanxi_area
