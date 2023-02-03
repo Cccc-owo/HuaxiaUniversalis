@@ -42,7 +42,6 @@ add_core = WEI
 923.11.19 = { owner = TNG controller = TNG add_core = TNG remove_core = JIN }
 936.1.11 = { owner = LIO controller = LIO add_core = LIO remove_core = TNG }
 1000.1.1 = { base_tax = 6 base_production = 6 }
-1120.1.1 = { fort_15th = yes }
 1125.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
 1214.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
 1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
