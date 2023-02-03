@@ -6482,21 +6482,48 @@ south_shaanxi_area = {
 	5102
 }
 
-gansu_area = {
-	#8
-	698
-	699
+hexi_area = {
+	5149
+	5150
+	707
+	5151
+	708
+	5152
+	5153
+	2182
+}
+
+hehuang_area = {
+	2184
+	5154
 	2183
-	2181
+}
+
+longzhong_area = {
+	699
+	5155
+	5159
+	5157
+}
+
+longnan_area ={
+	5156
+	5158
 	2180
 }
 
-west_gansu_area = {
-	#4 
-	707
-	708
-	2184
-	2182
+longdong_area = {
+	5162
+	2181
+	5163
+	5164
+	5165
+}
+
+ningxia_area = {
+	698
+	5160
+	5161
 }
 
 hainan_area = {

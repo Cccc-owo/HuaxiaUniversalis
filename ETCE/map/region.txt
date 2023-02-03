@@ -963,8 +963,12 @@ north_china_region = {
 		east_shanxi_area
 		west_shanxi_area
 		taiyuan_area
-		gansu_area
-		west_gansu_area
+		hexi_area
+		hehuang_area
+		longzhong_area
+		longnan_area
+		longdong_area
+		ningxia_area
 		north_shaanxi_area
 		guanzhong_area
 		south_shaanxi_area
