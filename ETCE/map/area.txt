@@ -6132,21 +6132,24 @@ south_hebei_area = {
 
 shandong_area = {
 	#east
-	691
-	2138
 	2139
 	3009
 	690
 	5037
 }
 
-west_shandong_area = {
+north_shandong_area ={
+	691
+	2138
+	5041
+	5042
+}
+
+south_shandong_area = {
 	2140
 	5038
 	5039
 	5040
-	5041
-	5042
 	5043
 }
 
