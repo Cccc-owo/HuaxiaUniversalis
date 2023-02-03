@@ -6104,20 +6104,30 @@ changtang_area = {
 }
 
 hebei_area = {
-	#4 (North Hebei)
+	#north
 	2136
 	703
 	704
 	1816
 	4194
+	5141
+	5142
+	5143
+	5145
+	5146
+	5147
+	5148
 }
 
 south_hebei_area = {
-	#3
 	696
 	695
 	2137
 	4195
+	5138
+	5139
+	5140
+	5144
 }
 
 shandong_area = {
