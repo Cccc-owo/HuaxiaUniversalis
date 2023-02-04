@@ -6138,7 +6138,7 @@ shandong_area = {
 	5037
 }
 
-north_shandong_area ={
+north_shandong_area = {
 	691
 	2138
 	5041
@@ -6315,6 +6315,8 @@ yun_gui_area = {
 	663
 	673
 	4199
+	2168
+	675
 }
 
 yun_gui_borderland_area = {
@@ -6327,25 +6329,51 @@ yun_gui_borderland_area = {
 }
 
 sichuan_area = {
-	#7
 	679
-	680
 	4212
 	4213
+	5188
+	5182
+	5181
+	5180
+	5170
+}
+
+chuanxi_area = {
+	5187
+	5174
+	5175
+	2170
 }
 
 chuannan_area = {
-	#3
-	2168
 	2748
-	675
+	4213
+	5189
+	5190
+	5194
 }
 
 chuanbei_area = {
-	#3
-	2170
 	2169
 	4211
+	5167
+	5168
+	5169
+	5178
+	5171
+	5176
+}
+
+chongqing_area = {
+	680
+	5183
+	5184
+	5185
+	5186
+	5193
+	5173
+	5172
 }
 
 north_hubei_area = {
@@ -6445,7 +6473,7 @@ west_shanxi_area = {
 	694
 }
 
-south_shanxi_area ={
+south_shanxi_area = {
 	5115
 	5114
 	5112
@@ -6483,6 +6511,7 @@ south_shaanxi_area = {
 	689
 	5098
 	5102
+	5192
 }
 
 hexi_area = {
@@ -6509,7 +6538,7 @@ longzhong_area = {
 	5157
 }
 
-longnan_area ={
+longnan_area = {
 	5156
 	5158
 	2180

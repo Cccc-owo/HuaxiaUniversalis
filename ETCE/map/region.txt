@@ -944,6 +944,8 @@ xinan_region = {
 		yun_gui_borderland_area
 		chuannan_area
 		chuanbei_area
+		chuanxi_area
+		chongqing_area
 	}
 }
 

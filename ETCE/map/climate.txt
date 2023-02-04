@@ -4088,6 +4088,8 @@ impassable = {
 	5136
 	5137
 	5166
+	5177
+	5191
 }
 
 equator_y_on_province_image = 1000
