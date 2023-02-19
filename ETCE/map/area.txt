@@ -6268,6 +6268,7 @@ east_guangdong_area = {
 	2157
 	2156
 	5017
+	5211
 }
 
 north_guangdong_area = {

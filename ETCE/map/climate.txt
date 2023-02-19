@@ -3626,6 +3626,7 @@ normal_monsoon = {
 	668
 	2156
 	2157
+	5211
 	2158	# Guangdong
 	665
 	666
