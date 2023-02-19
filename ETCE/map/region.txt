@@ -940,6 +940,7 @@ south_china_region = {
 xinan_region = {
 	areas = {
 		sichuan_area
+		guizhou_area
 		yun_gui_area
 		yun_gui_borderland_area
 		chuannan_area
