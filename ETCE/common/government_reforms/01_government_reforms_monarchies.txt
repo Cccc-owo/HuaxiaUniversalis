@@ -351,7 +351,7 @@ celestial_empire = {
 		church_influence_modifier = -0.1
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
-		governing_capacity = 1000
+		governing_capacity = 750
 	}
 	ai = {
 		factor = 1000		# should always be picked if available
