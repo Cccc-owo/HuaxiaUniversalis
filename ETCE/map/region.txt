@@ -953,7 +953,8 @@ north_china_region = {
 	areas = {
 		jiangsu_area
 		hebei_area
-		south_hebei_area
+		hejian_area
+		qinghe_area
 		shandong_area
 		north_shandong_area
 		south_shandong_area
@@ -961,11 +962,10 @@ north_china_region = {
 		middle_henan_area
 		east_henan_area
 		north_henan_area
-		north_shanxi_area
-		south_shanxi_area
-		east_shanxi_area
-		west_shanxi_area
+		datong_area
 		taiyuan_area
+		shangdang_area
+		hedong_area
 		hexi_area
 		hehuang_area
 		longzhong_area

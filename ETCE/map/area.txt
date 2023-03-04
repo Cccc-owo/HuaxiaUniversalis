@@ -6105,29 +6105,31 @@ changtang_area = {
 
 hebei_area = {
 	#north
-	2136
 	703
 	704
 	1816
 	4194
-	5141
 	5142
 	5143
 	5145
 	5146
 	5147
-	5148
 }
 
-south_hebei_area = {
+hejian_area = {
+	5141
+	5144
+	5148
 	696
 	695
+}
+
+qinghe_area = {
 	2137
 	4195
 	5138
 	5139
 	5140
-	5144
 }
 
 shandong_area = {
@@ -6477,40 +6479,38 @@ henan_area = {
 	5208
 }
 
-north_shanxi_area = {
+datong_area = {
 	697
 	2177
 	5125
 	5126
+	2136
+	5114
 	5127
 }
 
 taiyuan_area = {
 	693
+	5122
 	5123
 	5118
 	5117
 }
 
-west_shanxi_area = {
+hedong_area = {
+	694
 	5124
 	5119
-	5116
-	694
-}
-
-south_shanxi_area = {
 	5115
-	5114
 	5112
 	5113
-	5128
+	5116
 }
 
-east_shanxi_area = {
-	5122
+shangdang_area = {
 	5121
 	5120
+	5128
 	2178
 }
 
