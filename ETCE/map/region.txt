@@ -951,7 +951,8 @@ xinan_region = {
 
 north_china_region = {
 	areas = {
-		jiangsu_area
+		huaihai_area
+		huaiyang_area
 		hebei_area
 		hejian_area
 		qinghe_area

@@ -3245,6 +3245,10 @@ mild_monsoon = {
 	2147	# south Anhui
 	685
 	1821
+	5224
+	5225
+	5226
+	5227
 	1822
 	2145	# South Jiangsu
 	1113

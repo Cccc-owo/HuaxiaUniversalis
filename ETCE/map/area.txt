@@ -6157,14 +6157,20 @@ yanzhou_area = {
 	5043
 }
 
-jiangsu_area = {
-	#north
-	685
-	2142
+huaihai_area = {
 	2141
 	4196
+	2142
+	5224
+	5225
+}
+
+huaiyang_area = {
+	685
 	5035
 	5036
+	5226
+	5227
 }
 
 south_jiangsu_area = {

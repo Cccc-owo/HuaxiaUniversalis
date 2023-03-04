@@ -861,6 +861,10 @@ trade_company_east_china = {
 		5208
 		5209
 		5210
+		5224
+		5225
+		5226
+		5227
 	}
 	# Specific
 	# Generic
