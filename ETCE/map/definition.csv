@@ -5014,7 +5014,7 @@ province;red;green;blue;x;x
 5039;221;78;110;JiNing
 5040;31;213;5;CaoZhou
 5041;90;53;129;DongChang
-5042;56;142;193;LinQing
+5042;56;142;193;ZhuCheng
 5043;179;159;239;TaiAn
 5044;47;55;73;NanAn
 5045;242;5;198;NingDu
@@ -5193,3 +5193,6 @@ province;red;green;blue;x;x
 5218;48;51;129;ChuXiong
 5219;233;138;176;YuanJiang
 5220;169;202;3;YongBei
+5221;27;96;41;DongPing
+5222;26;37;110;WeiHai
+5223;223;50;245;DeZhou

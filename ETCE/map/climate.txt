@@ -3856,6 +3856,9 @@ normal_monsoon = {
 	5059
 	5060
 	5061
+	5221
+	5222
+	5223
 }
 
 severe_monsoon = {

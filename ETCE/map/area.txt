@@ -6132,22 +6132,24 @@ qinghe_area = {
 	5140
 }
 
-shandong_area = {
-	#east
+jiaodong_area = {
+	690
 	2139
 	3009
-	690
 	5037
+	5042
+	5222
 }
 
-north_shandong_area = {
+taishan_area = {
 	691
 	2138
 	5041
-	5042
+	5043
+	5223
 }
 
-south_shandong_area = {
+yanzhou_area = {
 	2140
 	5038
 	5039
