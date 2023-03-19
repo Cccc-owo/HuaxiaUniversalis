@@ -1436,14 +1436,14 @@ finland_area = {
 bothnia_area = {
 	#3
 	19
-	4151
+	4152
 	4113
 }
 
 laponia_area = {
 	#3
 	1777
-	4152
+	4151
 	315
 }
 

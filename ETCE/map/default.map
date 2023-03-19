@@ -1,5 +1,5 @@
-width = 5632
-height = 2304
+width = 6400
+height = 2560
 
 max_provinces = 5228
 sea_starts = { 
@@ -101,7 +101,7 @@ provincegroup = "provincegroup.txt"
 ambient_object = "ambient_object.txt"
 seasons = "seasons.txt"
 trade_winds = "trade_winds.txt"
-canal_definition = {
+canal_definition = { #this sets the coordinates for where the panama_canal_river map file is inserted (starting from its bottom left corner)
 	name = "panama_canal"
 	x = 1317
 	y = 1082
