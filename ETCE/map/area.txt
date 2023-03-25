@@ -6004,11 +6004,12 @@ jetysuu_area = {
 
 kashgaria_area = {
 	#5 #Just Kashgar & Yarkand
-	2127
+	1785
 	739
 	4210
 	2124
 	4209
+	2127
 }
 
 tarim_basin_area = {
