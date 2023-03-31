@@ -5198,18 +5198,24 @@ province;red;green;blue;x;x
 5525;224;106;79;Adrar;x
 5526;170;17;20;El Djouf;x
 5527;255;13;40;Gambia;x
-5528;197;110;220;Biak;x
-5529;207;110;9;Papuan Mountains;x
-5530;219;32;91;Wathaurong;x
-5531;207;110;8;Barkindji;x
-5532;201;38;173;Wangkumara;x
+5528;159;150;204;Biak;x
+5529;181;255;18;Papuan Mountains;x
+5530;193;218;148;Wathaurong;x
+5531;76;120;188;Barkindji;x
+5532;177;24;120;Wangkumara;x
 5533;104;80;32;Kuungkari;x
 5534;232;82;79;Yirandali;x
 5535;104;88;32;Warluwarra;x
-5536;199;110;220;Kaniyang;x
+5536;105;137;133;Kaniyang;x
 5537;231;74;79;Kalaamaya;x
 5538;232;90;79;Wawula;x
 5539;101;48;32;Nyamal;x
 5540;229;50;79;Nullarbor;x
-5541;100;10;155;Jawoyn;x
+5541;194;245;15;Jawoyn;x
 5542;104;84;126;Mudburra;x
+5543;106;166;241;Mawhera;x
+5544;230;58;79;Egilsstadir;x
+5545;100;36;126;West Greenland;x
+5546;130;77;50;Central Greenland;x
+5547;255;12;160;Hongkong;x
+5548;
