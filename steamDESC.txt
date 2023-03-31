@@ -1,11 +1,11 @@
 To non-Chinese players: this mod is a [b]China Extenstion[/b] sub-mod of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]Extended Timeline[/url].
 
-本MOD为[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]Extended Timeline 延长时间线[/url]的中国拓展子MOD。
-需要同时订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]ET本体[/url]使用，同时建议订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2897275182]ET汉化[/url]。
+以 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]Extended Timeline 延长时间线[/url] 为基础，主要聚焦于华夏地区的大修（子）MOD
+需要同时订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=217416366]ET本体[/url]使用，同时应该订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2897275182]ET汉化[/url]。
 
 ====================
 
-[url=https://github.com/Cccc-owo/ET-ChinaExtension/blob/main/CHANGELOG.md]更新日志[/url]
+[url=https://github.com/Cccc-owo/HuaxiaUniversalis/blob/main/CHANGELOG.md]更新日志[/url]
 
 [b]使用注意事项：[/b]
 1. 请先安装双字节补丁（使用过旧版的补丁也需要重新安装），否则会出现闪退或乱码的情况。
