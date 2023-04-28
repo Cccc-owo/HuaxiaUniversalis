@@ -1,4 +1,3 @@
-
 barbarian_reform = {
 	icon = "horde_riding"
 	allow_normal_conversion = no
@@ -7,28 +6,24 @@ barbarian_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-
 	lock_level_when_selected = yes
-
 	modifiers = {
 		land_forcelimit_modifier = 0.75
 		global_manpower_modifier = 0.75
- 		global_manpower = 1
-		global_regiment_cost = -0.4	
-
+		global_manpower = 1
+		global_regiment_cost = -0.4
 		technology_cost = 0.4
-		global_prov_trade_power_modifier = -1.0
+		global_prov_trade_power_modifier = -1
 		development_cost = 0.5
 		max_absolutism = -10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
 caliphate_reform = {
-	icon = "muslim_highlighted"
-
+	icon = "caliphate"
 	allow_normal_conversion = no
 	potential = {
 		religion_group = muslim
@@ -38,26 +33,35 @@ caliphate_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
 	fixed_rank = 3
-
 	nation_designer_trigger = {
 		religion_group = muslim
 	}
-
 	modifiers = {
 		governing_capacity = 100
-		land_morale = 0.05
-		discipline = 0.05
+		tolerance_own = 3
+		legitimacy = 1
 		global_missionary_strength = 0.02
 		max_absolutism = 5
 	}
+	custom_attributes = {
+		enables_divine_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Cradle of Civilization"
+		}
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
 caliphate_theocratic_reform = {
 	icon = "muslim_highlighted"
-
 	allow_normal_conversion = no
 	potential = {
 		religion_group = muslim
@@ -70,26 +74,31 @@ caliphate_theocratic_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
 	fixed_rank = 3
-
 	nation_designer_trigger = {
 		religion_group = muslim
 	}
-
 	modifiers = {
 		governing_capacity = 100
-		land_morale = 0.05
-		discipline = 0.05
+		tolerance_own = 3
+		legitimacy = 1
 		global_missionary_strength = 0.02
 		max_absolutism = 5
 	}
+	conditional = {
+		allow = {
+			has_dlc = "Cradle of Civilization"
+		}
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
 roman_empire_reform = {
-	icon = "king"
-
+	icon = "roman_empire"
 	allow_normal_conversion = no
 	potential = {
 		has_reform = roman_empire_reform
@@ -98,7 +107,6 @@ roman_empire_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 30
 	lock_level_when_selected = yes
-
 	modifiers = {
 		governing_capacity = 200
 		land_morale = 0.05
@@ -106,20 +114,18 @@ roman_empire_reform = {
 		development_cost = -0.4
 		max_absolutism = 10
 	}
-
 	factions = {
 		imperials
 		senators
 		generals
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
 roman_republic_reform = {
 	icon = "nobleman"
-
 	allow_normal_conversion = no
 	potential = {
 		has_reform = roman_republic_reform
@@ -127,17 +133,15 @@ roman_republic_reform = {
 	fixed_rank = 3
 	valid_for_nation_designer = yes
 	nation_designer_cost = 30
-
 	duration = 3
-
 	modifiers = {
 		governing_capacity = 100
 		development_cost = -0.4
-		global_own_trade_power = 0.10
+		global_own_trade_power = 0.1
 		max_absolutism = -30
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -151,17 +155,17 @@ salic_reform = {
 	nation_designer_cost = 0
 	lock_level_when_selected = yes
 	modifiers = {
-		global_manpower_modifier = 0.1	
+		global_manpower_modifier = 0.1
 		vassal_income = 0.25
 		vassal_forcelimit_bonus = 0.33
 		global_autonomy = -0.02
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
-imperial_march_reform = {
+margraviate_reform = {
 	icon = "castle"
 	allow_normal_conversion = yes
 	potential = {
@@ -172,13 +176,12 @@ imperial_march_reform = {
 	nation_designer_trigger = {
 		is_part_of_hre = yes
 	}
-
 	modifiers = {
-		land_forcelimit_modifier = 0.15
-		global_manpower_modifier = 0.15
+		fort_maintenance_modifier = -0.2
+		defensiveness = 0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -186,7 +189,9 @@ feudal_empire_reform = {
 	icon = "shogunate"
 	allow_normal_conversion = yes
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
+		NOT = {
+			has_country_flag = formed_japan_flag
+		}
 		OR = {
 			AND = {
 				capital_scope = {
@@ -205,7 +210,9 @@ feudal_empire_reform = {
 	nation_designer_trigger = {
 		culture_group = japanese_g
 		technology_group = chinese
-		capital_scope = { region = japan_region }
+		capital_scope = {
+			region = japan_region
+		}
 		owns = 1020
 	}
 	legacy_equivalent = feudal_monarchy
@@ -214,18 +221,16 @@ feudal_empire_reform = {
 	allow_vassal_war = yes
 	allow_vassal_alliance = yes
 	lock_level_when_selected = yes
-
 	modifiers = {
 		diplomats = 1
 		envoy_travel_time = -0.25
 		max_absolutism = 5
 	}
-
 	custom_attributes = {
 		locked_government_type = yes
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -233,8 +238,12 @@ grand_principality = {
 	icon = "russian_principality"
 	allow_normal_conversion = yes
 	potential = {
-		NOT = { has_reform = tsardom }
-		NOT = { have_had_reform = tsardom }
+		NOT = {
+			has_reform = tsardom
+		}
+		NOT = {
+			have_had_reform = tsardom
+		}
 		OR = {
 			tag = KRU
 			AND = {
@@ -256,15 +265,16 @@ grand_principality = {
 		global_tax_modifier = 0.05
 		governing_capacity = 100
 	}
-
 	conditional = {
-		allow = { has_dlc = "Third Rome" }
+		allow = {
+			has_dlc = "Third Rome"
+		}
 		government_abilities = {
 			russian_mechanic
 		}
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -292,9 +302,8 @@ warlord_state = {
 		army_tradition = 0.5
 		global_manpower_modifier = 0.2
 	}
-
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -320,14 +329,18 @@ somali_maritime_city_state = {
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
-			NOT = { has_dlc = "Mare Nostrum" }
+			NOT = {
+				has_dlc = "Mare Nostrum"
+			}
 		}
 		can_use_trade_post = yes
 	}
 	conditional = {
 		allow = {
 			has_dlc = "Mare Nostrum"
-			NOT = { has_dlc = "Res Publica" }
+			NOT = {
+				has_dlc = "Res Publica"
+			}
 		}
 		can_form_trade_league = yes
 		trade_city_reform = trading_city
@@ -346,7 +359,7 @@ somali_maritime_city_state = {
 		enables_aristocratic_idea_group = no
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -356,7 +369,9 @@ very_frequent_elections_reform = {
 	potential = {
 		OR = {
 			is_revolutionary = no
-			NOT = { has_dlc = "Emperor" }
+			NOT = {
+				has_dlc = "Emperor"
+			}
 		}
 		NOT = {
 			has_reform = venice_merchants_reform
@@ -385,7 +400,7 @@ very_frequent_elections_reform = {
 		election_cycle = -2
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -395,7 +410,9 @@ balance_of_power_reform = {
 	potential = {
 		OR = {
 			is_revolutionary = no
-			NOT = { has_dlc = "Emperor" }
+			NOT = {
+				has_dlc = "Emperor"
+			}
 		}
 		NOT = {
 			has_reform = venice_merchants_reform
@@ -412,7 +429,7 @@ balance_of_power_reform = {
 		max_absolutism = 5
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -422,7 +439,9 @@ consolidation_of_power_2_reform = {
 	potential = {
 		OR = {
 			is_revolutionary = no
-			NOT = { has_dlc = "Emperor" }
+			NOT = {
+				has_dlc = "Emperor"
+			}
 		}
 		NOT = {
 			has_reform = venice_merchants_reform
@@ -441,7 +460,7 @@ consolidation_of_power_2_reform = {
 		republican_tradition = -0.005
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -451,7 +470,9 @@ very_long_term_reform = {
 	potential = {
 		OR = {
 			is_revolutionary = no
-			NOT = { has_dlc = "Emperor" }
+			NOT = {
+				has_dlc = "Emperor"
+			}
 		}
 		NOT = {
 			has_reform = venice_merchants_reform
@@ -470,7 +491,7 @@ very_long_term_reform = {
 		republican_tradition = -0.01
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -480,16 +501,20 @@ multi_party_system = {
 	trigger = {
 		OR = {
 			AND = {
-				NOT = { has_reform = political_absolutism_reform }
+				NOT = {
+					has_reform = political_absolutism_reform
+				}
 				has_institution = imperialism
 			}
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
 	modifiers = {
-		stability_cost_modifier = -0.10
+		stability_cost_modifier = -0.1
 		republican_tradition = 0.1
 		max_absolutism = -20
 		diplomatic_reputation = 1
@@ -504,7 +529,7 @@ multi_party_system = {
 		national_socialist_party
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 	custom_attributes = {
 		blocked_call_diet = yes
@@ -518,7 +543,9 @@ single_party_system = {
 		OR = {
 			has_institution = imperialism
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -529,7 +556,7 @@ single_party_system = {
 		governing_capacity = 100
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 	custom_attributes = {
 		blocked_call_diet = yes
@@ -543,18 +570,20 @@ authoritarian_rule = {
 		OR = {
 			has_institution = imperialism
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
 	modifiers = {
-		province_warscore_cost = -0.10
+		province_warscore_cost = -0.1
 		global_manpower_modifier = 0.25
 		army_tradition = 0.5
 		max_absolutism = 10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -565,19 +594,21 @@ dictatorial_rule = {
 		OR = {
 			has_institution = imperialism
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
 	modifiers = {
-		province_warscore_cost = -0.10
+		province_warscore_cost = -0.1
 		global_manpower_modifier = 0.25
 		army_tradition = 0.5
 		republican_tradition = -0.1
 		max_absolutism = 10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -587,12 +618,18 @@ democracy_reform = {
 	trigger = {
 		OR = {
 			AND = {
-				NOT = { has_reform = authoritarian_rule }
-				NOT = { has_reform = dictatorial_rule }
+				NOT = {
+					has_reform = authoritarian_rule
+				}
+				NOT = {
+					has_reform = dictatorial_rule
+				}
 				has_institution = nationalism_institution
 			}
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -604,7 +641,7 @@ democracy_reform = {
 		max_absolutism = -10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -615,7 +652,9 @@ oligarchic_reform = {
 		OR = {
 			has_institution = nationalism_institution
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -625,7 +664,7 @@ oligarchic_reform = {
 		max_absolutism = 10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -643,7 +682,9 @@ military_government = {
 				has_institution = nationalism_institution
 			}
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -651,13 +692,16 @@ military_government = {
 		land_forcelimit_modifier = 0.75
 		discipline = 0.05
 	}
-	
 	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 	custom_attributes = {
 		blocked_call_diet = yes
@@ -677,7 +721,9 @@ communist_government = {
 				has_institution = nationalism_institution
 			}
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -688,7 +734,7 @@ communist_government = {
 		tolerance_heathen = -1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 	custom_attributes = {
 		blocked_call_diet = yes
@@ -709,26 +755,30 @@ fascist_government = {
 				has_institution = nationalism_institution
 			}
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
 	modifiers = {
-		land_forcelimit_modifier = 1.0
+		land_forcelimit_modifier = 1
 		global_unrest = -1
 		culture_conversion_cost = -0.2
-
 		tolerance_heretic = -2
 		tolerance_heathen = -2
 		unjustified_demands = 0.2
 	}
-	
 	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 	custom_attributes = {
 		blocked_call_diet = yes
@@ -742,7 +792,9 @@ ceremonial_monarch = {
 		OR = {
 			has_institution = globalization
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -753,7 +805,7 @@ ceremonial_monarch = {
 		max_absolutism = -5
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -764,7 +816,9 @@ ceremonial_president = {
 		OR = {
 			has_institution = globalization
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -775,7 +829,7 @@ ceremonial_president = {
 		max_absolutism = -5
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -786,7 +840,9 @@ abolish_presidency = {
 		OR = {
 			has_institution = globalization
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -796,7 +852,7 @@ abolish_presidency = {
 		max_absolutism = -5
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -807,7 +863,9 @@ royal_power = {
 		OR = {
 			has_institution = globalization
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -816,7 +874,7 @@ royal_power = {
 		max_absolutism = 10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -827,7 +885,9 @@ powerful_head_of_state = {
 		OR = {
 			has_institution = globalization
 			hidden_trigger = {
-				NOT = { has_global_flag = extended_timeline_mod }
+				NOT = {
+					has_global_flag = extended_timeline_mod
+				}
 			}
 		}
 	}
@@ -836,7 +896,7 @@ powerful_head_of_state = {
 		max_absolutism = 10
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -845,7 +905,9 @@ early_gov_reform_1 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 200
 		}
 		else = {
@@ -856,15 +918,18 @@ early_gov_reform_1 = {
 		num_accepted_cultures = 1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
+
 early_gov_reform_1b = {
 	icon = "nobleman"
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 200
 		}
 		else = {
@@ -872,10 +937,10 @@ early_gov_reform_1b = {
 		}
 	}
 	modifiers = {
-		culture_conversion_cost = -0.10
+		culture_conversion_cost = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -884,7 +949,9 @@ early_gov_reform_2 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 330
 		}
 		else = {
@@ -895,7 +962,7 @@ early_gov_reform_2 = {
 		stability_cost_modifier = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -904,7 +971,9 @@ early_gov_reform_2b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 330
 		}
 		else = {
@@ -915,7 +984,7 @@ early_gov_reform_2b = {
 		yearly_corruption = -0.02
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -924,7 +993,9 @@ early_gov_reform_3 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 460
 		}
 		else = {
@@ -935,7 +1006,7 @@ early_gov_reform_3 = {
 		governing_capacity = 50
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -944,7 +1015,9 @@ early_gov_reform_3b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 460
 		}
 		else = {
@@ -955,7 +1028,7 @@ early_gov_reform_3b = {
 		core_creation = -0.05
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -964,7 +1037,9 @@ early_gov_reform_4 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 590
 		}
 		else = {
@@ -975,7 +1050,7 @@ early_gov_reform_4 = {
 		global_regiment_cost = -0.05
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -984,7 +1059,9 @@ early_gov_reform_4b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 590
 		}
 		else = {
@@ -995,7 +1072,7 @@ early_gov_reform_4b = {
 		global_regiment_recruit_speed = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1004,7 +1081,9 @@ early_gov_reform_5 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 720
 		}
 		else = {
@@ -1015,7 +1094,7 @@ early_gov_reform_5 = {
 		technology_cost = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1024,7 +1103,9 @@ early_gov_reform_5b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 720
 		}
 		else = {
@@ -1035,7 +1116,7 @@ early_gov_reform_5b = {
 		idea_cost = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1044,7 +1125,9 @@ early_gov_reform_6 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 850
 		}
 		else = {
@@ -1055,7 +1138,7 @@ early_gov_reform_6 = {
 		development_cost = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1064,7 +1147,9 @@ early_gov_reform_6b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 850
 		}
 		else = {
@@ -1075,7 +1160,7 @@ early_gov_reform_6b = {
 		build_cost = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1084,7 +1169,9 @@ early_gov_reform_7 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 980
 		}
 		else = {
@@ -1095,7 +1182,7 @@ early_gov_reform_7 = {
 		vassal_income = 0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1104,7 +1191,9 @@ early_gov_reform_7b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 980
 		}
 		else = {
@@ -1115,7 +1204,7 @@ early_gov_reform_7b = {
 		vassal_forcelimit_bonus = 0.5
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1124,7 +1213,9 @@ early_gov_reform_8 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1110
 		}
 		else = {
@@ -1135,7 +1226,7 @@ early_gov_reform_8 = {
 		advisor_cost = -0.02
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1144,7 +1235,9 @@ early_gov_reform_8b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1110
 		}
 		else = {
@@ -1155,7 +1248,7 @@ early_gov_reform_8b = {
 		same_culture_advisor_cost = -0.05
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1164,7 +1257,9 @@ early_gov_reform_9 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1240
 		}
 		else = {
@@ -1175,7 +1270,7 @@ early_gov_reform_9 = {
 		stability_cost_modifier = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1184,7 +1279,9 @@ early_gov_reform_9b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1240
 		}
 		else = {
@@ -1195,7 +1292,7 @@ early_gov_reform_9b = {
 		state_maintenance_modifier = -0.1
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1204,7 +1301,9 @@ early_gov_reform_10 = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1370
 		}
 		else = {
@@ -1215,7 +1314,7 @@ early_gov_reform_10 = {
 		leader_cost = -0.02
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
 
@@ -1224,7 +1323,9 @@ early_gov_reform_10b = {
 	allow_normal_conversion = yes
 	trigger = {
 		if = {
-			limit = { government = native }
+			limit = {
+				government = native
+			}
 			is_year = 1370
 		}
 		else = {
@@ -1235,6 +1336,6 @@ early_gov_reform_10b = {
 		mil_advisor_cost = -0.04
 	}
 	ai = {
-		factor = 0.5 #generic
+		factor = 0.5		#generic
 	}
 }
