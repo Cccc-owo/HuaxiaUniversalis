@@ -1,5 +1,6 @@
 namespace = et_china
-# ~~Rise of a new dynasty~~ Removed
+# Rise of a new dynasty
+# Removed.
 country_event = {
 	id = et_china.1
 	title = "et_china.1.t"
@@ -9,10 +10,6 @@ country_event = {
 	trigger = {
 		government = monarchy
 		has_new_dynasty = yes
-		has_changed_nation = no
-		NOT = {
-			has_country_flag = was_released_country
-		}
 		culture_group = east_asian
 		is_subject = no
 		is_at_war = no
