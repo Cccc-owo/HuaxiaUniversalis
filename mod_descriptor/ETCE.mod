@@ -1,4 +1,4 @@
-version="1.3.3"
+version="1.4.0"
 tags={
 	"Expansion"
 	"Fixes"
@@ -9,4 +9,4 @@ dependencies={
 }
 picture="thumbnail.png"
 name="延长时间线-华夏拓展 | ET-China Extension"
-supported_version="1.34.*"
+supported_version="1.35.*"
