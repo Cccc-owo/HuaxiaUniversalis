@@ -20,13 +20,15 @@ iii. 完成后游戏文件夹中应该有 [b]version.dll[/b]、[b]d3d9.dll[/b] �
 
 ====================
 
-[b]声明：本MOD的内容部分参考了「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1728520255]东亚·天朝日不落[/url]」及「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2789696782]风云世纪两千年（左版）[/url]」两个MOD，感谢以上MOD！[/b]
+[b]声明：本MOD的内容可能有部分参考了「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1728520255]东亚·天朝日不落[/url]」及「[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2789696782]风云世纪两千年（左版）[/url]」两个MOD，感谢以上MOD！[/b]
 
 修改内容：
 
 预告：~~最近在做省份细化，做完了之后会修正省份历史，敬请期待。~~
 
-省份细化几近完毕，接下来到省份历史修正和tag增加，欢迎加群提出建议，也欢迎提供理念
+~~省份细化几近完毕，接下来到省份历史修正和tag增加，欢迎加群提出建议，也欢迎提供理念~~
+
+新计划：基于 Typus Orbis Terrarum 重绘地图，工作量较大，故地图更新时间未定。
 
 v1.4.0
 - [x] 适配 EU4 v1.35.1 & ET v1.15.1
