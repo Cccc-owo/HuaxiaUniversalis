@@ -68,7 +68,7 @@ south_indian_ocean_area = {
 }
 
 great_australian_bight_area = {
-	1413 1415 1414 1416 1422 1635
+	1415 1414 1416 1422 1635
 }
 
 swahili_coast_sea_area = {
