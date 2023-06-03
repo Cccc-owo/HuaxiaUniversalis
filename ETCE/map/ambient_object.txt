@@ -2619,3 +2619,22 @@ type={
 		}
 	}
 }
+
+type={
+	type="kiel_canal"
+	use_animation=no
+	time_duration=300.000000
+	scale=1.200000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="kra_canal"
+		hidden_on_start=yes
+		position={
+			4755.000 0.100 1294.000
+		}
+		rotation={
+			0.000 -75.000 0.000 
+		}
+	}
+}
