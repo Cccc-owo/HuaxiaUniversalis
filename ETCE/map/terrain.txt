@@ -611,6 +611,8 @@ categories =  {
 			4815 # Mandala
 			
 			2728
+			
+			1997 #Fix Midway in Typus
 		}
 	}	
 	
