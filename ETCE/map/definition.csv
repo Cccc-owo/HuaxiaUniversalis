@@ -5183,7 +5183,7 @@ province;red;green;blue;x;x
 5510;96;96;32;Borkou;x
 5511;170;17;60;Djanet;x
 5512;170;47;130;Rif;x
-5513;160;138;80;Saida;x
+5513;160;137;80;Saida;x
 5514;225;110;173;Tindouf;x
 5515;10;137;130;Grand Erg;x
 5516;50;197;10;Erg Iguidi;x
@@ -5192,7 +5192,7 @@ province;red;green;blue;x;x
 5519;95;88;32;Grand Erg;x
 5520;96;108;126;Tademait;x
 5521;10;17;5;Abalessa;x
-5522;95;84;162;Ahaggar;x
+5522;95;84;126;Ahaggar;x
 5523;200;47;80;Saguia el-Hamra;x
 5524;39;72;42;Rio de Oro;x
 5525;224;106;79;Adrar;x
@@ -5262,7 +5262,7 @@ province;red;green;blue;x;x
 5589;170;197;50;Hardap;x
 5590;50;167;20;Otjiwarongo
 5591;200;137;40;Oshana;x
-5592;214;34;79;Okavango;x
+5592;219;34;79;Okavango;x
 5593;91;32;32;Botswana;x
 5594;150;107;130;Mahalapye;x
 5595;106;108;126;Serowe;x
@@ -5287,7 +5287,7 @@ province;red;green;blue;x;x
 5614;180;167;120;Chari;x
 5615;170;107;10;Garoua;x
 5616;97;116;126;Adamaoua;x
-5617;74;52;126;Cameroon;x
+5617;94;68;126;Cameroon;x
 5618;210;167;50;Woleu-Ntem;x
 5619;93;60;126;Ogooue;x
 5620;10;17;50;Vakaga;x
@@ -5307,10 +5307,10 @@ province;red;green;blue;x;x
 5634;90;77;110;Ortelsburg;x
 5635;207;110;4;Selknam;x
 5636;253;216;42;Rio de Oro;x
-5637;
-5638;
-5639;
-5640;
+5637;110;197;140;Reggane;x
+5638;10;47;20;Air Massif;x
+5639;90;137;130;Salamat;x
+5640;224;98;79;Kisangani;x
 5641;
 5642;
 5643;
