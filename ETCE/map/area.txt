@@ -1649,7 +1649,7 @@ southern_australia_area = {  #4 (Melbourne/Victoria)
 }
 goldfields_esperance_area = {  #4
 
-	2736 4862 1086 5540 5641 
+	2736 4862 1086 5540 5524 
 }
 illawara_area = {  #5
 
@@ -3770,7 +3770,7 @@ northern_papua_area = {
 	1789 2719 5528 
 }
 central_australia_area = { 
-	1790 5642 5542 5538 5537 
+	1790 5641 5542 5538 5537 
 }
 murray_river_area = { 
 	5531 4861 1088 1089 

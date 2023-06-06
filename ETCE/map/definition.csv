@@ -4941,6 +4941,7 @@ province;red;green;blue;x;x
 4940;29;216;197;Lake Tulare;x
 4941;30;216;201;Lake Cahuilla;x
 
+4999;;;;;
 5000;124;230;250;Changjiang;x
 5001;124;230;251;Changjiang;x
 5002;124;230;252;Changjiang;x
@@ -5170,6 +5171,7 @@ province;red;green;blue;x;x
 5226;159;24;85;DongTai;x
 5227;248;193;146;GaoYou;x
 
+5499;;;;;
 5500;130;47;15;Siwa;x
 5501;150;137;110;Great Sand Sea;x
 5502;70;167;130;Awjila;x
@@ -5194,7 +5196,7 @@ province;red;green;blue;x;x
 5521;10;17;5;Abalessa;x
 5522;95;84;126;Ahaggar;x
 5523;200;47;80;Saguia el-Hamra;x
-5524;
+5524;103;76;126;Andyamathanha;x
 5525;224;106;79;Adrar;x
 5526;170;17;20;El Djouf;x
 5527;255;13;40;Gambia;x
@@ -5311,5 +5313,4 @@ province;red;green;blue;x;x
 5638;10;47;20;Air Massif;x
 5639;90;137;130;Salamat;x
 5640;224;98;79;Kisangani;x
-5641;103;76;126;Andyamathanha;x
-5642;232;86;173;Uluru;x
+5641;232;86;173;Uluru;x
