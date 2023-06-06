@@ -1,12 +1,12 @@
-namespace = etce_mandate_events
+namespace = HU_mandate_events
 country_event = {
-	id = etce_mandate_events.1
-	title = "etce_mandate_events.1.title"
-	desc = "etce_mandate_events.1.desc"
+	id = HU_mandate_events.1
+	title = "HU_mandate_events.1.title"
+	desc = "HU_mandate_events.1.desc"
 	picture = COURT_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "etce_mandate_events.1.a"
+		name = "HU_mandate_events.1.a"
 		set_emperor_of_china = ROOT
 		clr_country_flag = tmp_positive_get_mandate_decision
 		clr_global_flag = empire_of_china_dismantled
@@ -20,20 +20,20 @@ country_event = {
 		}
 	}
 	option = {
-		name = "etce_mandate_events.1.b"
+		name = "HU_mandate_events.1.b"
 		clr_country_flag = tmp_positive_get_mandate_decision
 		clr_country_flag = flg_positive_get_mandate
 	}
 }
 
 country_event = {
-	id = etce_mandate_events.2
-	title = "etce_mandate_events.2.title"
-	desc = "etce_mandate_events.2.desc"
+	id = HU_mandate_events.2
+	title = "HU_mandate_events.2.title"
+	desc = "HU_mandate_events.2.desc"
 	picture = COURT_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "etce_mandate_events.2.a"
+		name = "HU_mandate_events.2.a"
 		if = {
 			limit = {
 				has_global_flag = empire_of_china_dismantled
@@ -43,7 +43,7 @@ country_event = {
 		dismantle_empire_of_china = yes
 	}
 	option = {
-		name = "etce_mandate_events.2.b"
+		name = "HU_mandate_events.2.b"
 		clr_country_flag = tmp_positive_dismantle_mandate_decision
 	}
 }

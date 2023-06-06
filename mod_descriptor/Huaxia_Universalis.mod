@@ -1,4 +1,4 @@
-version="1.4.1"
+version="2.0.0-pre1"
 tags={
 	"Expansion"
 	"Fixes"
@@ -10,5 +10,5 @@ dependencies={
 }
 #replace_path="history/provinces"
 picture="thumbnail.png"
-name="延长时间线-华夏拓展 | ET-China Extension"
+name="華夏風雲 - Huaxia Universalis"
 supported_version="1.35.*"

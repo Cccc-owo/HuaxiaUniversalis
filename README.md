@@ -1,4 +1,4 @@
-# 延长时间线-中国拓展 | ET-China Extension
+# 華夏風雲 - Huaxia Universalis
 
 ![thumbnail](thumbnail.png)
 
@@ -29,7 +29,7 @@
 |文件夹 / folder|内容 / contents|备注 / notes|
 |--------------|---------------|-----------|
 |[.github](.github)|GitHub 工作流文件||
-|[ETCE](ETCE)|模组文件||
+|[HU](HU)|模组文件||
 |[mod_descriptor](mod_descriptor)|mod 描述符文件||
 |output|输出文件夹|运行 ```main.bat``` 时会自动建立|
 

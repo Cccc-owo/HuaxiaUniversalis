@@ -25,7 +25,7 @@ country_decisions = {
 				set_country_flag = flg_positive_get_mandate
 			}
 			country_event = {
-				id = etce_mandate_events.1
+				id = HU_mandate_events.1
 			}
 		}
 		ai_will_do = {
@@ -54,7 +54,7 @@ country_decisions = {
 		effect = {
 			set_country_flag = tmp_positive_dismantle_mandate_decision
 			country_event = {
-				id = etce_mandate_events.2
+				id = HU_mandate_events.2
 			}
 		}
 		ai_will_do = {

@@ -3,11 +3,11 @@
 # Modified from Ottoman Harem Events   #
 # Written by Henrik Lohmander		   #
 ########################################
-namespace = etce_succession_events
+namespace = HU_succession_events
 # The Sons of [Root.Monarch.GetName]
 country_event = {
-	id = etce_succession_events.1
-	title = etce_succession_events.1.t
+	id = HU_succession_events.1
+	title = HU_succession_events.1.t
 	picture = 3_SONS_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -24,13 +24,13 @@ country_event = {
 		trigger = {
 			is_female = yes
 		}
-		desc = etce_succession_events.1.female		#Fallback, not likely to ever be used in vanilla.
+		desc = HU_succession_events.1.female		#Fallback, not likely to ever be used in vanilla.
 	}
 	desc = {
 		trigger = {
 			is_female = no
 		}
-		desc = etce_succession_events.1.d
+		desc = HU_succession_events.1.d
 	}
 	desc = {
 		trigger = {
@@ -39,7 +39,7 @@ country_event = {
 				has_reform = celestial_empire
 			}
 		}
-		desc = etce_succession_events.1.female.notce		#Fallback, not likely to ever be used in vanilla.
+		desc = HU_succession_events.1.female.notce		#Fallback, not likely to ever be used in vanilla.
 	}
 	desc = {
 		trigger = {
@@ -48,7 +48,7 @@ country_event = {
 				has_reform = celestial_empire
 			}
 		}
-		desc = etce_succession_events.1.d.notce
+		desc = HU_succession_events.1.d.notce
 	}
 	immediate = {
 		hidden_effect = {
@@ -94,7 +94,7 @@ country_event = {
 		months = 6
 	}
 	option = {
-		name = etce_succession_events.1.a		#Pious
+		name = HU_succession_events.1.a		#Pious
 		trigger = {
 			ai = no
 			has_country_flag = succession_pious_heir
@@ -118,7 +118,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.b		#Strong
+		name = HU_succession_events.1.b		#Strong
 		trigger = {
 			ai = no
 			has_country_flag = succession_strong_heir
@@ -142,7 +142,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.c		#Studious
+		name = HU_succession_events.1.c		#Studious
 		trigger = {
 			ai = no
 			has_country_flag = succession_studious_heir
@@ -166,7 +166,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.e		#leadership
+		name = HU_succession_events.1.e		#leadership
 		trigger = {
 			ai = no
 			has_country_flag = succession_leadership_heir
@@ -190,7 +190,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.d
+		name = HU_succession_events.1.d
 		trigger = {
 			ai = no
 			has_country_flag = succession_gregarious_heir
@@ -214,7 +214,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.f
+		name = HU_succession_events.1.f
 		trigger = {
 			ai = no
 			has_country_flag = succession_fairest_heir
@@ -236,7 +236,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.g
+		name = HU_succession_events.1.g
 		trigger = {
 			ai = no
 			has_country_flag = succession_entrepreneurial_heir
@@ -260,7 +260,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.h
+		name = HU_succession_events.1.h
 		trigger = {
 			has_country_flag = succession_inquisitive_heir
 		}
@@ -281,7 +281,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.i
+		name = HU_succession_events.1.i
 		trigger = {
 			ai = no
 			has_country_flag = succession_genious_heir
@@ -306,7 +306,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.1.j
+		name = HU_succession_events.1.j
 		trigger = {
 			ai = no
 			has_country_flag = succession_generous_heir
@@ -332,7 +332,7 @@ country_event = {
 			ai = yes
 		}
 		#Because the AI cannot tell the candidates apart (like a human would) it instead gets a small boost to every stat.
-		name = etce_succession_events.1.j
+		name = HU_succession_events.1.j
 		clr_country_flag = succession_pious_heir
 		clr_country_flag = succession_strong_heir
 		clr_country_flag = succession_leadership_heir
@@ -356,13 +356,13 @@ country_event = {
 
 # Kili� alayi
 country_event = {
-	id = etce_succession_events.2
-	title = etce_succession_events.2.t
+	id = HU_succession_events.2
+	title = HU_succession_events.2.t
 	desc = {
 		trigger = {
 			has_reform = celestial_empire
 		}
-		desc = etce_succession_events.2.da
+		desc = HU_succession_events.2.da
 	}
 	desc = {
 		trigger = {
@@ -370,7 +370,7 @@ country_event = {
 				has_reform = celestial_empire
 			}
 		}
-		desc = etce_succession_events.2.db
+		desc = HU_succession_events.2.db
 	}
 	picture = COURT_eventPicture
 	trigger = {
@@ -390,16 +390,16 @@ country_event = {
 	}
 	is_triggered_only = yes
 	option = {
-		name = etce_succession_events.2.a
-		custom_tooltip = etce_succession_events.2.a.tt
+		name = HU_succession_events.2.a
+		custom_tooltip = HU_succession_events.2.a.tt
 	}
 }
 
 #Sancaga �ikma
 country_event = {
-	id = etce_succession_events.3
-	title = etce_succession_events.3.t
-	desc = etce_succession_events.3.d
+	id = HU_succession_events.3
+	title = HU_succession_events.3.t
+	desc = HU_succession_events.3.d
 	picture = 3_SONS_eventPicture
 	trigger = {
 		has_reform = celestial_empire
@@ -456,8 +456,8 @@ country_event = {
 		months = 1000
 	}
 	option = {
-		name = etce_succession_events.3.a
-		custom_tooltip = etce_succession_events.3.a.tt
+		name = HU_succession_events.3.a
+		custom_tooltip = HU_succession_events.3.a.tt
 		set_ruler_flag = sancaga_cikma
 		event_target:sancaga_cikma_province = {
 			add_province_modifier = {
@@ -467,17 +467,17 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.3.b
-		custom_tooltip = etce_succession_events.3.b.tt
+		name = HU_succession_events.3.b
+		custom_tooltip = HU_succession_events.3.b.tt
 		set_ruler_flag = sancaga_cikma		#Event shouldn't trigger again for the same heir
 	}
 }
 
 # Heir returns (the province was either lost or the modifier ran out)
 country_event = {
-	id = etce_succession_events.4
-	title = etce_succession_events.4.t
-	desc = etce_succession_events.4.d
+	id = HU_succession_events.4
+	title = HU_succession_events.4.t
+	desc = HU_succession_events.4.d
 	picture = 3_SONS_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -495,19 +495,19 @@ country_event = {
 		months = 1
 	}
 	option = {
-		name = etce_succession_events.4.a
+		name = HU_succession_events.4.a
 		#Ruler flag only cleared on monarch or heir death.
 		set_ruler_flag = returned_from_sancaga_sikma_province
-		custom_tooltip = etce_succession_events.4.a.tt
+		custom_tooltip = HU_succession_events.4.a.tt
 	}
 }
 
 # Heir Revolts
 country_event = {
-	id = etce_succession_events.5
-	title = etce_succession_events.5.t
+	id = HU_succession_events.5
+	title = HU_succession_events.5.t
 	picture = 3_SONS_eventPicture
-	desc = etce_succession_events.5.d
+	desc = HU_succession_events.5.d
 	trigger = {
 		has_ruler_flag = sancaga_cikma
 		has_dlc = "Rights of Man"
@@ -534,7 +534,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.5.a
+		name = HU_succession_events.5.a
 		set_ruler_flag = returned_from_sancaga_sikma_province
 		event_target:heir_revolter = {
 			spawn_rebels = {
@@ -555,9 +555,9 @@ country_event = {
 
 #Training Paid Off
 country_event = {
-	id = etce_succession_events.6
-	title = etce_succession_events.6.t
-	desc = etce_succession_events.6.d
+	id = HU_succession_events.6
+	title = HU_succession_events.6.t
+	desc = HU_succession_events.6.d
 	picture = 3_SONS_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -595,7 +595,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.6.a
+		name = HU_succession_events.6.a
 		set_ruler_flag = returned_from_sancaga_sikma_province
 		trigger_switch = {
 			on_trigger = has_country_flag
@@ -617,9 +617,9 @@ country_event = {
 
 # Law of Fratricide fails
 country_event = {
-	id = etce_succession_events.7
-	title = etce_succession_events.7.t
-	desc = etce_succession_events.7.d
+	id = HU_succession_events.7
+	title = HU_succession_events.7.t
+	desc = HU_succession_events.7.d
 	picture = 3_SONS_eventPicture
 	is_triggered_only = yes
 	trigger = {
@@ -645,7 +645,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.7.a
+		name = HU_succession_events.7.a
 		event_target:enthronement_or_death = {
 			spawn_rebels = {
 				type = pretender_rebels
@@ -659,14 +659,14 @@ country_event = {
 
 # Death of the Valide Sultan / Mahd-i Ulya
 country_event = {
-	id = etce_succession_events.8
-	title = etce_succession_events.8.t
+	id = HU_succession_events.8
+	title = HU_succession_events.8.t
 	picture = DEATH_OF_HEIR_eventPicture
 	desc = {
 		trigger = {
 			ruler_age = 50
 		}
-		desc = etce_succession_events.8.da
+		desc = HU_succession_events.8.da
 	}
 	desc = {
 		trigger = {
@@ -675,7 +675,7 @@ country_event = {
 				ruler_age = 50
 			}
 		}
-		desc = etce_succession_events.8.dc
+		desc = HU_succession_events.8.dc
 	}
 	desc = {
 		trigger = {
@@ -683,7 +683,7 @@ country_event = {
 				ruler_age = 30
 			}
 		}
-		desc = etce_succession_events.8.db
+		desc = HU_succession_events.8.db
 	}
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -708,12 +708,12 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.8.a
+		name = HU_succession_events.8.a
 		add_adm_power = -25		#Loss of the Function of the Valide Sultan
 		add_prestige = 5
 	}
 	option = {
-		name = etce_succession_events.8.b
+		name = HU_succession_events.8.b
 		trigger = {
 			any_owned_province = {
 				is_state = yes
@@ -745,9 +745,9 @@ country_event = {
 
 # Vali Ahad Demands to be General
 country_event = {
-	id = etce_succession_events.9
-	title = etce_succession_events.9.t
-	desc = etce_succession_events.9.d
+	id = HU_succession_events.9
+	title = HU_succession_events.9.t
+	desc = HU_succession_events.9.d
 	picture = QUEEN_AND_MALE_HEIR_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -764,7 +764,7 @@ country_event = {
 		months = 400
 	}
 	option = {
-		name = etce_succession_events.9.a
+		name = HU_succession_events.9.a
 		if = {
 			limit = {
 				heir_mil = 1
@@ -829,7 +829,7 @@ country_event = {
 		trigger = {
 			has_reform = celestial_empire
 		}
-		name = etce_succession_events.9.b
+		name = HU_succession_events.9.b
 		add_heir_claim = -10
 	}
 	option = {
@@ -838,7 +838,7 @@ country_event = {
 				has_reform = celestial_empire
 			}
 		}
-		name = etce_succession_events.9.c
+		name = HU_succession_events.9.c
 		add_heir_claim = -10
 	}
 }
@@ -846,13 +846,13 @@ country_event = {
 # Vali Ahad is plotting against the Sultan?
 # Very loosely based on the fate of Suleiman the Magnificent's son Mustafa
 country_event = {
-	id = etce_succession_events.10
-	title = etce_succession_events.10.t
+	id = HU_succession_events.10
+	title = HU_succession_events.10.t
 	desc = {
 		trigger = {
 			has_reform = celestial_empire
 		}
-		desc = etce_succession_events.10.da
+		desc = HU_succession_events.10.da
 	}
 	desc = {
 		trigger = {
@@ -860,7 +860,7 @@ country_event = {
 				has_reform = celestial_empire
 			}
 		}
-		desc = etce_succession_events.10.db
+		desc = HU_succession_events.10.db
 	}
 	picture = SPY_eventPicture
 	trigger = {
@@ -974,19 +974,19 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.10.a		#Then he must die.
-		custom_tooltip = etce_succession_events.10.a.tt
+		name = HU_succession_events.10.a		#Then he must die.
+		custom_tooltip = HU_succession_events.10.a.tt
 		#Possibly add outcome where heir flees here? Tie in to Cem?
 		hidden_effect = {
 			random_list = {
 				75 = {
 					country_event = {
-						id = etce_succession_events.14
+						id = HU_succession_events.14
 					}
 				}
 				25 = {
 					country_event = {
-						id = etce_succession_events.13
+						id = HU_succession_events.13
 					}
 				}
 			}
@@ -1005,21 +1005,21 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.10.b		#Summon X
-		custom_tooltip = etce_succession_events.10.b.tt
+		name = HU_succession_events.10.b		#Summon X
+		custom_tooltip = HU_succession_events.10.b.tt
 		hidden_effect = {
 			trigger_switch = {
 				on_trigger = has_ruler_flag
 				heir_plotting = {
 					country_event = {
-						id = etce_succession_events.12
+						id = HU_succession_events.12
 						days = 7
 					}
 					clr_ruler_flag = heir_plotting
 				}
 				heir_framed_for_plot = {
 					country_event = {
-						id = etce_succession_events.11
+						id = HU_succession_events.11
 						days = 7
 					}
 					clr_ruler_flag = heir_framed_for_plot
@@ -1028,8 +1028,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.10.c		#I will not listen to these lies!
-		custom_tooltip = etce_succession_events.10.c.tt
+		name = HU_succession_events.10.c		#I will not listen to these lies!
+		custom_tooltip = HU_succession_events.10.c.tt
 		remove_consort = yes
 		hidden_effect = {
 			define_consort = {
@@ -1038,14 +1038,14 @@ country_event = {
 				on_trigger = has_ruler_flag
 				heir_plotting = {
 					country_event = {
-						id = etce_succession_events.12
+						id = HU_succession_events.12
 						days = 7
 					}
 					clr_ruler_flag = heir_plotting
 				}
 				heir_framed_for_plot = {
 					country_event = {
-						id = etce_succession_events.11
+						id = HU_succession_events.11
 						days = 7
 					}
 					clr_ruler_flag = heir_framed_for_plot
@@ -1057,13 +1057,13 @@ country_event = {
 
 #All is well
 country_event = {
-	id = etce_succession_events.11
-	title = etce_succession_events.11.t
-	desc = etce_succession_events.11.d
+	id = HU_succession_events.11
+	title = HU_succession_events.11.t
+	desc = HU_succession_events.11.d
 	picture = QUEEN_AND_MALE_HEIR_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = etce_succession_events.11.a
+		name = HU_succession_events.11.a
 		add_prestige = 5
 		if = {
 			limit = {
@@ -1078,13 +1078,13 @@ country_event = {
 
 #Large Revolt
 country_event = {
-	id = etce_succession_events.12
-	title = etce_succession_events.12.t
-	desc = etce_succession_events.12.d
+	id = HU_succession_events.12
+	title = HU_succession_events.12.t
+	desc = HU_succession_events.12.d
 	picture = 3_SONS_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = etce_succession_events.12.a		#Father / Yes son? / I want to kill you 
+		name = HU_succession_events.12.a		#Father / Yes son? / I want to kill you 
 		random_owned_province = {
 			limit = {
 				is_state = yes
@@ -1122,9 +1122,9 @@ country_event = {
 
 #Death of X
 country_event = {
-	id = etce_succession_events.13
-	title = etce_succession_events.13.t
-	desc = etce_succession_events.13.d
+	id = HU_succession_events.13
+	title = HU_succession_events.13.t
+	desc = HU_succession_events.13.d
 	picture = DEATH_OF_HEIR_eventPicture
 	is_triggered_only = yes
 	immediate = {
@@ -1134,20 +1134,20 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.13.a
+		name = HU_succession_events.13.a
 		add_prestige = -5
 	}
 }
 
 #X takes up arms against his father.
 country_event = {
-	id = etce_succession_events.14
-	title = etce_succession_events.14.t
-	desc = etce_succession_events.14.d
+	id = HU_succession_events.14
+	title = HU_succession_events.14.t
+	desc = HU_succession_events.14.d
 	picture = 3_SONS_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = etce_succession_events.14.a
+		name = HU_succession_events.14.a
 		random_owned_province = {
 			spawn_rebels = {
 				type = pretender_rebels
@@ -1169,8 +1169,8 @@ country_event = {
 
 # Sehzade on the Military Frontier
 country_event = {
-	id = etce_succession_events.15
-	title = etce_succession_events.15.t
+	id = HU_succession_events.15
+	title = HU_succession_events.15.t
 	picture = MILITARISTICALLY_TALENTED_RULER_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -1222,13 +1222,13 @@ country_event = {
 			}
 		}
 	}
-	desc = etce_succession_events.15.d
+	desc = HU_succession_events.15.d
 	mean_time_to_happen = {
 		months = 400
 	}
 	#Choice should mostly be dependent on the random heirs.
 	option = {
-		name = etce_succession_events.15.a
+		name = HU_succession_events.15.a
 		define_heir = {
 			dynasty = original_dynasty
 			age = 25
@@ -1241,8 +1241,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.15.b
-		custom_tooltip = etce_succession_events.15.b.tt
+		name = HU_succession_events.15.b
+		custom_tooltip = HU_succession_events.15.b.tt
 		add_heir_claim = -5
 		event_target:china_prince_here = {
 			add_base_manpower = 1
@@ -1252,9 +1252,9 @@ country_event = {
 
 # Support of the Valide Sultan
 country_event = {
-	id = etce_succession_events.16
-	title = etce_succession_events.16.t
-	desc = etce_succession_events.16.d
+	id = HU_succession_events.16
+	title = HU_succession_events.16.t
+	desc = HU_succession_events.16.d
 	picture = COURT_INTRIGUE_eventPicture
 	trigger = {
 		has_reform = celestial_empire
@@ -1271,16 +1271,16 @@ country_event = {
 		months = 400
 	}
 	option = {
-		name = etce_succession_events.16.a
+		name = HU_succession_events.16.a
 		add_heir_claim = 5
 	}
 }
 
 # Conflict between the Valide Sultan and queen Sultan
 country_event = {
-	id = etce_succession_events.17
-	title = etce_succession_events.17.t
-	desc = etce_succession_events.17.d
+	id = HU_succession_events.17
+	title = HU_succession_events.17.t
+	desc = HU_succession_events.17.d
 	picture = COURT_INTRIGUE_eventPicture
 	trigger = {
 		has_reform = celestial_empire
@@ -1298,8 +1298,8 @@ country_event = {
 		months = 400
 	}
 	option = {
-		name = etce_succession_events.17.a		#Side with your mother.
-		custom_tooltip = etce_succession_events.17.a.tt
+		name = HU_succession_events.17.a		#Side with your mother.
+		custom_tooltip = HU_succession_events.17.a.tt
 		ai_chance = {
 			factor = 100
 		}
@@ -1308,11 +1308,11 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.17.b		#Side with your first consort.
+		name = HU_succession_events.17.b		#Side with your first consort.
 		ai_chance = {
 			factor = 0
 		}
-		custom_tooltip = etce_succession_events.17.b.tt
+		custom_tooltip = HU_succession_events.17.b.tt
 		set_ruler_flag = death_of_empress_dowager		#Not Actually dead
 		define_heir = {
 			male = yes
@@ -1322,20 +1322,20 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.17.c		#Avoid taking sides.
+		name = HU_succession_events.17.c		#Avoid taking sides.
 		ai_chance = {
 			factor = 0
 		}
-		custom_tooltip = etce_succession_events.17.c.tt
+		custom_tooltip = HU_succession_events.17.c.tt
 		add_heir_claim = -10
 	}
 }
 
 # Architectural work of the Valide Sultan
 country_event = {
-	id = etce_succession_events.18
-	title = etce_succession_events.18.t
-	desc = etce_succession_events.18.d
+	id = HU_succession_events.18
+	title = HU_succession_events.18.t
+	desc = HU_succession_events.18.d
 	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
 	trigger = {
 		has_reform = celestial_empire
@@ -1354,7 +1354,7 @@ country_event = {
 		months = 500
 	}
 	option = {
-		name = etce_succession_events.18.a
+		name = HU_succession_events.18.a
 		ai_chance = {
 			factor = 75
 		}
@@ -1366,7 +1366,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.18.b
+		name = HU_succession_events.18.b
 		ai_chance = {
 			factor = 25
 		}
@@ -1376,9 +1376,9 @@ country_event = {
 
 # Charitable work of the queen
 province_event = {
-	id = etce_succession_events.19
-	title = etce_succession_events.19.t
-	desc = etce_succession_events.19.d
+	id = HU_succession_events.19
+	title = HU_succession_events.19.t
+	desc = HU_succession_events.19.d
 	picture = QUEEN_AT_COUNCIL_TABLE_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -1403,7 +1403,7 @@ province_event = {
 	}
 	is_mtth_scaled_to_size = 1
 	option = {
-		name = etce_succession_events.19.a
+		name = HU_succession_events.19.a
 		area = {
 			limit = {
 				owned_by = ROOT
@@ -1422,9 +1422,9 @@ province_event = {
 
 # queen Sultan Challenged
 country_event = {
-	id = etce_succession_events.20
-	title = etce_succession_events.20.t
-	desc = etce_succession_events.20.d
+	id = HU_succession_events.20
+	title = HU_succession_events.20.t
+	desc = HU_succession_events.20.d
 	picture = COURT_INTRIGUE_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -1437,14 +1437,14 @@ country_event = {
 		months = 240
 	}
 	option = {
-		name = etce_succession_events.20.a		#Our current queen is fine.
+		name = HU_succession_events.20.a		#Our current queen is fine.
 		ai_chance = {
 			factor = 50
 		}
 		add_prestige = 5
 	}
 	option = {
-		name = etce_succession_events.20.b		#The newcomer has our heart now.
+		name = HU_succession_events.20.b		#The newcomer has our heart now.
 		ai_chance = {
 			factor = 50
 		}
@@ -1456,9 +1456,9 @@ country_event = {
 
 # Competition among the Consorts
 country_event = {
-	id = etce_succession_events.21
-	title = etce_succession_events.21.t
-	desc = etce_succession_events.21.d
+	id = HU_succession_events.21
+	title = HU_succession_events.21.t
+	desc = HU_succession_events.21.d
 	picture = COURT_INTRIGUE_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -1474,7 +1474,7 @@ country_event = {
 		months = 240
 	}
 	option = {
-		name = etce_succession_events.21.a		#I will name her my queen Sultan
+		name = HU_succession_events.21.a		#I will name her my queen Sultan
 		ai_chance = {
 			factor = 50
 		}
@@ -1482,7 +1482,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.21.b		#I will name her my queen Sultan
+		name = HU_succession_events.21.b		#I will name her my queen Sultan
 		ai_chance = {
 			factor = 50
 		}
@@ -1490,16 +1490,16 @@ country_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.21.c		#No let's keep our options open.
+		name = HU_succession_events.21.c		#No let's keep our options open.
 		add_prestige = -5
 	}
 }
 
 # Prince Ruins Province
 province_event = {
-	id = etce_succession_events.22
-	title = etce_succession_events.22.t
-	desc = etce_succession_events.22.d
+	id = HU_succession_events.22
+	title = HU_succession_events.22.t
+	desc = HU_succession_events.22.d
 	picture = BABBLING_BAFFOON_eventPicture
 	trigger = {
 		is_state = yes
@@ -1516,7 +1516,7 @@ province_event = {
 	}
 	is_mtth_scaled_to_size = 1
 	option = {
-		name = etce_succession_events.22.a
+		name = HU_succession_events.22.a
 		ai_chance = {
 			factor = 1
 		}
@@ -1534,7 +1534,7 @@ province_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.22.b
+		name = HU_succession_events.22.b
 		ai_chance = {
 			factor = 0
 		}
@@ -1544,9 +1544,9 @@ province_event = {
 
 # Ruler is old - Opportunity
 country_event = {
-	id = etce_succession_events.23
-	title = etce_succession_events.23.t
-	desc = etce_succession_events.23.d
+	id = HU_succession_events.23
+	title = HU_succession_events.23.t
+	desc = HU_succession_events.23.d
 	picture = MILITARISTICALLY_TALENTED_RULER_eventPicture
 	trigger = {
 		has_dlc = "Rights of Man"
@@ -1571,7 +1571,7 @@ country_event = {
 		months = 400
 	}
 	option = {
-		name = etce_succession_events.23.a
+		name = HU_succession_events.23.a
 		event_target:revolter_prince = {
 			spawn_rebels = {
 				type = pretender_rebels
@@ -1585,9 +1585,9 @@ country_event = {
 
 # Prince Improves Province
 province_event = {
-	id = etce_succession_events.24
-	title = etce_succession_events.24.t
-	desc = etce_succession_events.24.d
+	id = HU_succession_events.24
+	title = HU_succession_events.24.t
+	desc = HU_succession_events.24.d
 	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
 	trigger = {
 		is_state = yes
@@ -1605,7 +1605,7 @@ province_event = {
 	}
 	is_mtth_scaled_to_size = 1
 	option = {
-		name = etce_succession_events.24.a
+		name = HU_succession_events.24.a
 		ai_chance = {
 			factor = 50
 		}
@@ -1621,11 +1621,11 @@ province_event = {
 		}
 	}
 	option = {
-		name = etce_succession_events.24.b
+		name = HU_succession_events.24.b
 		ai_chance = {
 			factor = 50
 		}
-		custom_tooltip = etce_succession_events.24.b.tt
+		custom_tooltip = HU_succession_events.24.b.tt
 		owner = {
 			add_heir_claim = -5
 		}

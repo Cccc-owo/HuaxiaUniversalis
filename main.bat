@@ -1,7 +1,7 @@
 ::=====setting environment=====
 @ECHO OFF
-set mod_desc=ETCE.mod
-set mod_dir=ETCE
+set mod_desc=HU.mod
+set mod_dir=HU
 ::=====setting environment end=====
 ::=====checking=====
 ECHO Time:%date%

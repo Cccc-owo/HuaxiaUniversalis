@@ -1,9 +1,9 @@
-namespace = etce_special_conquer_events
+namespace = HU_special_conquer_events
 #for the country whose province has been occupied
 province_event = {
-	id = etce_special_conquer_events.1
-	title = "etce_special_conquer_events.1.title"
-	desc = "etce_special_conquer_events.1.desc"
+	id = HU_special_conquer_events.1
+	title = "HU_special_conquer_events.1.title"
+	desc = "HU_special_conquer_events.1.desc"
 	picture = BATTLE_eventPicture
 	is_triggered_only = yes
 	trigger = {
@@ -50,33 +50,33 @@ province_event = {
 			}
 			controller = {
 				country_event = {
-					id = etce_special_conquer_events.2
+					id = HU_special_conquer_events.2
 				}
 			}
 		}
 	}
 	option = {
-		name = "etce_special_conquer_events.1.a"
+		name = "HU_special_conquer_events.1.a"
 	}
 }
 
 #announce
 country_event = {
-	id = etce_special_conquer_events.2
-	title = "etce_special_conquer_events.2.title"
-	desc = "etce_special_conquer_events.2.desc"
+	id = HU_special_conquer_events.2
+	title = "HU_special_conquer_events.2.title"
+	desc = "HU_special_conquer_events.2.desc"
 	picture = SIEGE_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "etce_special_conquer_events.2.a"
+		name = "HU_special_conquer_events.2.a"
 	}
 }
 
 #lose province
 province_event = {
-	id = etce_special_conquer_events.3
-	title = "etce_special_conquer_events.3.title"
-	desc = "etce_special_conquer_events.3.desc"
+	id = HU_special_conquer_events.3
+	title = "HU_special_conquer_events.3.title"
+	desc = "HU_special_conquer_events.3.desc"
 	picture = SIEGE_eventPicture
 	trigger = {
 		NOT = {
@@ -95,31 +95,31 @@ province_event = {
 					cede_province = PREV
 				}
 				country_event = {
-					id = etce_special_conquer_events.4
+					id = HU_special_conquer_events.4
 				}
 			}
 		}
 	}
 	option = {
-		name = "etce_special_conquer_events.3.a"
+		name = "HU_special_conquer_events.3.a"
 	}
 }
 
 #announce
 country_event = {
-	id = etce_special_conquer_events.4
-	title = "etce_special_conquer_events.4.title"
-	desc = "etce_special_conquer_events.4.desc"
+	id = HU_special_conquer_events.4
+	title = "HU_special_conquer_events.4.title"
+	desc = "HU_special_conquer_events.4.desc"
 	picture = REFORM_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = "etce_special_conquer_events.4.a"
+		name = "HU_special_conquer_events.4.a"
 	}
 }
 
 #recapture
 province_event = {
-	id = etce_special_conquer_events.5
+	id = HU_special_conquer_events.5
 	title = none
 	desc = none
 	picture = none
@@ -141,9 +141,9 @@ province_event = {
 
 #core
 province_event = {
-	id = etce_special_conquer_events.6
-	title = "etce_special_conquer_events.6.title"
-	desc = "etce_special_conquer_events.6.desc"
+	id = HU_special_conquer_events.6
+	title = "HU_special_conquer_events.6.title"
+	desc = "HU_special_conquer_events.6.desc"
 	picture = REFORM_eventPicture
 	mean_time_to_happen = {
 		days = 30
@@ -163,7 +163,7 @@ province_event = {
 	}
 	option = {
 		#adm
-		name = "etce_special_conquer_events.6.a"
+		name = "HU_special_conquer_events.6.a"
 		add_core = owner
 		if = {
 			limit = {
@@ -196,7 +196,7 @@ province_event = {
 				}
 				add_mandate = 0.1
 			}
-			custom_tooltip = etce_change_land_share_special_tt
+			custom_tooltip = HU_change_land_share_special_tt
 			hidden_effect = {
 				random_list = {
 					33 = {
@@ -223,7 +223,7 @@ province_event = {
 	}
 	option = {
 		#dip
-		name = "etce_special_conquer_events.6.b"
+		name = "HU_special_conquer_events.6.b"
 		add_core = owner
 		if = {
 			limit = {
@@ -256,7 +256,7 @@ province_event = {
 				}
 				add_mandate = 0.1
 			}
-			custom_tooltip = etce_change_land_share_special_tt
+			custom_tooltip = HU_change_land_share_special_tt
 			hidden_effect = {
 				random_list = {
 					33 = {
@@ -283,7 +283,7 @@ province_event = {
 	}
 	option = {
 		#mil
-		name = "etce_special_conquer_events.6.c"
+		name = "HU_special_conquer_events.6.c"
 		add_core = owner
 		if = {
 			limit = {
@@ -316,7 +316,7 @@ province_event = {
 				}
 				add_mandate = 0.1
 			}
-			custom_tooltip = etce_change_land_share_special_tt
+			custom_tooltip = HU_change_land_share_special_tt
 			hidden_effect = {
 				random_list = {
 					33 = {
@@ -343,7 +343,7 @@ province_event = {
 	}
 	option = {
 		#cash
-		name = "etce_special_conquer_events.6.d"
+		name = "HU_special_conquer_events.6.d"
 		add_core = owner
 		owner = {
 			add_years_of_income = -0.02
@@ -361,7 +361,7 @@ province_event = {
 				}
 				add_mandate = 0.1
 			}
-			custom_tooltip = etce_change_land_share_special_tt
+			custom_tooltip = HU_change_land_share_special_tt
 			hidden_effect = {
 				random_list = {
 					33 = {
@@ -388,6 +388,6 @@ province_event = {
 	}
 	option = {
 		#none
-		name = "etce_special_conquer_events.6.e"
+		name = "HU_special_conquer_events.6.e"
 	}
 }
