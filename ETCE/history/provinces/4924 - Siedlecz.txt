@@ -1,0 +1,6 @@
+#4924 - Laurentian Massif
+discovered_by = north_american
+1673.1.1  = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR } 
+1880.1.1 = { discovered_by = eastern discovered_by = muslim discovered_by = ottoman discovered_by = asian }
+1910.1.1 = { discovered_by = western }

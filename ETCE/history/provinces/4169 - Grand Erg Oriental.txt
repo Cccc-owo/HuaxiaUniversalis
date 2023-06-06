@@ -1,0 +1,8 @@
+#4169 - Aures
+discovered_by = ROW
+discovered_by = ROM
+discovered_by = ottoman
+discovered_by = middle_eastern
+discovered_by = muslim
+600.1.1 = { discovered_by = western }
+1910.1.1 = { discovered_by = eastern discovered_by = asian }

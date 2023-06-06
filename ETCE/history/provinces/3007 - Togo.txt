@@ -1,0 +1,6 @@
+#3007 - East Chukchi Sea
+discovered_by = north_american
+1648.1.1   = { discovered_by = RUS } # Semyon Dezhnyov
+1779.1.1   = { discovered_by = GBR } # James Cook
+1910.1.1 = { discovered_by = western }
+1920.1.1   = { discovered_by = eastern discovered_by = muslim discovered_by = ottoman discovered_by = asian }

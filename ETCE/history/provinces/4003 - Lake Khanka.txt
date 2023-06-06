@@ -1,3 +1,4 @@
+#4003 - Lake Khanka
 discovered_by = nomad_group
 discovered_by = eastern_nomad_group
 discovered_by = chinese

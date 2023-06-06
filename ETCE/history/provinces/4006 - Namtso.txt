@@ -1,3 +1,4 @@
+#4006 - Namtso
 discovered_by = indian
 discovered_by = early_indian
 discovered_by = chinese

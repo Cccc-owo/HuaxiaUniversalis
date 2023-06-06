@@ -1,4 +1,4 @@
-
+#4019 - Lake Kyoga
 discovered_by = central_african
 
 1844.1.1   = { discovered_by = EGY discovered_by = TUR }
