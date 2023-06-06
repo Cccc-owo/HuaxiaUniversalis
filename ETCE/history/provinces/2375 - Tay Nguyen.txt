@@ -1,5 +1,3 @@
-#2386 - Tay Nguyen
-
 culture = bahnaric
 religion = animism
 capital = "Koho"
@@ -66,6 +64,3 @@ native_hostileness = 5
 1945.8.23  = { owner = FR2 controller = FR2 add_core = SVI }
 1948.5.27  = { owner = SVI controller = SVI }
 1976.7.2   = { owner = VTN controller = VTN remove_core = SVI }
-
-
-

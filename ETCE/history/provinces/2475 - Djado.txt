@@ -1,4 +1,4 @@
-#2048 - Tibesti
+# - Djado
 
 culture = toubou
 religion = shamanism
