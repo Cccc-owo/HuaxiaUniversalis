@@ -4,7 +4,7 @@
   
 #Please confirm the output is as expected before testing in-game.
 
-music = {
-    name = "maintheme"
-    file = "杨洪基-滚滚长江东逝水.ogg"
-}
+#music = {
+#    name = ""
+#    file = ""
+#}
