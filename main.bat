@@ -1,6 +1,6 @@
 ::=====setting environment=====
 @ECHO OFF
-set mod_desc=HU.mod
+set mod_desc=Huaxia_Universalis.mod
 set mod_dir=HU
 ::=====setting environment end=====
 ::=====checking=====
