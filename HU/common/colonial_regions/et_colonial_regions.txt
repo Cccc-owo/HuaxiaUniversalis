@@ -1,0 +1,478 @@
+# Australia
+colonial_australia = {
+	color = { 126 20 20 }
+
+	provinces = {
+		1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 2726
+		2727 2728 2729 2730 2731 2732 2733 2734 2735 2736 
+
+		#Mandala Provinces
+		4846 4847 4848 4849 4850 4851 4852 4853 4854 4855 4856 4857
+		4859 4860 4861 4862 4863 4864 4865 4866 4867 4868 4869 4858
+		5539 5538 5537 5540 5530 5541 5542 5641 5535 5534 5536 5533
+		5524 5531 1790 1791 5532
+	}
+
+	# Specific
+	names = {
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
+		}
+		name = "COLONIAL_AUSTRALIA_Australia"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = SPA
+				tag = CAS
+				tag = ARA
+				primary_culture = castillian
+				primary_culture = catalan
+			}
+		}
+		name = "COLONIAL_AUSTRALIA_Tierra_Austral"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = FRA
+				culture_group = french
+			}
+		}
+		name = "COLONIAL_AUSTRALIA_Terre_Australe"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = NED
+				tag = HOL
+				primary_culture = dutch
+			}
+		}
+		name = "COLONIAL_AUSTRALIA_New_Holland"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = KOR
+				primary_culture = korean
+				primary_culture = korean_new
+			}
+		}
+		name = "COLONIAL_AUSTRALIA_Hoju"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_AUSTRALIA_Root_Culture_GetName_Australia"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_REGION_Terra_Australis"
+	}
+}
+
+# Oceania
+colonial_oceania = {
+	color = { 85 155 220 }
+
+	provinces = {
+		2719 2720 2721 2722 1236 1237 1238 1239 1240 1993 1994 1997
+		4934 4935 4936 1987 1989 1243 1244 4938 4937 1242 1235 1995
+		1986 1106 2739 1108 4939 1107 2738 5543 1109 1246 1988 2737
+		1241 1990 1991 1992
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+		name = "COLONIAL_OCEANIA_German_New_Guinea"
+	}
+	names = {
+		trigger = {
+			owns = 1237
+			owns = 1236
+		}
+		name = "COLONIAL_OCEANIA_Papua"
+	}
+	names = {
+		trigger = {
+			owns = 1993
+			owns = 1995
+		}
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_Micronesia"
+	}
+	names = {
+		trigger = {
+			owns = 1244
+			owns = 1987
+		}
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_Polynesia"
+	}
+	names = {
+		trigger = {
+			owns = 1238
+			owns = 1239
+		}
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_Melanesia"
+	}
+	names = {
+		trigger = {
+			owns = 1107
+			primary_culture = dutch
+		}
+		name = "COLONIAL_OCEANIA_Nova_Zeelandia"
+	}
+	names = {
+		trigger = {
+			owns = 1107
+			owns = 1106
+		}
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_New_Zealand"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_Pacific"
+	}
+	names = {
+		name = "COLONIAL_OCEANIA_Root_GetAdjective_Oceania"
+	}
+}
+
+# South Africa
+colonial_south_africa = {
+	color = { 106 112 32 }
+
+	provinces = { 
+		1174 5591 5590 1173 5592 5596 5598 5597 5595 5594
+		4784 5642 5588 4783 789 5587 1181 1180 833 1179
+		1177 1176 2864 5586 1175 5589 1801 4782 5593 4781
+		2856 2880 1178 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			tag = NED
+		}
+		name = "COLONIAL_SOUTH_AFRICA_Batavia"
+	}
+	names = {
+		trigger = {
+			tag = GBR
+		}
+		name = "COLONIAL_SOUTH_AFRICA_Cape_Colony"
+	}
+	names = {
+		trigger = {
+			owns = 1173
+			NOT = { owns = 1177 }
+		}
+		name = "COLONIAL_SOUTH_AFRICA_Root_GetAdjective_Southwest_Africa"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_SOUTH_AFRICA_Root_GetAdjective_South_Africa"
+	}
+}
+
+# Zambezi
+colonial_zambezi = {
+	color = { 49 88 32 }
+
+	provinces = { 
+		5606 5605 4106 4108 4104 4050 4102 4045 4037 4036
+		4035 4049 1195 4034 788 1192 4048 4040 4039 4047
+		4046 1190 1189 1185 3367 2950 2952 1186 1182 1800
+		1183 1184 1188 1191 1187 2951 1102 1103 4021 4024
+		4023 4022 4020 1792 1194 4031 1193 4032 4027 4030
+		4028 4029 4026 4025 4038 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			owns = 1195
+		}
+		name = "COLONIAL_ZAMBEZI_Root_GetAdjective_Mozambique"
+	}
+	names = {
+		trigger = {
+			tag = GBR
+		}
+		name = "COLONIAL_ZAMBEZI_Rhodesia"
+	}
+	names = {
+		trigger = {
+			NOT = { tag = GBR }
+			owns = 1184
+		}
+		name = "COLONIAL_ZAMBEZI_Root_GetAdjective_Zimbabwe"
+	}
+	names = {
+		trigger = {
+			owns = 1800
+			NOT = { tag = GBR }
+		}
+		name = "COLONIAL_ZAMBEZI_Root_GetAdjective_Zambia"
+	}
+	names = {
+		trigger = {
+			owns = 1792
+		}
+		name = "COLONIAL_ZAMBEZI_Root_GetAdjective_Madagascar"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_ZAMBEZI_Root_GetAdjective_Southeast_Africa"
+	}
+	names = {
+		name = "COLONIAL_ZAMBEZI_Zambezi"
+	}
+}
+
+# Congo
+colonial_congo = {
+	color = { 221 58 79 }
+
+	provinces = { 
+		5604 5603 5601 1172 1167 5600 5599 5602 1168 4080
+		4079 1170 2949 4085 4086 5628 1797 4081 1901 5630
+		5640 5631 5632 5633 4068 4109 4099 4103 4100 4101
+		4107 4095 4094 4098 4096 4092 4091 4093 4083 4082
+		4084 2948 1171 798 5629 4089 4088 4087 4105 4090
+		4097 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			owns = 1168
+		}
+		name = "COLONIAL_CONGO_Root_GetAdjective_Angola"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_CONGO_Root_GetAdjective_Congo"
+	}
+}
+
+# East Africa
+colonial_east_africa = {
+	color = { 180 130 79 }
+
+	provinces = { 
+		1198 4042 4043 4041 4044 4077 4073 4076 4072 4071
+		4070 4069 4067 4066 4064 4065 4074 4075 4062 1100
+		1202 1199 1197 1196 4058 4056 4057 4061 4063 4059
+		4055 4054 1273 1925 1204 1203 2796 4051 4052 4060
+		4053 1200 1201 
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_EAST_AFRICA_Root_GetAdjective_East_Africa"
+	}
+}
+
+# Ethiopia
+colonial_ethiopia = {
+	color = { 70 90 199 }
+
+	provinces = { 
+		1799 2756 2759 2763 2770 2772 2771 1227 2787 2766
+		1230 2765 2767 2768 1215 1224 1223 2769 1214 1213
+		2762 4158 2758 2757 2791 2761 2760 1218 1210 1207
+		2779 2781 2777 2774 2794 2775 2776 2780 1205 2782
+		2784 2785 2783 2795 2024 1206 2786 2789 2790 2793
+		1212 2764 1211 2773 1208 2792 2778 1209 2788 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			OR = {
+				owns = 1205
+				owns = 1209
+			}
+		}
+		name = "COLONIAL_ETHIOPIA_Root_GetAdjective_Somaliland"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_ETHIOPIA_Root_GetAdjective_Ethiopia"
+	}
+}
+
+# Sudan
+colonial_sudan = {
+	color = { 183 246 173 }
+
+	provinces = { 
+		5504 2801 1219 5613 5611 1798 5610 5612 774 1216
+		2802 1221 2800 1217 2799 4033 1222 1225 1226 1232
+		2323 2322 1228 1220 2798 1229 2797 
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_SUDAN_Root_GetAdjective_Sudan"
+	}
+	names = {
+		name = "COLONIAL_SUDAN_Root_GetAdjective_Nubia"
+	}
+}
+
+# Central Africa
+colonial_central_africa = {
+	color = { 56 60 126 }
+
+	provinces = { 
+		5607 1249 1164 5608 1165 1097 1306 4078 1166 5609
+		1169 5626 5619 5617 5618 5622 5627 5621 5624 1796
+		5625 5620 5623 5614 5615 5616 1160 2287 2286 1159
+		1158 5510 5509 5508 2288 2932 5639 1098
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_CENTRAL_AFRICA_Root_GetAdjective_Central_Africa"
+	}
+}
+
+# Niger
+colonial_niger = {
+	color = { 225 114 79 }
+
+	provinces = { 
+		2285 1157 2272 2273 2269 2268 1142 2290 2289 1147
+		2294 1151 1163 1152 1162 1161 2283 2278 2270 2293
+		1150 1154 1149 1155 2281 2280 5553 1148 2279 2276
+		1156 2275 2274 2475 2282 1153 1145 1144 5555 1146
+		2277 2284 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			owns = 1155
+			owns = 1147
+		}
+		name = "COLONIAL_NIGER_Root_GetAdjective_Nigeria"
+	}
+	names = {
+		trigger = {
+			owns = 1147
+			NOT = { owns = 1155 }
+		}
+		name = "COLONIAL_NIGER_Niger_Coast"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_NIGER_Root_GetAdjective_Niger"
+	}
+}
+
+# Ivory Coast
+colonial_ivory_coast = {
+	color = { 43 128 32 }
+
+	provinces = { 
+		2295 1143 2292 1140 2291 1141 5554 2257 2256 2254
+		1139 1138 2255 2258 1126 5549 5550 1119 2242 2251
+		5551 2241 1118 1121 1122 5552 1125 1117 2238 1114 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			owns = 1139
+		}
+		name = "COLONIAL_IVORY_COAST_Gold_Coast"
+	}
+	names = {
+		trigger = {
+			owns = 1119
+		}
+		name = "COLONIAL_IVORY_COAST_Grain_Coast"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_IVORY_COAST_Root_GetAdjective_Ivory_Coast"
+	}
+}
+
+# Mali
+colonial_mali = {
+	color = { 226 215 111 }
+
+	provinces = { 
+		2245 2250 2253 2249 1123 2252 1137 2267 1136 2265
+		1134 1135 2266 2263 2261 1131 2259 2264 2262 1133
+		2271 1130 1129 1128 2260 1132 1120 2248 1124 
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_MALI_Root_GetAdjective_Mali"
+	}
+	names = {
+		name = "COLONIAL_MALI_Upper_Volta"
+	}
+}
+
+# West Africa
+colonial_west_africa = {
+	color = { 40 92 126 }
+
+	provinces = { 
+		1096 2239 5527 1116 2240 2237 1113 1112 1115 2243
+		2246 2247 1793 5525 2244 5523 5636 1111 
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			owns = 1113
+			NOT = { owns = 1111 }
+		}
+		name = "COLONIAL_WEST_AFRICA_Root_GetAdjective_Senegal"
+	}
+	names = {
+		trigger = {
+			owns = 2239
+		}
+		name = "COLONIAL_WEST_AFRICA_Root_GetAdjective_Gambia"
+	}
+	names = {
+		trigger = {
+			owns = 1111
+			NOT = { owns = 1113 }
+		}
+		name = "COLONIAL_WEST_AFRICA_Root_GetAdjective_Mauritania"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_WEST_AFRICA_Root_GetAdjective_West_Africa"
+	}
+	names = {
+		name = "COLONIAL_WEST_AFRICA_Senegambia"
+	}
+}

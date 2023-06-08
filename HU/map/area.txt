@@ -1386,7 +1386,7 @@ djerba_area = {  #3
 }
 algiers_area = {  #3
 
-	2465 4562 336 5513 
+	4562 336 5513 2465 335 
 }
 barbary_coast_area = {  #3
 
@@ -1430,7 +1430,7 @@ marrekesh_area = {  #3
 }
 northern_morocco_area = {  #5
 
-	334 335 1751 4563 4561 
+	334 1751 4563 4561 
 }
 ########################################
 # East Africa					       #
@@ -2823,7 +2823,7 @@ utsang_area = {  #4
 }
 ngari_area = {  #3
 
-	2128 4516 4520 
+	2128 4516 4520 2129 4522 
 } #new!!
 hebei_area = {  #4 (North Hebei)
 
