@@ -242,9 +242,9 @@ brittany_area = {  #5
 	}
 	169 170 171 172 4384 
 }
-normandy_area = {  #4
+normandy_area = {
 
-	167 168 1879 4385 
+	167 168 1879 4385 5560
 }
 provence_area = {  #3
 

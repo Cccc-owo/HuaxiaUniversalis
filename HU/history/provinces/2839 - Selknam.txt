@@ -28,7 +28,7 @@ native_hostileness = 5
 		controller = SPA
 		add_core = SPA
 	    }# The death of Atahualpa
-1593.4.19 = { capital = San Salvador de Jujuy } # Francisco de Asgaranaz y Murgu韆, under constant attack
+1593.4.19 = { capital = "San Salvador de Jujuy" } # Francisco de Asgaranaz y Murgu韆, under constant attack
 1600.1.1  = { culture = castillian religion = catholic } # Continued to prosper in spite of several attacks
 1762.1.1  = { base_manpower = 2 }
 1770.1.1  = { culture = iberian_la_platan }

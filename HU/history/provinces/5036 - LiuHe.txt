@@ -34,7 +34,7 @@ add_core = WUU
 700.1.1 = { base_tax = 6 base_production = 6 }
 907.6.1 = { owner = WUU controller = WUU add_core = WUU remove_core = TNG }
 937.1.1 = { owner = TNG controller = TNG add_core = TNG remove_core = MIN }
-975.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = TNG 
+975.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = TNG }
 1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CSH remove_core = SNG }
 1356.1.1 = { add_core = MNG revolt = { type = nationalist_rebels size = 4 } controller = REB capital = "Nanjing" } # Red Turban Rebellion
 1361.1.1 = { revolt = {} owner = MNG controller = MNG } 
