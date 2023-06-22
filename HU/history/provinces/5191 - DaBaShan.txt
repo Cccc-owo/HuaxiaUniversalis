@@ -1,6 +1,0 @@
-discovered_by = nomad_group
-discovered_by = eastern_nomad_group
-discovered_by = chinese
-discovered_by = asian
-discovered_by = early_chinese
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis

@@ -88,18 +88,18 @@ balkan_region = {
 }
 carpathia_region = { 
 	areas = { 
-		transdanubia_area alfold_area slovakia_area transylvania_area southern_transylvania_area wallachia_area moldavia_area 
+		transdanubia_area slovakia_area transylvania_area southern_transylvania_area wallachia_area moldavia_area alfold_area vojvodina_area 
 	}
 }
 egypt_region = { 
 	areas = { 
-		cyrenaica_area gulf_of_arabia_area al_wahat_area delta_area bahari_area vostani_area said_area lower_nubia_area 
+		lower_nubia_area cyrenaica_area gulf_of_arabia_area al_wahat_area delta_area bahari_area vostani_area said_area 
 	}
 }
 maghreb_region = { 
 	areas = { 
 		fezzan_area tunisia_area djerba_area kabylia_area algiers_area hautes_plaines_area north_saharan_area sus_area marrekesh_area ouled_nail_area
-		northern_morocco_area southern_morocco_area western_morocco_area tripolitania_area barbary_coast_area macaronesia_area tafilalt_area western_mediterrenean_area hoggar_area 
+		northern_morocco_area southern_morocco_area tripolitania_area barbary_coast_area macaronesia_area western_morocco_area fez_area tafilalt_area western_sahara_area hoggar_area
 	}
 }
 mashriq_region = { 
@@ -126,7 +126,7 @@ khorasan_region = {
 }
 caucasia_region = { 
 	areas = { 
-		circassia_area shirvan_area armenia_area imereti_area samtskhe_area kartli_kakheti_area 
+		circassia_area shirvan_area armenia_area dagestan_area imereti_area samtskhe_area kartli_kakheti_area 
 	}
 }
 arabia_region = { 
@@ -137,8 +137,8 @@ arabia_region = {
 }
 niger_region = { 
 	areas = { 
-		adamawa_plateau_area lower_niger_area hausa_area katsina_area zazzau_area upper_volta_area atacora_oueme_area lower_volta_area massina_area manding_area
-		tekrur_area jenne_area kong_area dagbon_area cameroon_area 
+		lower_niger_area hausa_area katsina_area zazzau_area atacora_oueme_area lower_volta_area kong_area massina_area manding_area tekrur_area
+		adamawa_plateau_area cameroon_area upper_volta_area dagbon_area jenne_area 
 	}
 	monsoon = { 
 		00.06.01
@@ -147,7 +147,7 @@ niger_region = {
 }
 guinea_region = { 
 	areas = { 
-		benin_area gulf_of_guinea_area futa_jallon_area west_africa_coast_area jolof_area sao_tome_area guinea_coast_area 
+		benin_area guinea_coast_area gulf_of_guinea_area futa_jallon_area west_africa_coast_area jolof_area sao_tome_area 
 	}
 	monsoon = { 
 		00.06.01
@@ -156,8 +156,8 @@ guinea_region = {
 }
 sahel_region = { 
 	areas = { 
-		bornu_area azbin_area kurdufan_area azawad_area dendi_area niger_bend_area east_azbin_area darfur_central_sahara_area borkou_ennedi_tibesti baghena_area
-		cap_verde_area kanem_area chari_logone_area south_sudan_area 
+		darfur_central_sahara_area kanem_area bornu_area azbin_area kurdufan_area dendi_area baghena_area borkou_ennedi_tibesti niger_bend_area azawad_area
+		east_azbin_area chari_logone_area south_sudan_area cap_verde_area 
 	}
 	monsoon = { 
 		00.06.01
@@ -167,13 +167,13 @@ sahel_region = {
 horn_of_africa_region = { 
 	areas = { 
 		ajuuran_area southern_ethiopia_area central_ethiopia_area ifat_area tigray_area somaliland_area ogaden_area majarteen_area mogadishu_area red_sea_coast_area
-		upper_nubia_area sennar_area hadiya_area damot_area aussa_area shewa_area dongola_area 
+		upper_nubia_area sennar_area dongola_area hadiya_area damot_area aussa_area shewa_area 
 	}
 }
 east_africa_region = { 
 	areas = { 
-		northern_swahili_coast_area central_swahili_coast_area mozambique_area ruvuma_area mascarenes_area madagascar_highlands_area betsimasaraka_area sakalava_area southern_madagascar uticulo_makuana_area
-		jubba_area mombasa_area 
+		northern_swahili_coast_area central_swahili_coast_area mozambique_area ruvuma_area ngonde_area mascarenes_area madagascar_highlands_area betsimasaraka_area sakalava_area southern_madagascar
+		uticulo_makuana_area jubba_area mombasa_area 
 	}
 	monsoon = { 
 		00.11.01
@@ -186,7 +186,7 @@ east_africa_region = {
 }
 central_africa_region = { 
 	areas = { 
-		buha_area luba_area sankuru_area kenya_area buzinza_area uganda_area rwanda_area bunyoro_area tanzania_area ngonde_area
+		buha_area luba_area sankuru_area tanzania_area kenya_area buzinza_area uganda_area rwanda_area bunyoro_area 
 	}
 	monsoon = { 
 		00.10.01
@@ -199,7 +199,8 @@ central_africa_region = {
 }
 kongo_region = { 
 	areas = { 
-		coastal_kongo angola_namibia_area matamba_area lower_kasai kasai_area kongo_area gabon_area equatorial_kongo_area central_africa_area upper_kongo_area
+		coastal_kongo kongo_area angola_namibia_area kasai_area lower_kasai gabon_area equatorial_kongo_area central_africa_area upper_kongo_area matamba_area
+		southern_angola_area cuando_cubango_area 
 	}
 	monsoon = { 
 		00.02.01
@@ -214,8 +215,7 @@ central_asia_region = {
 }
 south_africa_region = { 
 	areas = { 
-		cape_of_good_hope_area limpopo_area south_african_plateau_area cuando_cubango_area damaraland_area namaqualand_area nguni_area kalahari_area botswana_area southern_angola_area
-		transvaal_area 
+		cape_of_good_hope_area limpopo_area transvaal_area south_african_plateau_area damaraland_area namaqualand_area nguni_area botswana_area kalahari_area 
 	}
 	monsoon = { 
 		00.11.01
@@ -228,7 +228,7 @@ south_africa_region = {
 }
 west_siberia_region = { 
 	areas = { 
-		yrtesh_area ob_area central_siberia_area tunguska_area kara_area aqmola_area ishim_area a_siberia_area 
+		yrtesh_area ob_area central_siberia_area ishim_area kara_area aqmola_area tunguska_area 
 	}
 }
 east_siberia_region = { 
@@ -258,7 +258,7 @@ korea_region = {
 }
 tibet_region = { 
 	areas = { 
-		utsang_area tsang_area amdo_area kham_area bhutan_area ngari_area 
+		utsang_area amdo_area kham_area bhutan_area ngari_area tsang_area changtang_area 
 	}
 }
 hindusthan_region = { 
@@ -331,8 +331,8 @@ japan_region = {
 }
 australia_region = { 
 	areas = { 
-		western_australia_area northern_australia_area southern_australia_area top_end_area goldfields_esperance_area illawara_area north_queensland_area south_queensland_area pilbara_area tasmania_area
-		eastern_australia_area central_australia_area eastern_outback_area murray_river_area 
+		western_australia_area northern_australia_area eastern_australia_area southern_australia_area top_end_area illawara_area north_queensland_area south_queensland_area pilbara_area tasmania_area
+		murray_river_area eastern_outback_area central_australia_area goldfields_esperance_area 
 	}
 	monsoon = { 
 		00.10.01
@@ -345,8 +345,8 @@ australia_region = {
 }
 south_china_region = { 
 	areas = { 
-		guangdong_area fujian_area jiangxi_area huguang_area zhejiang_area south_anhui_area taiwan_area south_jiangsu_area hunan_area guangxi_area
-		west_guangdong_area hainan_area 
+		west_guangdong_area fujian_area jiangxi_area huguang_area zhejiang_area south_anhui_area taiwan_area south_jiangsu_area hunan_area guangxi_area
+		guangdong_area guangzhou_area 
 	}
 	monsoon = { 
 		00.05.01
@@ -360,15 +360,14 @@ xinan_region = {
 }
 north_china_region = { 
 	areas = { 
-		hebei_area south_hebei_area shandong_area henan_area shanxi_area gansu_area shaanxi_area north_henan_area west_gansu_area jiangsu_area
-		anhui_area 
+		hebei_area south_hebei_area henan_area shanxi_area gansu_area shaanxi_area north_henan_area west_gansu_area jiangsu_area anhui_area
+		shandong_area west_shandong_area 
 	}
 }
 brazil_region = { 
 	areas = { 
 		rio_grande_do_sol_area minas_gerais_area goias_area mato_grosso_area sao_paolo_area rio_de_janeiro_area bahia_area pernambuco_area sao_francisco_area maranhao_area
-		grao_para_area diamantina_area pontal_area ofaie_area piaui_area amapa_area guapore_area ceara_area west_sao_paolo_area amazon_area
-		west_amazon_area 
+		diamantina_area pontal_area ofaie_area piaui_area ceara_area west_sao_paolo_area 
 	}
 	monsoon = { 
 		00.12.01
@@ -516,20 +515,20 @@ great_plains_region = {
 }
 california_region = { 
 	areas = { 
-		california_area baja_california_area colorado_plateau_area new_mexico_area central_valley_area apacheria_area northern_california_area sonora_area arizona_area utah_area
-		great_basin_area 
+		california_area baja_california_area arizona_area colorado_plateau_area new_mexico_area central_valley_area northern_california_area sonora_area apacheria_area great_basin_area
+		utah_area 
 	}
 }
 cascadia_region = { 
 	areas = { 
-		oregon_area columbia_river_area snake_river_area salish_sea_area interior_plateau_area hecate_strait_area alaska_area straits_of_georgia_area east_alaska_area yukon_area
-		northern_alaska_area 
+		oregon_area columbia_river_area snake_river_area salish_sea_area interior_plateau_area hecate_strait_area straits_of_georgia_area east_alaska_area alaska_area northern_alaska_area
+		yukon_area 
 	}
 }
 hudson_bay_region = { 
 	areas = { 
-		hudson_bay_area red_river_area saskatchewan_area prairies_area athabasca_area inner_ontario_area assiniboia_area manitoba_area james_bay_area ungava_area
-		northern_territories nunavut_area 
+		james_bay_area red_river_area saskatchewan_area prairies_area athabasca_area inner_ontario_area assiniboia_area manitoba_area hudson_bay_area ungava_area
+		nunavut_area northern_territories 
 	}
 }
 mexico_region = { 
@@ -587,7 +586,7 @@ american_east_coast_region = {
 }
 mediterrenean_region = { 
 	areas = { 
-		eastern_mediterrenean_area black_sea_area 
+		eastern_mediterrenean_area western_mediterrenean_area black_sea_area 
 	}
 }
 caribbean_sea_region = { 
@@ -667,6 +666,11 @@ south_atlantic_region = {
 }
 zambezi_region = { 
 	areas = { 
-		chokwe_area katanga_area upper_zambezi_area shire_area zambia_area lower_zambezi_area butua_area zimbabwe_area quelimane_area 
+		chokwe_area katanga_area zambia_area matabeleland_area zimbabwe_area quelimane_area butua_area lower_zambezi_area upper_zambezi_area shire_area
+	}
+}
+amazon_region = { 
+	areas = { 
+		amapa_area west_amazon_area amazon_area guapore_area grao_para_area 
 	}
 }

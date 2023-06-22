@@ -32,7 +32,7 @@ southern_africa_superregion = {
 }
 south_america_superregion = {  # amazonia
 
-	brazil_region colombia_region 
+	colombia_region brazil_region amazon_region 
 }
 andes_superregion = { 
 	peru_region upper_peru_region la_plata_region 
