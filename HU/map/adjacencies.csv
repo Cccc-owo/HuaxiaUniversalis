@@ -119,3 +119,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 631;627;sea;1354;-1;-1;-1;-1;Bali-Blambangan
 950;2554;sea;1354;1643;1771;1644;1776;Cheapeake-Nentego
 -1;-1;;-1;-1;-1;-1;-1;-1;
+738;5150;sea;1372;-1;-1;-1;-1;Taiwan-Penghu
+5163;5155;sea;1372;-1;-1;-1;-1;Xiamen-Jinmen
+5156;2149;sea;1373;-1;-1;-1;-1;Zhoushan-Ningbo
