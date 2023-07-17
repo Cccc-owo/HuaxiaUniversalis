@@ -347,8 +347,9 @@ australia_region = {
 # China
 south_china_region = { 
 	areas = { 
-		west_guangdong_area fujian_area jiangxi_area huguang_area zhejiang_area south_anhui_area taiwan_area south_jiangsu_area hunan_area guangxi_area
-		guangdong_area guangzhou_area 
+		taiwan_area hainan_area guangzhou_area lujiang_area	jiujiang_area huaiyang_area jiangnan_area danyang_area xiangyang_area jingzhou_area
+		jiangxia_area changsha_area wuling_area lingling_area guiyang_area yuzhang_area poyang_area gannan_area zhebei_area zhenan_area
+		zuojiang_area youjiang_area hepu_area yuedong_area minxi_area mindong_area minnan_area
 	}
 	monsoon = { 
 		00.05.01
