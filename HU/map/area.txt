@@ -2822,17 +2822,35 @@ shanxi_area = {  #5
 
 	693 694 697 2177 2178 
 }
-shaanxi_area = {  #4
-
-	689 700 2179 4198 
+guasha_area = {
+	707 5332 5333 
 }
-gansu_area = {  #5 (East Gansu)
-
-	698 699 2180 2181 2183 
+hexi_area = {
+	708 2182 5330 5331 
 }
-west_gansu_area = {  #4 
-
-	707 708 2182 2184 
+hehuang_area = {
+	699 2184 5328 5329 
+}
+longxi_area = {
+	2180 2183 5321 5327 5335 
+}
+ningxia_area = {
+	698 5325 5326 5334 
+}
+guyuan_area = {
+	2181 5322 5323 5324 
+}
+yansui_area = {
+	2179 5307 5308 5309 5310 5312 
+}
+hanzhong_area = {
+	689 5318 5319 5320 
+}
+guanzhong_area = {
+	700 4198 5314 5315 5317 
+}
+tongguan_area = {
+	5311 5313 5316
 }
 ########################################
 # South America    	                   #
@@ -3710,6 +3728,15 @@ indonesian_islands_area = { }
 iceland_area = { }
 ceram_area = { }
 south_laos_area = { }
+#############################
+# MOD Deprecated
+#############################
+gansu_area = { }
+west_gansu_area = { }
+shaanxi_area = {}
+#############################
+# ET diff
+#############################
 guangzhou_area = { 
 	667 668 5017 
 }

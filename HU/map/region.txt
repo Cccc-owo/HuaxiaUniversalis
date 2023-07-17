@@ -343,6 +343,8 @@ australia_region = {
 		00.03.30
 	}
 }
+#############################
+# China
 south_china_region = { 
 	areas = { 
 		west_guangdong_area fujian_area jiangxi_area huguang_area zhejiang_area south_anhui_area taiwan_area south_jiangsu_area hunan_area guangxi_area
@@ -360,10 +362,17 @@ xinan_region = {
 }
 north_china_region = { 
 	areas = { 
-		hebei_area south_hebei_area henan_area shanxi_area gansu_area shaanxi_area north_henan_area west_gansu_area jiangsu_area anhui_area
+		hebei_area south_hebei_area henan_area shanxi_area north_henan_area  jiangsu_area anhui_area
 		shandong_area west_shandong_area 
 	}
 }
+xibei_region = {
+	areas = {
+		guasha_area hexi_area hehuang_area longxi_area ningxia_area guyuan_area yansui_area hanzhong_area guanzhong_area tongguan_area
+	}
+}
+# China End
+#############################
 brazil_region = { 
 	areas = { 
 		rio_grande_do_sol_area minas_gerais_area goias_area mato_grosso_area sao_paolo_area rio_de_janeiro_area bahia_area pernambuco_area sao_francisco_area maranhao_area
