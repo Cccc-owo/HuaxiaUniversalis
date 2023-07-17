@@ -244,7 +244,7 @@ mongolia_region = {
 }
 manchuria_region = { 
 	areas = { 
-		heilongjiang_area east_heilongjiang_area jilin_area central_jilin_area ilan_hala_area liaoning_area ningguta_area central_heilongjiang_area sakhalin_area furdan_area
+		heilongjiang_area east_heilongjiang_area jilin_area central_jilin_area ilan_hala_area ningguta_area central_heilongjiang_area sakhalin_area furdan_area
 	}
 }
 korea_region = { 
@@ -357,18 +357,19 @@ south_china_region = {
 }
 xinan_region = { 
 	areas = { 
-		sichuan_area yun_gui_area chuannan_area yun_gui_borderland_area chuanbei_area 
+		sichuan_area yun_gui_area chuannan_area  chuanbei_area chuanxi_area miaojiang_area chuanyu_area dali_area diannan_area
+		kunming_area
 	}
 }
 north_china_region = { 
 	areas = { 
-		hebei_area south_hebei_area henan_area shanxi_area north_henan_area  jiangsu_area anhui_area
-		shandong_area west_shandong_area 
+		shanxi_area hedong_area shangdang_area loufan_area datong_area liaoning_area qinghe_area youzhou_area hejian_area youbeiping_area 
+		liaoxi_area heji_area yanzhou_area jiaodong_area heluo_area	bianliang_area nanyang_area	runan_area huaihai_area	huaibei_area
 	}
 }
 xibei_region = {
 	areas = {
-		guasha_area hexi_area hehuang_area longxi_area ningxia_area guyuan_area yansui_area hanzhong_area guanzhong_area tongguan_area
+		guasha_area hexi_area hehuang_area longxi_area ningxia_area guyuan_area shangjun_area hanzhong_area guanzhong_area tongguan_area
 	}
 }
 # China End

@@ -2633,9 +2633,8 @@ jilin_area = {  #4 (South Jilin Area)
 
 	730 2110 2188 4201 2111 
 }
-liaoning_area = {  #5
-
-	704 726 2112 4652 2113 5018 
+liaoning_area = {
+	726 2112 4652 2113 5018 5223 
 }
 ordos_area = {  #4 (Western Inner Mongolia)
 
@@ -2646,10 +2645,10 @@ eastern_mongolia = {  #5
 	2109 2187 4202 4674 
 }
 chahar_area = { 
-	722 4203 4675 4672 2115 
+	722 4203 4675 4672 2115 703 5216 5217 5218   
 }
 inner_mongolia_area = {  #5
-
+	5241
 	702 2114 2747 4671 4670 
 }
 outer_mongolia_area = {  #5
@@ -2726,29 +2725,9 @@ ngari_area = {  #3
 
 	2128 4516 4520 
 } #new!!
-hebei_area = {  #4 (North Hebei)
-
-	703 1816 2136 4194 
-}
-south_hebei_area = {  #4
-
-	695 696 2137 4195 
-}
-shandong_area = {  #5
-
-	690 2139 5113 
-}
-jiangsu_area = {  #3
-
-	2141 2142 4196 
-}
 south_jiangsu_area = {  #4
 
 	685 1821 1822 2145 
-}
-anhui_area = {  #3 (North Anhui)
-
-	1838 2143 2144 
 }
 south_anhui_area = {  #3
 
@@ -2782,25 +2761,18 @@ guangxi_area = {  #5
 
 	664 1840 2162 2163 2164 
 }
-yun_gui_area = {  #5 (Yun-Gui Hinterland)
-
-	662 663 673 674 4199 
+yun_gui_area = {
+	# (Yun-Gui Hinterland)
+	5361 5359 5360 674 5362
 }
-yun_gui_borderland_area = {  #5
-
-	660 661 2165 2166 2167 
+sichuan_area = {
+	5343 679 5342 5339 5338
 }
-sichuan_area = {  #3
-
-	679 680 4212 
+chuannan_area = {
+	5363 675 5347 4213 2168
 }
-chuannan_area = {  #4
-
-	675 2168 2748 4213 
-}
-chuanbei_area = {  #3
-
-	2169 2170 4211 
+chuanbei_area = {
+	2170 5341 5340 2169 4211
 }
 huguang_area = {  #5 (Hubei)
 
@@ -2810,18 +2782,10 @@ hunan_area = {  #4
 
 	671 672 2173 2174 
 }
-henan_area = {  #3 (South Henan)
-
-	687 2175 2176 
+shanxi_area = {
+	693 5232 5234 5235 5240 
 }
-north_henan_area = {  #3
-
-	688 692 1836 
-}
-shanxi_area = {  #5
-
-	693 694 697 2177 2178 
-}
+# MOD
 guasha_area = {
 	707 5332 5333 
 }
@@ -2840,7 +2804,7 @@ ningxia_area = {
 guyuan_area = {
 	2181 5322 5323 5324 
 }
-yansui_area = {
+shangjun_area = {
 	2179 5307 5308 5309 5310 5312 
 }
 hanzhong_area = {
@@ -2850,7 +2814,79 @@ guanzhong_area = {
 	700 4198 5314 5315 5317 
 }
 tongguan_area = {
-	5311 5313 5316
+	5311 5313 5316 
+}
+hedong_area = {
+	694 5224 5225 5226 5228 
+}
+shangdang_area = {
+	2178 5227 5230 5231 
+}
+loufan_area = {
+	2177 5229 5233 5236 
+}
+datong_area = {
+	697 2136 5237 5238 5239 
+}
+qinghe_area = {
+	2137 5204 5205 4195 5207 
+}
+youzhou_area = {
+	1816 5211 5213 5210 5212 
+}
+hejian_area = {
+	695 696 5206 5208 5209 
+}
+youbeiping_area = {
+	4194 5221 5214 5215 
+}
+liaoxi_area = {
+	704 5219 5220 5222 
+}
+heji_area = {
+	691 5199 5200 5201 2138 5202 
+}
+yanzhou_area = {
+	2140 5196 5197 5198 5195 
+}
+jiaodong_area = {
+	690 2139 5113 5194 5193 5203 
+}
+heluo_area = {
+	5250 5248 5249 5243 1836 5247 
+}
+bianliang_area = {
+	692 5242 5245 688 2176 
+}
+nanyang_area = {
+	5251 5252 687 5254 5253 
+}
+runan_area = {
+	5246 5244 2175 5255 5256 
+}
+huaihai_area = {
+	2144 5257 5265 2143 5258 5259 
+}
+huaibei_area = {
+	2141 5189 4196 2142 5188 
+}
+chuanxi_area = {
+	5345 5344 4212 5346 2748 
+}
+miaojiang_area = {
+	5358 4199 673 5356 5357 
+}
+chuanyu_area = {
+	680 5337 5336 5348
+}
+dali_area = {
+	2167 5368 661 2166 5371
+}
+diannan_area = {
+	660 2165 5367 5370 663
+}
+kunming_area = {
+	5369 5365 662 5364 5366
 }
 ########################################
 # South America    	                   #
@@ -3733,7 +3769,15 @@ south_laos_area = { }
 #############################
 gansu_area = { }
 west_gansu_area = { }
-shaanxi_area = {}
+shaanxi_area = { }
+hebei_area = { }
+south_hebei_area = { }
+shandong_area = { }
+anhui_area = { }
+jiangsu_area = { }
+henan_area = { }
+north_henan_area = { }
+yun_gui_borderland_area = { }
 #############################
 # ET diff
 #############################
@@ -3741,7 +3785,8 @@ guangzhou_area = {
 	667 668 5017 
 }
 west_shandong_area = { 
-	2140 691 2138 
+	# Deprecated
+	# 2140 691 2138 
 }
 northern_papua_area = { 
 	2719 1789 4998 
