@@ -2263,10 +2263,10 @@ type={
 		name="forbidden_city"
 		hidden_on_start=no
 		position={
-			5080.000 -0.020 1842.000 
+			5066.000 -0.020 1834.000 
 		}
 		rotation={
-			0.000 -30.000 0.000 
+			0.000 0.000 0.000 
 		}
 	}
 }
@@ -2619,19 +2619,18 @@ type={
 		}
 	}
 }
-
 type={
-	type="kiel_canal"
+	type="kra_canal"
 	use_animation=no
-	time_duration=300.000000
 	scale=1.200000
+	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
 	object={
 		name="kra_canal"
 		hidden_on_start=yes
 		position={
-			4755.000 0.100 1294.000
+			4755.000 0.100 1294.000 
 		}
 		rotation={
 			0.000 -75.000 0.000 

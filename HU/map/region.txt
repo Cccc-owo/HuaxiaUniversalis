@@ -244,7 +244,7 @@ mongolia_region = {
 }
 manchuria_region = { 
 	areas = { 
-		heilongjiang_area east_heilongjiang_area jilin_area central_jilin_area ilan_hala_area ningguta_area central_heilongjiang_area sakhalin_area furdan_area
+		heilongjiang_area east_heilongjiang_area jilin_area central_jilin_area ilan_hala_area ningguta_area central_heilongjiang_area sakhalin_area furdan_area 
 	}
 }
 korea_region = { 
@@ -347,9 +347,9 @@ australia_region = {
 # China
 south_china_region = { 
 	areas = { 
-		taiwan_area hainan_area guangzhou_area lujiang_area	jiujiang_area huaiyang_area jiangnan_area danyang_area xiangyang_area jingzhou_area
+		taiwan_area hainan_area guangzhou_area lujiang_area jiujiang_area huaiyang_area jiangnan_area danyang_area xiangyang_area jingzhou_area
 		jiangxia_area changsha_area wuling_area lingling_area guiyang_area yuzhang_area poyang_area gannan_area zhebei_area zhenan_area
-		zuojiang_area youjiang_area hepu_area yuedong_area minxi_area mindong_area minnan_area
+		zuojiang_area youjiang_area hepu_area yuedong_area minxi_area mindong_area minnan_area 
 	}
 	monsoon = { 
 		00.05.01
@@ -358,18 +358,17 @@ south_china_region = {
 }
 xinan_region = { 
 	areas = { 
-		sichuan_area yun_gui_area chuannan_area  chuanbei_area chuanxi_area miaojiang_area chuanyu_area dali_area diannan_area
-		kunming_area
+		sichuan_area yun_gui_area chuannan_area chuanbei_area chuanxi_area miaojiang_area chuanyu_area dali_area diannan_area kunming_area
 	}
 }
 north_china_region = { 
 	areas = { 
-		shanxi_area hedong_area shangdang_area loufan_area datong_area liaoning_area qinghe_area youzhou_area hejian_area youbeiping_area 
-		liaoxi_area heji_area yanzhou_area jiaodong_area heluo_area	bianliang_area nanyang_area	runan_area huaihai_area	huaibei_area
+		shanxi_area hedong_area shangdang_area loufan_area datong_area liaoning_area qinghe_area youzhou_area hejian_area youbeiping_area
+		liaoxi_area heji_area yanzhou_area jiaodong_area heluo_area bianliang_area nanyang_area runan_area huaihai_area huaibei_area
 	}
 }
-xibei_region = {
-	areas = {
+xibei_region = { 
+	areas = { 
 		guasha_area hexi_area hehuang_area longxi_area ningxia_area guyuan_area shangjun_area hanzhong_area guanzhong_area tongguan_area
 	}
 }
