@@ -27,7 +27,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1017;1818;sea;1390;-1;-1;-1;-1;Suo-Chikuzen
 1014;4186;sea;1390;-1;-1;-1;-1;Bungo-Iyo
 4186;1825;sea;1390;-1;-1;-1;-1;Aki-Iyo
-2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
+2159;666;sea;5386;-1;-1;-1;-1;Leizhou-Hainan
 36;35;sea;1926;-1;-1;-1;-1;Estland-�sel
 35;39;sea;1256;-1;-1;-1;-1;�sel-Kurland
 597;620;sea;1361;-1;-1;-1;-1;Johor-Siak

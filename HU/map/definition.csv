@@ -1369,7 +1369,7 @@ province;red;green;blue;x;x
 1368;119;220;250;Coast of Brunei;x
 1369;120;250;250;Coast of Annam;x
 1370;121;200;200;Gulf of Tonkin;x
-1371;122;200;250;Guanghou Bay;x
+1371;122;200;250;Guangzhou Bay;x
 1372;123;220;250;Taiwan Strait;x
 1373;124;250;250;Yang Tse Delta;x
 1374;125;200;200;Western Yellow Sea;x
@@ -5307,3 +5307,19 @@ province;red;green;blue;x;x
 5369;182;69;144;Chuxiong;x
 5370;104;70;133;Wenshan;x
 5371;35;212;223;Shunning;x
+5372;3;1;38;Longshan;x
+5373;23;133;36;Qinling;x
+5374;240;172;60;Hechi;x
+5375;49;160;118;Dabashan;x
+5376;253;16;108;Dahongshan;x
+5377;111;188;12;Tongbaishan;x
+5378;91;152;34;Dabieshan;x
+5379;68;222;80;Zhongtiaoshan;x
+5380;63;116;204;Kelanshan;x
+5381;154;206;123;Hengshan;x
+5382;235;30;33;Taihangshan;x
+5383;59;45;252;Xiaowutaishan;x
+5384;8;122;221;Dangyangshan;x
+5385;18;167;73;Shiwandashan;x
+5386;9;196;225;Leizhou Gulf;x
+5387;134;217;86;Nanling;x
