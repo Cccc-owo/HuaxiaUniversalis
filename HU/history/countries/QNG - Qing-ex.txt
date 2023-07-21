@@ -1,2 +1,0 @@
-government = monarchy
-add_government_reform = celestial_empire

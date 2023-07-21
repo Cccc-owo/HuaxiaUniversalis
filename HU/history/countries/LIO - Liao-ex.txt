@@ -1,6 +1,0 @@
-government = monarchy
-add_government_reform = celestial_empire
-
-907.1.1 = {
-    add_government_reform = celestial_empire
-}
