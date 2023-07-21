@@ -211,55 +211,6 @@ trade_company_indochina = {
 		name = "TRADE_COMPANY_INDOCHINA_China_Trade_Company"
 	}
 }
-trade_company_south_china = { 
-	color = { 100 230 20 }
-	provinces = { 
-		2161 1371 610 613 616 664 665 666 668 672
-		738 1016 1840 2154 2156 2157 2158 2159 2160 2162
-		2163 2164 2173 2174 2372 671 2373 662 663 673
-		674 4199 4820 4819 4821 667 5017 2155 5114 
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_SOUTH_CHINA_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_SOUTH_CHINA_China_Trade_Company"
-	}
-}
-trade_company_east_china = { 
-	color = { 178 34 34 }
-	provinces = { 
-		669 670 683 684 685 686 1821 1822 1824 1829
-		1833 1838 1897 2143 2144 2145 2146 2147 2148 2149
-		2150 2151 2152 2153 2141 2142 4196 
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_EAST_CHINA_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_EAST_CHINA_China_Trade_Company"
-	}
-}
-trade_company_north_china = { 
-	color = { 60 60 255 }
-	provinces = { 
-		690 702 2138 2139 2140 2114 2747 4671 703 1816
-		2136 4194 695 696 2137 4195 704 726 2112 2113
-		4652 693 694 697 2177 2178 4670 691 5018 5113
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_NORTH_CHINA_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_NORTH_CHINA_China_Trade_Company"
-	}
-}
 trade_company_north_sea = { 
 	color = { 117 165 188 }
 	provinces = { 
@@ -815,12 +766,11 @@ trade_company_siberia = {
 trade_company_samarkand = { 
 	color = { 141 120 67 }
 	provinces = { 
-		440 441 442 444 445 453 454 455 456 457
-		459 476 477 1967 1969 1970 1973 461 478 2126
-		2370 2362 2363 2356 2364 2368 2355 2360 2361 2358
-		2352 2351 2353 2359 458 2125 460 2350 437 438
-		439 443 2349 739 2127 4209 4210 1968 4344 4343
-		4685 2124 3596 
+		440 2351 2359 2358 2352 1970 456 476 4685 478
+		2355 2360 477 2361 1969 2356 2364 458 457 1967
+		460 1968 4343 4344 454 442 2363 453 444 445
+		441 2350 438 443 439 2349 437 2362 2370 1973
+		455 2353 
 	}
 	# Specific
 	# Generic
@@ -834,14 +784,14 @@ trade_company_samarkand = {
 trade_company_girin = { 
 	color = { 41 82 45 }
 	provinces = { 
-		1850 1049 2107 2108 2111 2106 2186 2102 2104 1053
-		2103 1034 1035 1036 1037 1038 1039 1040 1041 1042
-		1043 1044 1046 1047 1052 2439 2440 730 2110 2188
-		4201 1033 1048 1050 4214 4216 729 731 2105 4215
-		4217 722 2109 2187 4202 724 725 4218 727 728
-		2185 4200 4654 4655 4656 4657 4658 4659 4660 4661
-		4662 4653 4663 4664 4665 4674 4675 4672 4203 5218
-		5217 
+		1850 1049 2107 2108 2111 2106 2186 2104 1053 2103
+		1034 1035 1036 1037 1038 1039 1040 1041 1042 1043
+		1044 1046 1047 1052 2439 2440 730 2110 2188 4201
+		1033 1048 1050 4214 4216 729 731 2105 4215 4217
+		722 2109 2187 4202 724 725 4218 727 728 2185
+		4200 4654 4655 4656 4657 4658 4659 4660 4661 4662
+		4653 4663 4664 4665 4674 4675 4672 4203 5218 5217
+		2102 2446 
 	}
 	# Specific
 	# Generic
@@ -870,73 +820,6 @@ trade_company_nippon = {
 	}
 	names = { 
 		name = "TRADE_COMPANY_NIPPON_Asia_Trade_Company"
-	}
-}
-trade_company_yumen = { 
-	color = { 115 93 58 }
-	provinces = { 
-		710 707 708 711 714 719 1784 2118 2119 2123
-		2189 2190 2194 2182 2184 2122 4206 4207 717 721
-		2116 4219 4220 720 2193 4221 713 715 2120 4208
-		718 2117 4222 712 2121 2192 4673 4666 4667 723
-		4669 4668 4681 4683 4682 4678 4677 4680 4684 4693
-		1786 3593 
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_YUMEN_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_YUMEN_Asia_Trade_Company"
-	}
-}
-trade_company_xian = { 
-	color = { 159 112 119 }
-	provinces = { 
-		687 1836 2181 2180 698 699 688 692 2183 2175
-		2176 681 682 2171 2172 4197 689 700 2179 4198
-		701 709 2191 4223 4676 
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_XIAN_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_XIAN_Asia_Trade_Company"
-	}
-}
-trade_company_chengdu = { 
-	color = { 196 157 34 }
-	provinces = { 
-		2132 2167 2135 2131 2133 660 661 2165 2166 679
-		680 4212 2169 2170 4211 675 2168 2748 4213 678
-		4403
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_CHENGDU_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_CHENGDU_Asia_Trade_Company"
-	}
-}
-trade_company_lhasa = { 
-	color = { 106 112 138 }
-	provinces = { 
-		2129 2128 676 705 706 4204 677 4205 565 4481
-		4482 4514 4516 4517 4518 4519 2134 4522 4515 1787
-		1788 4520 2074 2130 2131 2132 
-	}
-	# Specific
-	# Generic
-	names = { 
-		name = "TRADE_COMPANY_LHASA_Root_Culture_GetName"
-	}
-	names = { 
-		name = "TRADE_COMPANY_LHASA_Asia_Trade_Company"
 	}
 }
 trade_company_lahore = { 
@@ -970,5 +853,264 @@ trade_company_polynesia = {
 	}
 	names = { 
 		name = "TRADE_COMPANY_POLYNESIA_Oceania_Trade_Company"
+	}
+}
+trade_company_lhasa = { 
+	color = { 106 112 138 }
+	provinces = { 
+		2074 4520 2128 2129 4516 4515 4518 4482 676 4514
+		565 4481 4517 2130 1788 2134 705 4204 706 4205
+		4519 4522 677 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_LHASA_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_LHASA_Asia_Trade_Company"
+	}
+}
+# MOD
+trade_company_xiyu = { 
+	color = { 
+		180 180 110 
+	}
+	provinces = { 
+		459 2368 2126 1784 2127 739 1785 4210 2124 710
+		711 4693 3593 2123 5333 5332 707 2122 4206 713
+		4207 715 4683 714 4684 2118 2119 461 2120 4208
+		712 2121 2192 1786 4209 2125 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_XIYU_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_XIYU_Asia_Trade_Company"
+	}
+}
+trade_company_mobei = { 
+	color = { 
+		154 195 175 
+	}
+	provinces = { 
+		1063 1066 716 4222 4681 718 4680 719 4682 2193
+		2190 2117 4677 4678 4221 720 4669 721 4219 4666
+		1058 1056 1057 4220 2116 717 4667 4668 4679 2189
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_MOBEI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_MOBEI_Asia_Trade_Company"
+	}
+}
+trade_company_monan = { 
+	color = { 
+		210 180 44 
+	}
+	provinces = { 
+		4673 723 2115 703 5216 4671 2114 2747 702 5241
+		701 4223 4670 709 4676 2191 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_MONAN_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_MONAN_Asia_Trade_Company"
+	}
+}
+trade_company_xibei = { 
+	color = { 
+		32 32 32 
+	}
+	provinces = { 
+		5331 2194 708 5330 2182 5329 2183 5335 5327 5321
+		689 700 5320 5318 5319 5317 2180 4198 5316 5311
+		5313 5315 5314 2181 5322 5308 5307 5312 5310 2179
+		5309 5325 698 5334 5326 699 5323 5324 2184 5328
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_XIBEI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_XIBEI_Asia_Trade_Company"
+	}
+}
+trade_company_hedong = { 
+	color = { 
+		22 97 171 
+	}
+	provinces = { 
+		2136 5239 5238 5235 5230 5232 5231 2178 5227 694
+		5224 5225 5226 5228 5240 5229 5233 5234 693 2177
+		5236 697 5237 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_HEDONG_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_HEDONG_Asia_Trade_Company"
+	}
+}
+trade_company_bohai = { 
+	color = { 
+		14 63 106 
+	}
+	provinces = { 
+		2112 726 4652 2113 5223 5018 5222 5219 5220 704
+		5221 4194 5215 5210 5214 5213 5211 1816 5207 4195
+		696 5205 5206 5212 5208 695 5209 5201 5200 691
+		2138 5202 690 5199 5194 2139 5193 5203 5113 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_BOHAI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_BOHAI_Asia_Trade_Company"
+	}
+}
+trade_company_zhongyuan = { 
+	color = { 
+		214 169 29 
+	}
+	provinces = { 
+		5250 5249 5251 687 5252 5246 5254 2175 5253 5255
+		5256 2144 5265 5259 2143 2142 5188 4196 5189 5258
+		5257 5244 5247 5248 1836 5243 5242 5245 688 2176
+		5196 2137 692 5204 5197 5198 2140 2141 5195 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_ZHONGYUAN_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_ZHONGYUAN_Asia_Trade_Company"
+	}
+}
+trade_company_jingxiang = { 
+	color = { 
+		238 44 121 
+	}
+	provinces = { 
+		5290 5291 5292 681 5293 2173 5305 5303 5304 5302
+		2174 5300 5301 670 5277 1833 5299 5298 5297 5270
+		5271 5272 683 5273 5276 5278 2151 5274 5275 5269
+		5279 682 5280 5281 671 5294 5296 5306 672 5295
+		5287 2172 5289 2171 5286 5288 5285 5283 5284 4197
+		5282 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_JINGXIANG_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_JINGXIANG_Asia_Trade_Company"
+	}
+}
+trade_company_jiangnan = { 
+	color = { 
+		136 68 223 
+	}
+	provinces = { 
+		686 5261 5264 5262 5263 5260 1838 5179 685 5187
+		5186 5190 2145 1822 5178 5177 5174 5175 684 2148
+		2149 5176 1824 5171 2150 5156 5173 5172 2147 2146
+		5266 5267 1821 5268 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_JIANGNAN_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_JIANGNAN_Asia_Trade_Company"
+	}
+}
+trade_company_mintai = { 
+	color = { 
+		65 174 60 
+	}
+	provinces = { 
+		2152 5169 5170 2153 5162 2156 5167 5168 669 1829
+		5165 5166 5191 5163 5155 5150 738 2155 5114 5151
+		2154 5164 5192 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_MINTAI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_MINTAI_Asia_Trade_Company"
+	}
+}
+trade_company_jiaozhi = { 
+	color = { 
+		122 130 96 
+	}
+	provinces = { 
+		2162 2157 5161 5017 668 667 665 5355 5160 2158
+		1840 2163 5354 664 5352 616 4820 613 4821 610
+		2373 1016 5152 666 5153 5154 2160 2159 5158 5159
+		5157 5350 5349 5353 2164 5351 4819 2372 2161 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_JIAOZHI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_JIAOZHI_Asia_Trade_Company"
+	}
+}
+trade_company_chuankang = { 
+	color = { 
+		223 205 223 
+	}
+	provinces = { 
+		2170 4403 5343 5342 679 5341 5340 2169 4211 5336
+		5337 5348 5363 2748 675 5347 4213 2168 680 5338
+		5339 5345 5344 5346 4212 678 2135 2133 2131 2132
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_CHUANKANG_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_CHUANKANG_Asia_Trade_Company"
+	}
+}
+trade_company_yungui = { 
+	color = { 
+		241 240 237 
+	}
+	provinces = { 
+		5358 4199 673 5356 5357 5360 674 5362 5361 5359
+		5367 662 5365 5364 5366 5370 663 2166 5371 660
+		2165 5369 661 5368 2167 
+	}
+	# Specific
+	# Generic
+	names = { 
+		name = "TRADE_COMPANY_YUNGUI_Root_Culture_GetName"
+	}
+	names = { 
+		name = "TRADE_COMPANY_YUNGUI_Asia_Trade_Company"
 	}
 }
