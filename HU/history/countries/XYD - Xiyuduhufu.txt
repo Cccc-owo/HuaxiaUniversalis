@@ -1,0 +1,132 @@
+government = monarchy
+add_government_reform = duhu_fu
+government_rank = 2
+technology_group = early_chinese
+religion = confucianism
+primary_culture = xibei
+capital = 2192
+1.1.1 = {
+	monarch = {
+		name = "¶î"
+		dynasty = "øFO"
+		adm = 2
+		dip = 2
+		mil = 2
+		#birth_date = <date> # Used to set the age of the ruler. Derived from the date of the history entry the monarch scope is found in.
+		#female = yes # Whether the ruler is female
+		#regent = yes # Whether the ruler is considered a regency
+		religion = confucianism		# The religion of the ruler
+		culture = xibei		# The culture of the ruler
+		## Makes the defined ruler a leader
+		#leader = {
+		#	name = <string>			# Name of the leader
+		#	type = <type>			# Type of leader: general, admiral, explorer, conquistidor
+		#	fire = <int>			# Fire value of the leader
+		#	shock = <int>			# Shock value of the leader
+		#	manuever = <int>		# Manuever value of the leader
+		#	siege = <int>			# Siege value of the leader
+		#}
+	}
+}
+
+13.1.1 = {
+	monarch = {
+		name = "T"
+		dynasty = "øNg"
+		adm = 3
+		dip = 3
+		mil = 3
+		religion = confucianism
+		culture = xibei
+		# Makes the defined ruler a leader
+		leader = {
+			name = "NgT"			# Name of the leader
+			type = general			# Type of leader: general, admiral, explorer, conquistidor
+			fire = 3			# Fire value of the leader
+			shock = 1			# Shock value of the leader
+			manuever = 3			# Manuever value of the leader
+			siege = 2			# Siege value of the leader
+		}
+	}
+}
+
+23.8.1 = {
+	# Deprecated
+	monarch = {
+		name = ""
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+}
+
+73.11.1 = {
+	monarch = {
+		name = "fw"
+		dynasty = "øHñ"
+		adm = 2
+		dip = 2
+		mil = 2
+		religion = confucianism
+		culture = xibei
+	}
+}
+
+75.6.1 = { # Chen Mu is killed
+	monarch = {
+		name = ""
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+}
+
+91.12.1 = {
+	monarch = {
+		name = "Öç"
+		dynasty = "øÌs"
+		adm = 3
+		dip = 3
+		mil = 5
+		religion = confucianism
+		culture = xibei
+		birth_date = 32.1.1
+		death_date = 102.9.1
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = inspiring_leader_personality
+	leader = {
+		name = "ÌsÖç"
+		type = general
+		fire = 3
+		shock = 4
+		manuever = 2
+		siege = 3
+	}
+}
+
+102.6.1 = {
+	monarch = {
+		name = "S"
+		dynasty = "ø˚N"
+		adm = 1
+		dip = 2
+		mil = 2
+		death_date = 118.12.28
+	}
+	add_ruler_personality = cruel_personality
+}
+
+106.9.1 = {
+	monarch = {
+		name = "µy"
+		dynasty = "øµk"
+		adm = 2
+		dip = 2
+		mil = 2
+		death_date = 110.7.1
+	}
+}

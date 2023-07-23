@@ -1,8 +1,8 @@
 #459 - Chuy
 
-owner = WUS
-controller = WUS
-add_core = WUS
+owner = XYD
+controller = XYD
+add_core = XYD
 is_city = yes
 culture = tocharian
 religion = tengri_pagan_reformed

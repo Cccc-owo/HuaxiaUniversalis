@@ -1,0 +1,9 @@
+
+bookmark =
+{
+	name = "WANGMANGREGENT_NAME"
+	desc = "WANGMANGREGENT_DESC"
+	date = 6.2.1
+	
+	country = HND
+}

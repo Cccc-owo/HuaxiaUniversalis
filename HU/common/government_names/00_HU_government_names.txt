@@ -1,0 +1,23 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+gov_duhufu = { #都护府
+	rank = {
+		1 = DUHUFU_NAME
+		2 = DUHUFU_NAME
+		3 = DUHUFU_NAME
+	}
+	ruler_male = {
+		1 = DUHU
+		2 = DUHU
+		3 = DUHU
+	}
+	ruler_female = {
+		1 = DUHU
+		2 = DUHU
+		3 = DUHU
+	}
+	trigger = {
+		has_reform = duhu_fu
+		is_subject_of_type = duhufu_state
+	}
+}

@@ -1,8 +1,8 @@
 #714 - Ili
 
-owner = XIO
-controller = XIO
-add_core = XIO
+owner = XYD
+controller = XYD
+add_core = XYD
 is_city = yes
 culture = uyghur
 religion = tengri_pagan_reformed

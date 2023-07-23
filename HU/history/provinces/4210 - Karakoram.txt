@@ -1,8 +1,8 @@
 #1785 - Pamir
 
-owner = SUE
-controller = SUE
-add_core = SUE
+owner = XYD
+controller = XYD
+add_core = XYD
 is_city = yes
 culture = saka
 religion = mahayana

@@ -2,20 +2,34 @@ country_decisions = {
 	claim_mandate_decision = {
 		major = yes
 		potential = {
+			has_dlc = "Mandate of Heaven"
 			has_global_flag = empire_of_china_dismantled
 			NOT = {
 				has_country_flag = tmp_positive_get_mandate_decision
 			}
 			is_emperor_of_china = no
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
 		}
 		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			OR = {
 				has_reform = celestial_empire
 				has_reform = chinese_warlord
 				has_reform = warlord_state
 			}
+			adm_power = 50
+			mil_power = 50
+			dip_power = 50
 			num_of_owned_provinces_with = {
-				value = 75
+				value = 250
 				superregion = china_superregion
 			}
 		}

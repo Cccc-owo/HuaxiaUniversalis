@@ -1,7 +1,8 @@
 #2883 - Korla
 
-owner = XIY
-controller = XIY
+owner = XYD
+controller = XYD
+add_core = XYD
 culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Korla"
@@ -17,7 +18,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 is_city = yes
-add_core = XIY
 
 180.1.1 = { religion = mahayana }
 439.1.1 = { owner = TUY controller = TUY add_core = TUY }

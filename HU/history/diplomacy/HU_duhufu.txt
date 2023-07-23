@@ -1,0 +1,6 @@
+dependency = {
+	subject_type = duhufu_state
+	first = HND # The overlord
+	second = XYD # The subject
+	start_date = 1.1.1
+}

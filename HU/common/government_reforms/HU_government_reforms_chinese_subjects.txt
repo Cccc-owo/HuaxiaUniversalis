@@ -1,0 +1,29 @@
+# 都护府
+duhu_fu = {
+	icon = "samurai"	# TODO：新图标
+	potential = {
+		OR = {
+			has_reform = duhu_fu
+			is_subject_of_type = duhufu_state
+		}
+	}
+	valid_for_nation_designer = no
+	royal_marriage = no
+	lock_level_when_selected = yes
+	duration = 5
+	has_term_election = yes
+	queen = no
+	heir = no
+	has_meritocracy = yes
+	fixed_rank = 2
+	modifiers = {
+		discipline = 0.1
+		army_tradition_decay = -0.02
+	}
+	ai = {
+		factor = 1000
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

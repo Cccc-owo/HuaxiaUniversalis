@@ -1,10 +1,10 @@
 #2446 - Urzhar
 
-owner = XIO
-controller = XIO
-add_core = XIO
+owner = WUS
+controller = WUS
+add_core = WUS
 is_city = yes
-culture = kirgiz
+culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Urzhar"
 trade_goods = salt

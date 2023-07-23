@@ -1,0 +1,653 @@
+east_asian = {
+	graphical_culture = asiangfx
+	chihan = {
+		primary = YAN
+	}
+	jianghuai = {
+		primary = MNG
+	}
+	xibei = {
+		primary = CSH
+	}
+	hubei = {
+		primary = ZAO
+	}
+	zhongyuan = {
+		primary = LNG
+	}
+	shandong_culture = {
+		primary = QIC
+	}
+	cantonese = {
+		primary = YUE
+	}
+	wu = {
+		primary = WUU
+	}
+	chimin = {
+		primary = MIN
+	}
+	hakka = {
+		primary = HUA
+	}
+	gan = {
+		primary = NNG
+	}
+	xiang = {
+		primary = CHC
+	}
+	sichuanese = {
+		primary = SHU
+	}
+	jin = {
+		primary = JIN
+	}
+	taiwanese = {
+		primary = FRM
+	}
+	miao = {
+		primary = CMI
+		dynasty_names = {
+			"øπe"			# Fang
+			"øyò"			# Hang
+			"ø·w"			# Hue
+			"øml"			# Khang
+			"øãR"			# Kong
+			"øåg"			# Soung
+			"ø‰S"			# Kue
+			"øW"			# Lo
+			"øW"			# Lor
+			"øNg"			# Li
+			"ølö"			# Moua
+			"øXo"			# Pha
+			"mt"			# Tang
+			"øvñ"			# Thao
+			"ø8^"			# Chang
+			"øb"			# Cheng
+			"øâ"			# Chu
+			"øãs"			# Vang
+			"4T"			# Vue
+			"øäq"			# Xiong
+			"øhg"			# Yang
+		}
+		male_names = {
+			"AyGï"			# Qizhen
+			"Ay∞î"			# Qiyu
+			"¡âÒm"			# Jianjun
+			"Pyj"			# Youcheng
+			"öSgq"			# Houzhao
+			"öSúq"			# Houcong
+			"ãèVW"			# Zaihou
+			" µî"			# Yijun
+			"8^m"			# Changluo
+			"1u¿h"			# Youjian
+			"1u'T"			# Yousong
+			"w.ï"			# Yujian
+			"1uîi"			# Youlang
+			"büR"			# Chenggong
+			"KQãX"			# Kehshuan
+			"h"			# Biao
+			"	j"			# Shuang
+			"·h"			# Gang
+			"Zj"			# Su
+			"bh"			# Zhen
+			"eS"			# Fu
+			"ìh"			# Zi
+			"^g"			# Qi
+			"éj"			# Tan
+			"?i"			# Chun
+			"œg"			# Bai
+			"Bh"			# Gui
+			"i"			# Zhi
+			"Cg"			# Quan
+			"ii"			# Pian
+			"^j"			# Hui
+			"åg"			# Song
+			"´É"			# Mo
+			"gi"			# Ying
+			"qh"			# Jing
+			"h"			# Dang
+			"`i"			# Nan
+			"ÿöfq"			# Gaoxu
+			"ÿöÁq"			# Caosui
+			"ÿör"			# Gauxi
+			"Pylg"			# Youyuan
+			"Py∆h"			# Youlun
+			"Pyﬂi"			# Youbin
+			"öSúp"			# Houwei
+			"1u!h"			# Youxiao
+			"1uki"			# Youji
+			"1u<"			# Youxue
+			"1u)h"			# Youyi
+			"1uOj"			# Youshan
+			"Ha‹p"			# Cixuan
+			"HaØp"			# Cijiang
+			"Ha≤p"			# Cizhao
+			"Haq"			# Cihuan
+			"Hap"			# Cican
+			"åT"			# He
+			"•ö"			# Ji
+			"æè"			# Da
+			"Gê%f"			# Yuchun
+		}
+		female_names = {
+			"åTñZ"			# Heying
+			"%fÖh"			# Chunmei
+			"l`ga"			# Tianhui
+			"zz"			# Kon
+			"É"			# Mao
+		}
+	}
+	manchu_new = {
+		country = {
+			has_banners = yes
+		}
+		province = {
+			local_has_banners = yes
+		}
+		dynasty_names = {
+			"ø1r∞e…âW"			# Aisin Gioro
+			"øåRúò"			# Wanyan
+			"øˆSkç±ê…b"			# Yehe Nara
+			"øLN…b±ê…b"			# Ula Nara
+			"ølösO»TáU"			# Magiya Hala
+			"øÆîjyÑy"			# Niohuru
+			"økçÇÃë"			# Heseri
+			"ø‹tSsO"			# Guwalgiya
+			"ømOsO"			# Tunggiya
+			"ø»TTX"			# Hata
+			"øâè—S"			# Hoifa
+			"øŒë∫N"			# Yeren
+			"øLNvQ<h"			# Udige
+		}
+		male_names = {
+			"^ì^ÃëÕñzò"			# Bukuri Yongson
+			"!ïùRPü«r‰S"			# Sibeoci Fiyanggu
+			"˝êcwmRyrFz"			# Dudu Mengtemu
+			"áv*YÅg"			# Huang Taiji
+			"ÑsËp"			# Hiowan Yei
+			"‰wõy"			# In Jen
+			"VÜS"			# Hung Li
+			"ôò0t"			# Yong Yan
+			"˚eÅR"			# Min Ning
+			"EQÑU"			# Cungsan
+			"•YW"			# Tolo
+			"èy·n"			# Fuman
+			"…âfâR"			# Giocangga
+			"TXKQN"			# Taksi
+			"™RS»Tdç"			# Nurhachi
+			"YSnà"			# Dorgon
+			"jå<h"			# Hooge
+			"èy4N"			# Fulin
+			"·QﬂR"			# Fanca
+			"jå<hS"			# Hoogle
+			"‰wIy"			# Yinzhi
+			"‰wKy"			# Yinreng
+			"‰wµy"			# Yinti
+			"„NÑU"			# Daisan
+			"?ñÙTl"			# Abatai
+			"?ñNm<h"			# Ajige
+			"YŒî"			# Dodo
+			"‰wey"			# Yinxiang
+			"‰w©y"			# Yinsi
+			"‰wüy"			# Yintang
+			"Vˆe"			# Hongshi
+			"V<f"			# Hongzhou
+			"8l*t"			# Yongqi
+			"?ñKQ`S"			# Akjan
+			"?ñfV"			# Ayan
+			"SNÜ"			# Baohu
+			"bµî"			# Chengjun
+			"YSNm∑V"			# Dorgide
+			"ùòÚT"			# Eje
+			"i`Ha3u"			# Encehen
+			"9çõè"			# Fisin
+			"èyÑy"			# Fulu
+			"u«R"			# Ganyong
+			"uªw"			# Ganzhan
+			"NNπR"			# Hurong
+			"Nb^ÑU"			# Jabsan
+			"NbKQ9N"			# Jakdan
+			"PN<y"			# Leli
+			"PNÍN"			# Liyi
+			"ÜñâR"			# Lung
+			"®XS9h"			# Mergen
+			"Fz˝êÃë"			# Muduri
+			"Fz—ë"			# Mujin
+			"°eÃë"			# Oori
+			"LRÍè"			# Radi
+			"TX“R·n"			# Talman
+			"-PåT"			# Wehe
+			"6wãV"			# Yelu
+			"8l8ê"			# Yongyi
+			"‡z<h"			# Zhanhung
+			"ck%t"			# Zhenghu
+			"ckcÉ"			# Zhengrong
+			"ÚNb"			# Zhongcheng
+			"ÚNØu"			# Zhongchun
+			"ÚNïW"			# Zhongho
+			"ÚN%t"			# Zhonghu
+			"ÚNÚs"			# Zhonghung
+			"ÚN&å"			# Zongqian
+			"ÚN.s"			# Zhongxian
+			"ÚNÕñ"			# Zhongyong
+			"ÚN”k"			# Zhongyu
+		}
+		female_names = {
+			"¨Ç"			# Fen
+			"˙^"			# Jian
+			")n"			# Wen
+			"åTYó"			# Hejing
+			"åT	V"			# Hejia
+			"åTkR"			# Hexiao
+			"Ñ^Yó"			# Zhuangjing
+		}
+	}
+	bai = {
+		primary = CDL
+		dynasty_names = {
+			"øµk"			# Duan
+			"øÿö"			# Gao
+			"ømR"			# Meng
+		}
+		male_names = {
+			"AyGï"			# Qizhen
+			"Ay∞î"			# Qiyu
+			"¡âÒm"			# Jianjun
+			"Pyj"			# Youcheng
+			"öSgq"			# Houzhao
+			"öSúq"			# Houcong
+			"ãèVW"			# Zaihou
+			" µî"			# Yijun
+			"8^m"			# Changluo
+			"1u¿h"			# Youjian
+			"1u'T"			# Yousong
+			"w.ï"			# Yujian
+			"1uîi"			# Youlang
+			"büR"			# Chenggong
+			"KQãX"			# Kehshuan
+			"h"			# Biao
+			"	j"			# Shuang
+			"·h"			# Gang
+			"Zj"			# Su
+			"bh"			# Zhen
+			"ëi"			# Fu
+			"ìh"			# Zi
+			"g"			# Qi
+			"éj"			# Tan
+			"?i"			# Chun
+			"œg"			# Bai
+			"Bh"			# Gui
+			"i"			# Zhi
+			"Cg"			# Quan
+			"ii"			# Pian
+			"^j"			# Hui
+			"åg"			# Song
+			"´É"			# Mo
+			"gi"			# Ying
+			"qh"			# Jing
+			"h"			# Dang
+			"`i"			# Nan
+			"ÿöfq"			# Gaoxu
+			"ÿöÁq"			# Caosui
+			"ÿör"			# Gauxi
+			"Pylg"			# Youyuan
+			"Py∆h"			# Youlun
+			"Pyﬂi"			# Youbin
+			"öSúp"			# Houwei
+			"1u!h"			# Youxiao
+			"1uki"			# Youji
+			"1u<"			# Youxue
+			"1u)h"			# Youyi
+			"1uOj"			# Youshan
+			"Ha‹p"			# Cixuan
+			"HaØp"			# Cijiang
+			"Ha≤p"			# Cizhao
+			"Haq"			# Cihuan
+			"Hap"			# Cican
+			"åT"			# He
+			"•ö"			# Ji
+			"æè"			# Da
+			"Gê%f"			# Yuchun
+		}
+		female_names = {
+			"åTñZ"			# Heying
+			"%fÖh"			# Chunmei
+			"l`ga"			# Tianhui
+			"zz"			# Kon
+			"É"			# Mao
+			"âsÒÇ"			# Yuying
+			"Wê"			# Yuantong
+			"ˆ^ey"			# Yanxiang
+			"¿ycÉ"			# Xiurong
+			"ˇRñZ"			# Shouying
+			"èyõZ"			# Fuyuan
+			"ÑyúZ"			# Luzhen
+			"^t+R"			# Ruirong
+			".tw"			# Suzhen
+		}
+	}
+	vietnamese_new = {
+	}
+	korean_new = {
+	}
+	tibetan_new = {
+	}
+	altaic_new = {
+	}
+	east_asian_canadian = {
+	}
+	east_asian_east_american = {
+	}
+	east_asian_louisianan = {
+	}
+	east_asian_californian = {
+	}
+	east_asian_mexican = {
+	}
+	east_asian_caribbean = {
+	}
+	east_asian_colombian = {
+	}
+	east_asian_peruvian = {
+	}
+	east_asian_la_platan = {
+	}
+	east_asian_brazilian = {
+	}
+	east_asian_australian = {
+	}
+	east_asian_oceanian = {
+	}
+	male_names = {
+		"ªw˙W"		# Zhanji
+		"ªw»W"		# Zhanjun
+		"ªwâX"		# Zhanyong
+		"ªw†W"		# Zhanyin
+		"ªwX"		# Zhangang
+		"ªw∫X"		# Zhan'ao
+		"ªw≤W"		# Zhankai
+		"¡âÒm"		# Jianrui
+		"¡âåo"		# Jianlin
+		"¡âjn"		# Jianti
+		"¡â˝l"		# Jianze
+		"¡âÒm"		# Jianjun
+		"¡âõl"		# Jianpei
+		"¡âNm"		# Jianji
+		"1uki"		# Youji
+		"Pyj"		# Youtang
+		"Pylg"		# Youwan
+		"Py∆h"		# Youlun
+		"Pyﬂi"		# Youbing
+		"Pyüg"		# Youyun
+		"Pyàh"		# Youheng
+		"Pywi"		# You'kai
+		"öSgq"		# Houzhao
+		"öSúp"		# Houwei
+		"öSôq"		# Houxi
+		"öSúq"		# Houcong
+		"ãè·X"		# Zairui
+		"ãèVW"		# Zaihou
+		" √î"		# Yiling
+		" µî"		# Yijun
+		" `ï"		# Yiliu
+		"8^m"		# Changluo
+		"8^Ün"		# Changxu
+		"8^5m"		# Changxun
+		"8^ªl"		# Changzhi
+		"8^im"		# Changhao
+		"8^¶m"		# Changrun
+		"8^p"		# Changyin
+		"8^•n"		# Changbo
+		"1u!h"		# Youxiao
+		"1u<"		# Youxue
+		"1u!j"		# Youmo
+		"1u¿h"		# Youjian
+		"1u)h"		# Youyi
+		"1uOj"		# Youshan
+		"Ha√q"		# Ciran
+		"Ha4q"		# Ciyu
+		"HaÖp"		# Cijiong
+		"Ha˙p"		# Cilang
+		"Ha‹p"		# Ciheng
+		"Ha≤p"		# Cizhao
+		"Haq"		# Cihuan
+		"Hap"		# Cican
+		"S≥p"		# Shangbing
+		"S»p"		# Shanglie
+		"Sjq"		# Shangyi
+		"Stp"		# Shanghong
+		"◊VGW"		# Zhijun
+		"◊V0X"		# Zhibao
+		"lQ!ï"		# Gongxi
+		"lQ.ï"		# Gongjian
+		"lQWï"		# Gongtang
+		"lQÌî"		# Gongming
+		"Nm∫q"		# Jixi
+		"NmËp"		# Jiye
+		"Nmøq"		# Jihuang
+		"Nmq"		# Jihuan
+		"Nm´p"		# Jixuan
+		"é-W"		# Meigui
+		"é∏W"		# Meiyuan
+		"üî…î"		# Zhongxuan
+		"üîŒî"		# Zhongduo
+		"GYên"		# Qiyuan
+		"GY6n"		# Qiying
+		"GY∂n"		# Qirong
+		"	g…q"		# Youdun
+		"PRÿW"		# Zishi
+		"3t<n"		# Linmei
+		"Har"		# Cijue
+		"Haúp"		# Ciwei
+		"Ha†q"		# Cikai
+		"1ufh"		# Youhua
+		"3tên"		# Linyuan
+		"hV≠X"		# Qisheng
+		"h"		# Biao
+		"	j"		# Shuang
+		"·h"		# Gang
+		"Zj"		# Su
+		"bh"		# Zhen
+		"ëi"		# Bo
+		"ìh"		# Zi
+		"?i"		# Chun
+		"Bh"		# Gui
+		"ê¬q"		# Xuntan
+		"ê«p"		# Xunquan
+		"gi"		# Ying
+		"ªwœW"		# Zhanyan
+		"i"		# Zhi
+		"Cg"		# Quan
+		"∏R‡o"		# Chenhao
+		"ii"		# Bian
+		"^j"		# Hui
+		"åg"		# Song
+		"´É"		# Mo
+		"yi"		# Yin
+		"qh"		# Jing
+		"h"		# Dong
+		"`i"		# Nan
+		"àR&å"		# Shouqian
+		"ƒñÒÇ"		# Xiongying
+		"AQ•q"		# Yuntong
+		"AQûq"		# Yunjian
+		"áe-W"		# Wengui
+		"áeNY"		# Wenkui
+		"ÿöfq"		# Gaoxu
+		"ÿöÁq"		# Gaosui
+		"öSjq"		# Houyu
+		"ªwâX"		# ZhanYong
+		"ªw°X"		# Zhanshan
+		"PyRi"		# Yousi
+		"¡âÛm"		# Jianchun
+		"¡âço"		# Jianshu
+		"¡âªl"		# Jianzhi
+		"Pyïi"		# Yourong
+		"öSr"		# Houjue
+		"ãèËW"		# Zailun
+		"ãè˙W"		# Zaiji
+		"8^”m"		# Changfang
+		"KQ‰R"		# Keqin
+		"óeWS"		# Dounan
+		"⁄ãVy"		# Chengzu
+		"PRDâ"		# Zixiang
+		"…ykV"		# Bingyi
+		"Lp"		# Guan
+		"óR¡N"		# Zongren
+		"ên"		# Yuan
+		"ëi"		# Fu
+		"·O-W"		# Xingui
+		"óRt"		# Zonglian
+		"•ö"		# Ji
+		"Xn"		# Xiang
+		"kå"		# Yu
+		"wà"		# Zhong
+		"^ck"		# Xizheng
+		"˙^"		# Jian
+		"Õui`"		# Shao'en
+		"kN`"		# Jiusi
+		"Vyr^"		# Zugan
+		"î^≥Ç"		# Yingfang
+		"KQÀR"		# Kekuan
+		"ES¡N"		# Juren
+		"n"		# Qing
+		"¶îzò"		# Qinshun
+		"øµk"		# Duan
+		"wmf"		# Zhencheng
+		"ùR"		# Bao
+		"t"		# Li
+		"!h"		# Xiao
+		"„î"		# Xian
+		"mt"		# Tang
+		"=OCQ"		# Boyuan
+		"Ûmw"		# Chunyao
+		".s‡z"		# Xianzhang
+		"å"		# Liang
+		"ÂÇ4l"		# Ruoshui
+		"àR v"		# Shouyi
+		"∑V"		# De
+		"å`"		# Ti
+		"*mHQ"		# Hongxian
+		"ˆe–i"		# Shihuai
+		"ˆeôq"		# Shixi
+		"ÂN^ç"		# Yizan
+		"S≤ú"		# Huali
+		"Âw∑V"		# Zhide
+		"CQ!ï"		# Yuanxi
+		"^fR"		# Xixue
+		"Ùubh"		# Weizhen
+		""		# Han
+		"=Oaà"		# Boheng
+		"ïQ"		# Mian
+		"óRÍN"		# Zongyi
+		"ÔQ"		# Kai
+		"ømR"		# Meng
+		"?û"		# Hong
+		"¶^"		# Du
+		"'Yt^"		# Danian
+		"l"		# Tai
+		"Oe?e"		# Minzheng
+		"¶h3ñ"		# Mengyang
+		"off"		# Jingming
+		"oyS"		# Zhenqing
+		"!ç"		# Gong
+		"ÑU+Y"		# Shanfu
+		"Òm"		# Shen
+		"µVf"		# Zhengming
+		"PO"		# Zuo
+		"Ùuêö"		# Weiqi
+		"Na-N"		# Shenzhong
+		"eôü"		# Panlong
+		"	gIQ"		# Youguang
+		"ˆeGS"		# Shisheng
+		"vQf"		# Qichang
+		"VSê"		# Hongdao
+		"WSÒÇ"		# Nanying
+		"ÕuóR"		# Shaozong
+		"mV"		# Peng
+		"˚ï◊ã"		# Wenshi
+		"oÇ¯v"		# Liangxiang
+		"Nt^"		# Wannian
+		"óRúò"		# Zongyan
+		"˜^Aõ"		# Tingkui
+		"¶êPO"		# Bangzuo
+		"Q¿y"		# Ruxiu
+		"˝Vf"		# Guochang
+		"ÿèáë"		# Huanchun
+		".sf"		# Xianming
+		"uóe"		# Shengdou
+		"áwdW"		# Zhaochen
+		"ÎXé"		# Shimei
+		"˝V∫s"		# Guoxi
+		"NÕs"		# Shangzhen
+		"SêtQ"		# Daoxing
+		"˜^h"		# Tingbiao
+		"AQ©ã"		# Yunrang
+		",t"		# Wan
+		"(å"		# Jin
+		"ü"		# Ding
+		"îN8^"		# Wuchang
+		"b‡z"		# Chengzhang
+		"ÀNèy"		# Jiefu
+		"áeèT"		# Wenyong
+		"NT"		# Shiming
+		"ÕëNS"		# Chonghua
+		"	N0N"		# Sanfeng
+		"Nä"		# Wanyan
+		"'Y(u"		# Dayong
+		"ÚNáe"		# Zhongwen
+		"ÔSfR"		# Kexue
+		"CQÇÇ"		# Yuanjie
+		"klMb"		# Rucai
+		"ÔSúU"		# Kexi
+		"ÚNf"		# Zhongming
+		"—ëf"		# Jinxing
+		"©S"		# Yan
+		"Œèey"		# Yingxiang
+		"óROe"		# Zongmin
+	}
+	female_names = {
+		"åTñZ"		# Heying
+		"%fÖh"		# Chunmei
+		"l`ga"		# Tianhui
+		"zz"		# Kon
+		"É"		# Mao
+		"âsÒÇ"		# Yuying
+		"Wê"		# Yuantong
+		"ˆ^ey"		# Yanxiang
+		"¿ycÉ"		# Xiurong
+		"ˇRñZ"		# Shouying
+		"èyõZ"		# Fuyuan
+		"ÑyúZ"		# Luzhen
+		"^t+R"		# Ruirong
+		".tw"		# Suzhen
+		"'S%Z"		# Xiao'e
+		"'SñZ"		# Xiaoying
+		"'SõZ"		# Xiaoyuan
+		"'SÏY"		# Xiaoji
+		"'S07"		# Xiaolou
+	}
+	dynasty_names = {
+		"øãs" "øNg" "ø.V" "øR" "øHñ" "øhg" "øƒû" "ø4T" "øuç" "øhT" "øêV" "øYR" "ølö" "ø1g" "ø·w" "øóg" "øÌê" "øUO" "øÿö" "øW"
+		"ø—ê" "øÅh" "ø0å" "øãR" "øU" "ø∏ã" "øìê" "øØQ" "øÈó" "ø˘f" "ø˛f" "ømV" "øñw" "ø!Ö" "øXo" "ø0u" "øcÑ" "øÅà" "øéN" "øYO"
+		"øãÑ" "øˆS" "øjg" "øœÇ" "øOõ" "øz" "øT" "øN" "øàl" "ø˚N" "ø⁄Y" "øbS" "øüî" "ø‹Y" "øT" "ø-å" "ø÷^" "øÉ" "øjl" "øFñ"
+		"ø—ë" "øÛw" "ø4b" "ø>ç" "øÊó" "øY" "ø±ê" "øπe" "øØO" "øπê" "øäq" "ømR" "øÊy" "øãv" "ø€k" "øml" "øÎï" "øõÖ" "ø9S" "øÿN"
+		"øµk" "ø˜ñ" "øŒû" "øÚS" "øôü" "ø±î" "ø:ç" "øvñ" "øåò" "øöü" "ø›ê" "øµê" "øN" "ø%N" "ø*m" "øVç" "øfk" "øÖP" "ø´É" "øTR"
+		"ødl" "øT" "ø8^" "ø)n" "ø∑^" "øÀe" "øáe" "øir" "øj" "øiÑ" "ø¢ê" "øâR" "øPü" "øf" "øTN" "øO" "øû^" "øúò" "ø*P" "øÑ^"
+		"øBw" "ø‡z" "øÅú" "ø≥S" "øﬂ" "ø3u" "ø∑k" "øyä" "ø'k" "ø?w" "øsQ" "øÉâ" "øpQ" "ø&q" "øﬁO" "øÊT" "øÛg" "øu" "øky" "øS"
+		"ø„N" "øÅR" "ø&r" "ø.ñ" "øS" "øÇ" "ø™u" "øÔg" "øÖh" "øÂz" "ø’k" "øÃQ" "øUS" "øcR" "øb" "øó" "ø◊Ç" "øÙà" "øÇm" "ø7å"
+		"øÚf" "ø€v" "øâQ" "ø¡" "ø›Ñ" "øÜö" "øÔç" "ø8n" "øsó" "øõè" "ø'k3ñ" "ø°r" "øÙg" "øôÑ" "øçú" "øNS" "øªU" "øAy" "ø?b" "ø≤Ñ"
+		"ø’n" "ø'Ñ" "øHS" "øvô" "ø„â" "ømr" "øåÇ" "ø2S" "øˆe" "ø3ñ" "øñ" "øFz" "øî^" "øúQ" "ø¯S" "ø‰S" "ø	T" "øSS" "øfè" "øér"
+		"øﬁè" "ø*" "øyò" "ø¶û" "øâ" "ø¶z" "øZ" "øb" "øëS" "øZQ" "ø´R" "øof" "øjS" "ø9ç" "ø∑Q" "øOf" "økS" "ø-^" "øœg" "øs|"
+		"øãñ" "øóR" "øBh" "øøw" "øhQ" "øﬂÇ" "ø|i" "øıï" "ømO" "øÁÅ" "øπè" "ø^S" "øÏY" "ø¨ê" "øåT" "ø^" "ø«N" "ø>h" "øN" "øR"
+		"øôl" "øFU" "ø«R" "øcÉ" "øÎT" "øŒê" "øQh" "øN" "øu" "øVe" "ø^Ü" "øÚN" "ø`l" "øÈT" "øf" "øXO" "øÂg" "øªû" "ø—Ç" "øﬂè"
+		"øùê" "øS" "øòR" "øå" "ø!S" "ø‡`" "øFÉ" "øPN" "øéQ" "øÂw" "ø¡ê" "øWS" "øÌs" "ø®P" "ø¶Ç" "øüS" "øh" "ø’q" "øZi" "ø0ë"
+		"ølb" "ø≥R" "øå" "øZY" "øÆv" "ø:Ö" "øü|" "øºQ" "øÿv" "ø·n" "ø˚ï" "øâS" "øO" "øP" "ø›N" "ø:S" "ø‹ê" "øwm" "øñ" "ø±Ç"
+		"øCg" "ø`S" "ø4g" "ø÷v" "ø√u" "ø…^" "øπy" "øïN" "øÙT" "øo" "øVy" "ø0N" "ø=e" "øS" "ø˝V" "øƒr" "øs^" "ø°ã" "ø0t" "ø±R"
+		"øKf" "ø¯v" "ø`S" "øR" "øËï" "øëN" "øπR" "øle" "øeg" "øHb" "øAf" "ø˝ê" "ønf" "øñ" "øb" "øfm" "øO" "øû" "øúè" "øä"
+		"øÕk" "ø`N" "ø9É" "ø¯ã" "øâs" "ølQ" "øGT" "øFO" "ø	S" "øCQ" "øê" "øN" "øNÉ" "øVó" "øËT" "øÜS" "ø(g" "øóñ" "ø∏T" "ø˚V"
+		"øÌu" "øˆ^" "øÒÇ" "ø|ú" "ø—û" "ø±|" "øåv" "øåvÃë" "ø,r" "ø,rîN" "øNπe" "øÔz(g" "ølQYR" "ølQâ" "ølQä" "ølQ∂Q" "øSh" "øáv" "øáv+u" "øPNck"
+		"ø‰N–r" "øWS´R" "øWSËï" "øNòR" "ø3u`S" "ø¯Szz" "ø¯S«R" "ø¯Slö" "ø¯SíV" "ø*YÚS" "ø*Y‘S" "øNﬂO" "øâËï" "øièïè" "øïYR" "ø¯ãiÑ" 
+	}
+}

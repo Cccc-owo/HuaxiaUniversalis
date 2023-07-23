@@ -1,0 +1,49 @@
+celestial_empire = {
+	icon = "celestial_empire"
+	potential = {
+		OR = {
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				is_emperor_of_china = yes
+			}
+			has_reform = celestial_empire
+		}
+	}
+	legacy_equivalent = celestial_empire_legacy
+	allow_force_tributary = yes
+	claim_states = yes
+	has_harem = yes
+	maintain_dynasty = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	lock_level_when_selected = yes
+	fixed_rank = 3
+	start_territory_to_estates = 0.7
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 750
+	}
+	ai = {
+		factor = 1000		# should always be picked if available
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		has_unify_china_cb = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mandate of Heaven"
+		}
+		has_meritocracy = yes
+	}
+}

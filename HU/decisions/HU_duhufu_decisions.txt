@@ -1,0 +1,56 @@
+country_decisions = {
+	color_dufuhu = {
+		major = yes
+		potential = {
+			has_subject_of_type = duhufu_state
+			any_subject_country = {
+				is_subject_of_type = duhufu_state
+				NOT = {
+					has_country_flag = duhufu_overriden_color_flag
+				}
+			}
+		}
+		allow = {
+			has_subject_of_type = duhufu_state
+		}
+		effect = {
+			every_subject_country = {
+				limit = {
+					is_subject_of_type = duhufu_state
+				}
+				change_country_color = {
+					country = ROOT
+				}
+				set_country_flag = duhufu_overriden_color_flag
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	restore_duhufu_color = {
+		major = yes
+		potential = {
+			has_subject_of_type = duhufu_state
+			any_subject_country = {
+				is_subject_of_type = duhufu_state
+				has_country_flag = duhufu_overriden_color_flag
+			}
+		}
+		allow = {
+			has_subject_of_type = duhufu_state
+		}
+		effect = {
+			every_subject_country = {
+				limit = {
+					is_subject_of_type = duhufu_state
+				}
+				restore_country_color = yes
+				clr_country_flag = duhufu_overriden_color_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

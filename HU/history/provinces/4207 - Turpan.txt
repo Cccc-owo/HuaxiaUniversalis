@@ -1,7 +1,8 @@
 #713 - Bechbaliq
 
-owner = XIY
-controller = XIY
+owner = XYD
+controller = XYD
+add_core = XYD
 culture = tocharian
 religion = mahayana
 capital = "Turpan"
@@ -17,7 +18,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = XIY
 
 420.1.1 = { culture = uyghur }
 439.1.1 = { owner = NLI controller = NLI add_core = NLI }

@@ -4,10 +4,13 @@ latent_trade_goods = {
 	uranium
 }
 
-culture = kirgiz
+owner = WUS
+controller = WUS
+add_core = WUS
+is_city = yes
+culture = tocharian
 religion = tengri_pagan_reformed
-capital = "Karamegdan"
-trade_goods = unknown
+trade_goods = cloth
 hre = no
 discovered_by = OIR
 discovered_by = CHG

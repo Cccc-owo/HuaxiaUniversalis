@@ -1,8 +1,8 @@
 #711 - Qarqan
 
-owner = SHS
-controller = SHS
-add_core = SHS
+owner = XYD
+controller = XYD
+add_core = XYD
 culture = tocharian
 religion = mahayana
 capital = "Qarqan"

@@ -1,7 +1,8 @@
 #2885 - Hami
 
-owner = XIO
-controller = XIO
+owner = XYD
+controller = XYD
+add_core = XYD
 culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Balikul"
@@ -16,7 +17,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = XIO
 
 91.2.1 = { owner = XIB controller = XIB add_core = XIB remove_core = XIO }
 330.1.1 = { owner = ROU controller = ROU add_core = ROU remove_core = XIB }

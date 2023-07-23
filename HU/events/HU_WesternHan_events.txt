@@ -1,0 +1,11 @@
+namespace = HU_WesternHan_events
+country_event = {
+	id = HU_WesternHan_events.1
+	title = HU_succession_events.1.t
+	picture = none # TODO：事件图
+	is_triggered_only = yes
+	desc = HU_succession_events.1.female
+	option = {
+		name = HU_WesternHan_events.1.a
+	}
+}
