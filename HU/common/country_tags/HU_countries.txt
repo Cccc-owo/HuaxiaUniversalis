@@ -6,5 +6,10 @@
 
 ####################
 # 都护府类
-XYD = "countries/xiyuduhufu.txt"
+XYD = "countries/xiyuduhufu.txt" #西域都护府
 ####################
+
+####################
+# 两汉
+# HND = "countries/Han.txt" #西汉（ET）
+HN1 = "countries/EasternHan.txt" #东汉

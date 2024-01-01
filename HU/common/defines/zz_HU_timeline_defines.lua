@@ -1,1 +1,1 @@
-NDefines.NGame.END_DATE = "144.12.31"
+NDefines.NGame.END_DATE = "144.9.20"
