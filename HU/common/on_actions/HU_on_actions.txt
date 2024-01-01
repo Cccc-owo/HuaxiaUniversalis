@@ -1,204 +1,11 @@
 # country
 on_startup = {
-	et_setup_effect = yes
-	country_event = {
-		id = dynasties.54
-	}
-	if = {
-		limit = {
-			is_year = 1431
-			current_age = age_of_discovery
-		}
-		LXA = {
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = lxa_loyalty_flag
-					}
-				}
-				add_estate_loyalty = {
-					estate = estate_church
-					loyalty = -10
-				}
-				set_country_flag = lxa_loyalty_flag
-			}
-		}
-	}
-	emperor = {
-		save_global_event_target_as = Emperor
-	}
-	if = {
-		limit = {
-			is_emperor_of_china = yes
-		}
-		save_global_event_target_as = EmperorOfChina
-	}
-	events = {
-		muslim_school_events.20		#Pick School
-		flavor_got.1		#Event for Gotland to select their mission tree
-		flavor_mng.42		#Event for the starting situation of the Ming 
-		#flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-		flavor_mos.1		#Event regarding the Tatar Yoke
-	}
-	if = {
-		limit = {
-			has_dlc = "Cradle of Civilization"
-			has_country_modifier = tur_janissary
-		}
-		remove_country_modifier = tur_janissary
-	}
-	initialize_schools_effect = yes	#This is only used here but is used for readability of on_action file.
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = new_flavour_bav_13_has_been_triggered
-			}
-			OR = {
-				tag = UBV
-				tag = LBV
-				tag = ING
-			}
-		}
-		set_country_flag = new_flavour_bav_13_has_been_triggered
-		country_event = {
-			id = new_flavour_bav.13
-			days = 90
-		}		#better not to allow almost instant DOWs
-	}
-	if = {
-		limit = {
-			tag = FRA
-			started_in = 1789.7.14
-			NOT = {
-				is_year = 1790
-			}
-			NOT = {
-				has_disaster = french_revolution
-			}
-		}
-		add_disaster_progress = {
-			value = 100
-			disaster = french_revolution
-		}
-	}
-	if = {
-		limit = {
-			exists = SUK
-		}
-		SUK = {
-			set_ruler_flag = suk_monarch_flag
-		}
-		AYU = {
-			set_country_flag = ayu_monarch_flag
-		}
-	}
-	#if = {
-	#	limit = {
-	#		OR = {
-	#			primary_culture = norse
-	#			AND = {
-	#				culture_group = scandinavian
-	#				religion = norse_pagan_reformed
-	#			}
-	#		}
-	#		NOT = { has_idea_group = norse_ideas }
-	#		is_playing_custom_nation = no
-	#	}
-	#	country_event = { id = ideagroups.1 } #Swap Ideas
-	#}
-	if = {
-		limit = {
-			has_dlc = "Domination"
-			tag = FRA
-			is_year = 1444
-			NOT = {
-				is_year = 1445
-			}
-		}
-		country_event = {
-			id = flavor_fra.206
-		}
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_global_flag = end_of_the_tatar_yoke
-			}
-			owns = 466
-			is_year = 1480
-		}
-		set_global_flag = end_of_the_tatar_yoke
-	}
-	if = {
-		limit = {
-			OR = {
-				has_country_modifier = rise_of_the_ottomans
-				has_country_modifier = zenith_of_the_ottomans
-				has_country_modifier = twilight_of_the_ottomans
-				has_country_modifier = decline_of_the_ottomans
-			}
-		}
-		remove_country_modifier = rise_of_the_ottomans
-		remove_country_modifier = zenith_of_the_ottomans
-		remove_country_modifier = twilight_of_the_ottomans
-		remove_country_modifier = decline_of_the_ottomans
-	}
-	if = {
-		limit = {
-			has_government_mechanic = ottoman_decadence_mechanic
-			current_age = age_of_discovery
-		}
-		add_country_modifier = {
-			name = rise_of_the_ottomans
-			duration = -1
-			desc = until_end_of_age_desc
-		}
-	}
-	if = {
-		limit = {
-			has_government_mechanic = ottoman_decadence_mechanic
-			current_age = age_of_reformation
-		}
-		add_country_modifier = {
-			name = zenith_of_the_ottomans
-			duration = -1
-			desc = until_end_of_age_desc
-		}
-	}
-	if = {
-		limit = {
-			has_government_mechanic = ottoman_decadence_mechanic
-			current_age = age_of_absolutism
-		}
-		add_country_modifier = {
-			name = twilight_of_the_ottomans
-			duration = -1
-			desc = until_end_of_age_desc
-		}
-	}
-	if = {
-		limit = {
-			has_government_mechanic = ottoman_decadence_mechanic
-			current_age = age_of_revolutions
-		}
-		add_country_modifier = {
-			name = decline_of_the_ottomans
-			duration = -1
-			desc = until_end_of_age_desc
-		}
-	}
 }
 
 # province
 # root = location, from = winning country
 on_siege_lost_province = {
 	events = {
-		war_of_the_roses.10		# Lancaster Stronghold
-		war_of_the_roses.11		# York Stronghold
-		french_wars_of_religion.7		#Ravening Religious Fanatics
-		french_wars_of_religion.9		#french_wars_of_religion.9
-		et.12
-		et.30
 		HU_special_conquer_events.1
 		HU_special_conquer_events.5
 	}
@@ -207,64 +14,11 @@ on_siege_lost_province = {
 # OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
 # country
 on_new_monarch = {
-	on_new_monarch_effect = yes
-	crimean_succession_effect = yes	#Scripted effect
-	slesvig_question_effect = yes	#Scripted effect
-	# ambrosian_republic_effect = yes
-	succession_culture_religion_effect = yes
-	sheik_ul_islam_effect = yes
-	hab_remove_mission_mods_if_not_emperor_effect = yes
-	thu_remain_von_wettin_effect = yes
-	ladislaus_postumus_union_effect = yes
 	events = {
-		tribal_succession.1		# Harsh anti-tribals.
-		9492		# Remove some event modifiers
-		flavor_boh.8		# Winter King in Prague
-		flavor_kol.1		# Bavarian Archbishop
-		war_of_the_roses.101		# WotR - House of Lancaster wins
-		war_of_the_roses.102		# WotR - House of York wins
-		war_of_the_roses.106		# WotR - Another dynasty has seized the throne
-		flavor_tur.102		# Janissary Reward
-		flavor_ori.7		# Hamvira Victorious
-		flavor_kbo.1		# The two branches of the Sayfawa dynasty
-		flavor_kbo.8		# Sayfawa pretenders
-		flavor_zan.5		# Coup of Coup of Suleiman and Muhammad al-Mazlum.
-		purple_phoenix.1		# BYZ pretenders
-		flavor_pol.3480		# The Pacta Conventa
-		protestantism_events.15		# Catholic Leaning Monarch
-		tengri_events.17		# Keep the Khojas in Power?
-		flavor_tus.15		# Savonarola Dies
-		flavor_brapru.22		# Succession of Albrecht Achilles
-		flavor_brapru.25		# Dispositio Achillea (can also trigger from flavor_brapru.22)
-		flavor_nor.27		# Proclamation in Hamar
 		#china_events.43		# Picking new Capital for China
-		celestial_empire_events.3		#Resistance to Sinicization
-		flavor_boh.2		#Heretic Kings
-		flavor_hun.17		#Maintaining the Black Army
-		flavor_tim.1		#Death of Shah Rukh
-		muslim_school_events.20		#No Religious School
-		flavor_daimyo.4		#Shiba Yoshikado
-		flavor_fra.9000		# François Villon
-		flavor_sca.2		# Education Focus of the new Ruler
-		flavor_rus.128		# Peter the Great
-		flavor_rus.131		# Streltsy Payment
-		flavor_gbr.102		# Religious Stance of the King
-		nov.5
-		nov.8
-		et_government_event.1		# Fascist new ruler event
-		et_government_event.2		# Communist new ruler event
 		#et_china.1
-		dynasties.54
-		dynasties.55
 	}
 	random_events = {
-		1000 = 0
-		100 = flavor_kol.1		# Bavarian Archbishop
-		100 = flavor_hsa.3		# Hansa: Tagfahrt
-		100 = inti_events.1		# Birth of a Panaca
-		50 = dynastic_events.4
-		50 = dynastic_events.5
-		25 = harem_events.7		#Failed Policy of Fratricide
 		25 = HU_succession_events.7
 	}
 }
@@ -272,10 +26,6 @@ on_new_monarch = {
 # Nation annexed.
 # FROM is the nation being annexed
 on_annexed = {
-	events = {
-		celestial_empire_events.1		# Empire dismantled
-	}
-	on_annexed_estate_privileges_effect = yes
 	FROM = {
 		if = {
 			limit = {
@@ -283,155 +33,12 @@ on_annexed = {
 			}
 			set_global_flag = empire_of_china_dismantled
 		}
-		if = {
-			limit = {
-				has_country_modifier = legatus_natus
-			}
-			remove_country_modifier = legatus_natus
-			set_global_flag = no_legatus_natus
-		}
-		if = {
-			limit = {
-				has_country_modifier = primas_germaniae
-			}
-			remove_country_modifier = primas_germaniae
-			set_global_flag = no_primas_germaniae
-		}
-		if = {
-			limit = {
-				tag = FIN
-			}
-			every_country = {
-				limit = {
-					has_country_modifier = rus_grand_duke_of_finland
-				}
-				remove_country_modifier = rus_grand_duke_of_finland
-			}
-		}
 	}
 }
 
 # When a nation gains the Mandate of Heaven (becomes the Emperor of China)
 # FROM = Old Emperor, ROOT = New Emperor
 on_mandate_of_heaven_gained = {
-	save_global_event_target_as = EmperorOfChina
-	if = {
-		limit = {
-			technology_group = nomad_group
-		}
-		change_technology_group = chinese
-		change_unit_type = chinese
-	}
-	if = {
-		limit = {
-			has_dlc = "Domination"
-			NOT = {
-				primary_culture = mongol
-			}
-			NOT = {
-				primary_culture = chahar
-			}
-			NOT = {
-				primary_culture = khalkha
-			}
-			NOT = {
-				primary_culture = oirats
-			}
-		}
-		swap_non_generic_missions = yes
-	}
-	if = {
-		limit = {
-			OR = {
-				NOT = {
-					government = monarchy
-				}
-				government = tribal
-			}
-		}
-		change_government_to_monarchy = yes
-	}
-	add_government_reform = celestial_empire
-	set_mandate = 60
-	set_meritocracy = 60
-	add_country_modifier = {
-		name = new_mandate_holder
-		duration = 9125
-	}
-	1816 = {
-		if = {
-			limit = {
-				NOT = {
-					owned_by = root
-				}
-				NOT = {
-					is_core = root
-				}
-			}
-			add_core = root
-		}
-	}
-	1821 = {
-		if = {
-			limit = {
-				NOT = {
-					owned_by = root
-				}
-				NOT = {
-					is_core = root
-				}
-			}
-			add_core = root
-		}
-	}
-	667 = {
-		if = {
-			limit = {
-				NOT = {
-					owned_by = root
-				}
-				NOT = {
-					is_core = root
-				}
-			}
-			add_core = root
-		}
-	}
-	china_superregion = {
-		limit = {
-			NOT = {
-				is_core = ROOT
-			}
-		}
-		add_permanent_claim = ROOT
-	}
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-		}
-		remove_faction = temples
-		remove_faction = enuchs
-		remove_faction = bureaucrats
-	}
-	if = {
-		limit = {
-			has_country_modifier = lost_mandate_of_heaven
-		}
-		remove_country_modifier = lost_mandate_of_heaven
-	}
-	country_event = {
-		#Reforming the Bureaucracy
-		id = china_events.31
-		days = 365
-	}
-	country_event = {
-		id = china_events.32		#Records of the last Empire
-		days = 183
-	}
-	country_event = {
-		id = celestial_empire_events.2
-		days = 1825
-	}
 	if = {
 		limit = {
 			has_global_flag = empire_of_china_dismantled
@@ -441,15 +48,6 @@ on_mandate_of_heaven_gained = {
 }
 
 on_death_has_harem = {
-	if = {
-		limit = {
-			has_heir = no
-			has_reform = ottoman_government
-		}
-		country_event = {
-			id = harem_events.2
-		}
-	}
 	if = {
 		limit = {
 			has_heir = no

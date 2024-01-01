@@ -88,7 +88,8 @@ classical_age_modifier = {
 	development_cost = 2.2
 	culture_conversion_cost = 1.2
 	tribal_development_growth = -1
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.6
+	monarch_lifespan = -0.2 # MOD
 }
 
 late_classical_age_modifier = {
@@ -106,7 +107,8 @@ late_classical_age_modifier = {
 	development_cost = 2
 	culture_conversion_cost = 1
 	tribal_development_growth = -1
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.5
+	monarch_lifespan = -0.2 # MOD
 }
 
 age_of_migrations_modifier = {
@@ -124,7 +126,8 @@ age_of_migrations_modifier = {
 	development_cost = 1.75
 	culture_conversion_cost = 0.8
 	tribal_development_growth = -1
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.4
+	monarch_lifespan = -0.2 # MOD
 }
 
 dark_age_modifier = {
@@ -142,7 +145,8 @@ dark_age_modifier = {
 	development_cost = 1.5
 	culture_conversion_cost = 0.8
 	tribal_development_growth = -1
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.3
+	monarch_lifespan = -0.2 # MOD
 }
 
 feudal_age_modifier = {
@@ -160,7 +164,8 @@ feudal_age_modifier = {
 	development_cost = 1.25
 	culture_conversion_cost = 0.8
 	tribal_development_growth = -0.75
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.2
+	monarch_lifespan = -0.2 #MOD
 }
 
 high_middle_ages_modifier = {
@@ -178,7 +183,8 @@ high_middle_ages_modifier = {
 	development_cost = 1
 	culture_conversion_cost = 0.6
 	tribal_development_growth = -0.5
-	monarch_lifespan = -0.2
+	stability_cost_modifier = 0.1
+	monarch_lifespan = -0.2 #MOD
 }
 
 late_middle_ages_modifier = {
@@ -196,7 +202,7 @@ late_middle_ages_modifier = {
 	development_cost = 0.75
 	culture_conversion_cost = 0.4
 	tribal_development_growth = -0.25
-	monarch_lifespan = -0.2
+	monarch_lifespan = -0.2 #MOD
 }
 
 industrial_age_modifier = {
@@ -248,7 +254,7 @@ great_war_age_modifier = {
 	land_forcelimit_modifier = -0.3
 	stability_cost_modifier = 0.2
 	ae_impact = 0.25
-	land_morale = -0.2
+	land_morale = -0.3
 	monarch_lifespan = 0.3
 	naval_attrition = -0.5
 }
