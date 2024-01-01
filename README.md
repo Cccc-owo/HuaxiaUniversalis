@@ -33,7 +33,7 @@
 |[mod_descriptor](mod_descriptor)|mod 描述符文件||
 |output|输出文件夹|运行 ```main.bat``` 时会自动建立|
 
-```7z.exe``` 和 ```7z.dll``` 提取自官方 7-Zip 22.01 (2022-07-15)
+```7z.exe``` 和 ```7z.dll``` 提取自官方 7-Zip 23.01
 
 ## 作者 / Author
 
