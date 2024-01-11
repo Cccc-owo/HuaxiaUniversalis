@@ -1,4 +1,4 @@
-#2475 - Djado
+#2049 - Tenere
 
 culture = toubou
 religion = shamanism

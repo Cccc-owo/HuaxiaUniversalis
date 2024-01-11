@@ -1,4 +1,4 @@
-#3592 - Hindu Kush
+
 discovered_by = chinese
 discovered_by = asian
 discovered_by = early_chinese
